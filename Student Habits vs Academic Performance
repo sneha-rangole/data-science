@@ -1,1 +1,293 @@
-{"metadata":{"kernelspec":{"language":"python","display_name":"Python 3","name":"python3"},"language_info":{"name":"python","version":"3.12.12","mimetype":"text/x-python","codemirror_mode":{"name":"ipython","version":3},"pygments_lexer":"ipython3","nbconvert_exporter":"python","file_extension":".py"},"kaggle":{"accelerator":"none","dataSources":[{"sourceType":"datasetVersion","sourceId":11376681,"datasetId":7122663,"databundleVersionId":11808304}],"dockerImageVersionId":31286,"isInternetEnabled":true,"language":"python","sourceType":"notebook","isGpuEnabled":false}},"nbformat_minor":4,"nbformat":4,"cells":[{"cell_type":"markdown","source":"# Comprehensive Exploratory Data Analysis and Predictive Modeling\n## Student Habits vs Academic Performance","metadata":{}},{"cell_type":"markdown","source":"---\n\n**Dataset:** Student Habits & Performance (1 000 observations, 16 features)  \n**Tools:** Python 3 · pandas · NumPy · Matplotlib · Seaborn · Scikit-learn · XGBoost · SciPy · Statsmodels\n\n---","metadata":{}},{"cell_type":"markdown","source":"## 1. Introduction\n\n### 1.1 What Is Data Analysis?\n\nData analysis is the systematic process of inspecting, cleaning, transforming, and modelling data with the objective of discovering useful information, drawing conclusions, and supporting decision-making. It encompasses a wide spectrum of techniques — from descriptive statistics that summarise what has happened, to inferential statistics that generalise findings beyond the observed sample, to predictive analytics that forecast future outcomes.\n\nIn practice, data analysis follows a pipeline:\n\n1. **Data Collection** — gathering raw data from surveys, sensors, databases, or web scraping.  \n2. **Data Cleaning** — identifying and resolving errors, missing values, duplicates, and inconsistencies.  \n3. **Exploratory Analysis** — uncovering patterns, distributions, and relationships.  \n4. **Modelling** — applying statistical or machine-learning algorithms to extract knowledge.  \n5. **Interpretation** — translating quantitative findings into actionable language.  \n6. **Communication** — presenting results to stakeholders via reports, dashboards, or notebooks.\n\n---","metadata":{}},{"cell_type":"markdown","source":"### 1.2 What Is Exploratory Data Analysis (EDA)?\n\nExploratory Data Analysis (EDA) is an analytical philosophy pioneered by the statistician John Tukey in the 1970s. Rather than confirming pre-existing hypotheses, EDA encourages the analyst to let the data \"speak for itself.\" The analyst examines distributions, identifies anomalies, tests assumptions, and forms hypotheses — all before fitting a formal model.\n\nKey EDA tasks include:\n\n- **Univariate analysis** — studying one variable at a time via histograms, box plots, and summary statistics.  \n- **Bivariate analysis** — examining relationships between pairs of variables via scatter plots, correlation coefficients, and grouped box plots.  \n- **Multivariate analysis** — exploring interactions among three or more variables simultaneously.\n\nEDA is not optional. Skipping it often leads to poorly specified models, undetected data quality issues, and misleading conclusions.\n\n---","metadata":{}},{"cell_type":"markdown","source":"### 1.3 What Is Predictive Modelling?\n\nPredictive modelling is the process of using historical data to build a mathematical function that maps input features (predictors) to an output (target). Once trained, the model is applied to new, unseen data to generate predictions.\n\nTwo broad families of predictive problems exist:\n\n#### Regression\nThe target variable is **continuous** (e.g., exam score on a 0–100 scale). The model learns a mapping  \n`f(X) → ŷ ∈ ℝ`  \nand is evaluated with metrics such as MAE, RMSE, and R².\n\n#### Classification\nThe target variable is **categorical** (e.g., performance tier: Low / Medium / High). The model learns  \n`f(X) → ŷ ∈ {class₁, class₂, …, classₖ}`  \nand is evaluated with accuracy, precision, recall, F1-score, and AUC-ROC.\n\n---","metadata":{}},{"cell_type":"markdown","source":"### 1.4 Why Student Lifestyle Analysis Matters in Education Research\n\nAcademic performance is not determined by intelligence alone. A growing body of research in educational psychology demonstrates that lifestyle factors — sleep duration, study consistency, screen time, physical activity, diet, and mental health — exert substantial influence on learning outcomes. Understanding these relationships allows educators and policymakers to:\n\n- Design evidence-based interventions for at-risk students.  \n- Allocate counselling resources more efficiently.  \n- Set data-driven academic policies (e.g., recommended study hours, attendance thresholds).  \n- Identify early-warning signals of academic decline before examinations.\n\n---","metadata":{}},{"cell_type":"markdown","source":"### 1.5 How Universities Can Use This Analysis\n\n| Stakeholder | Application |\n|---|---|\n| Academic advisors | Flag students with high screen time or low sleep for early intervention |\n| Course directors | Correlate attendance policy with grade distributions |\n| Student wellness teams | Quantify the mental health – performance relationship |\n| Admissions offices | Build fair, multi-factor risk models |\n| Institutional research | Report on equity across diet quality and parental education strata |\n\n---","metadata":{}},{"cell_type":"markdown","source":"### 1.6 Supervised Learning\n\nSupervised learning is a category of machine learning in which the algorithm is trained on **labelled data** — a dataset where every input observation `xᵢ` is paired with a known output label `yᵢ`. The algorithm learns to minimise the discrepancy between its predictions `ŷ` and the true labels `y`.\n\nFormally, we seek a function `f` such that  \n`ŷ = f(X; θ)` and `L(y, ŷ)` is minimised,  \nwhere `θ` are the model parameters and `L` is a loss function.\n\nBoth regression and classification are supervised learning problems. They differ only in the nature of the target variable and the choice of loss function.\n\n---","metadata":{}},{"cell_type":"markdown","source":"### 1.7 Project Objectives\n\nThis notebook pursues four interconnected objectives:\n\n1. **Factor Identification** — Determine which lifestyle and demographic variables most strongly predict exam scores.  \n2. **Score Prediction** — Build regression models that accurately estimate a student's final exam score from their habits.  \n3. **Performance Classification** — Classify students into Low, Medium, and High performance tiers.  \n4. **Actionable Insights** — Translate statistical findings into concrete recommendations for students, teachers, universities, and parents.\n\n---","metadata":{}}]}
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "4d2c5fbd",
+   "metadata": {
+    "papermill": {
+     "duration": 0.002798,
+     "end_time": "2026-03-03T02:56:04.871625",
+     "exception": false,
+     "start_time": "2026-03-03T02:56:04.868827",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "# Comprehensive Exploratory Data Analysis and Predictive Modeling\n",
+    "## Student Habits vs Academic Performance"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "de449135",
+   "metadata": {
+    "papermill": {
+     "duration": 0.001587,
+     "end_time": "2026-03-03T02:56:04.875059",
+     "exception": false,
+     "start_time": "2026-03-03T02:56:04.873472",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "---\n",
+    "\n",
+    "**Dataset:** Student Habits & Performance (1 000 observations, 16 features)  \n",
+    "**Tools:** Python 3 · pandas · NumPy · Matplotlib · Seaborn · Scikit-learn · XGBoost · SciPy · Statsmodels\n",
+    "\n",
+    "---"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "34b1c6b9",
+   "metadata": {
+    "papermill": {
+     "duration": 0.001539,
+     "end_time": "2026-03-03T02:56:04.878224",
+     "exception": false,
+     "start_time": "2026-03-03T02:56:04.876685",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "## 1. Introduction\n",
+    "\n",
+    "### 1.1 What Is Data Analysis?\n",
+    "\n",
+    "Data analysis is the systematic process of inspecting, cleaning, transforming, and modelling data with the objective of discovering useful information, drawing conclusions, and supporting decision-making. It encompasses a wide spectrum of techniques — from descriptive statistics that summarise what has happened, to inferential statistics that generalise findings beyond the observed sample, to predictive analytics that forecast future outcomes.\n",
+    "\n",
+    "In practice, data analysis follows a pipeline:\n",
+    "\n",
+    "1. **Data Collection** — gathering raw data from surveys, sensors, databases, or web scraping.  \n",
+    "2. **Data Cleaning** — identifying and resolving errors, missing values, duplicates, and inconsistencies.  \n",
+    "3. **Exploratory Analysis** — uncovering patterns, distributions, and relationships.  \n",
+    "4. **Modelling** — applying statistical or machine-learning algorithms to extract knowledge.  \n",
+    "5. **Interpretation** — translating quantitative findings into actionable language.  \n",
+    "6. **Communication** — presenting results to stakeholders via reports, dashboards, or notebooks.\n",
+    "\n",
+    "---"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "9538be2a",
+   "metadata": {
+    "papermill": {
+     "duration": 0.001628,
+     "end_time": "2026-03-03T02:56:04.881479",
+     "exception": false,
+     "start_time": "2026-03-03T02:56:04.879851",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "### 1.2 What Is Exploratory Data Analysis (EDA)?\n",
+    "\n",
+    "Exploratory Data Analysis (EDA) is an analytical philosophy pioneered by the statistician John Tukey in the 1970s. Rather than confirming pre-existing hypotheses, EDA encourages the analyst to let the data \"speak for itself.\" The analyst examines distributions, identifies anomalies, tests assumptions, and forms hypotheses — all before fitting a formal model.\n",
+    "\n",
+    "Key EDA tasks include:\n",
+    "\n",
+    "- **Univariate analysis** — studying one variable at a time via histograms, box plots, and summary statistics.  \n",
+    "- **Bivariate analysis** — examining relationships between pairs of variables via scatter plots, correlation coefficients, and grouped box plots.  \n",
+    "- **Multivariate analysis** — exploring interactions among three or more variables simultaneously.\n",
+    "\n",
+    "EDA is not optional. Skipping it often leads to poorly specified models, undetected data quality issues, and misleading conclusions.\n",
+    "\n",
+    "---"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "b037943d",
+   "metadata": {
+    "papermill": {
+     "duration": 0.001569,
+     "end_time": "2026-03-03T02:56:04.884646",
+     "exception": false,
+     "start_time": "2026-03-03T02:56:04.883077",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "### 1.3 What Is Predictive Modelling?\n",
+    "\n",
+    "Predictive modelling is the process of using historical data to build a mathematical function that maps input features (predictors) to an output (target). Once trained, the model is applied to new, unseen data to generate predictions.\n",
+    "\n",
+    "Two broad families of predictive problems exist:\n",
+    "\n",
+    "#### Regression\n",
+    "The target variable is **continuous** (e.g., exam score on a 0–100 scale). The model learns a mapping  \n",
+    "`f(X) → ŷ ∈ ℝ`  \n",
+    "and is evaluated with metrics such as MAE, RMSE, and R².\n",
+    "\n",
+    "#### Classification\n",
+    "The target variable is **categorical** (e.g., performance tier: Low / Medium / High). The model learns  \n",
+    "`f(X) → ŷ ∈ {class₁, class₂, …, classₖ}`  \n",
+    "and is evaluated with accuracy, precision, recall, F1-score, and AUC-ROC.\n",
+    "\n",
+    "---"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "765838a1",
+   "metadata": {
+    "papermill": {
+     "duration": 0.001548,
+     "end_time": "2026-03-03T02:56:04.887779",
+     "exception": false,
+     "start_time": "2026-03-03T02:56:04.886231",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "### 1.4 Why Student Lifestyle Analysis Matters in Education Research\n",
+    "\n",
+    "Academic performance is not determined by intelligence alone. A growing body of research in educational psychology demonstrates that lifestyle factors — sleep duration, study consistency, screen time, physical activity, diet, and mental health — exert substantial influence on learning outcomes. Understanding these relationships allows educators and policymakers to:\n",
+    "\n",
+    "- Design evidence-based interventions for at-risk students.  \n",
+    "- Allocate counselling resources more efficiently.  \n",
+    "- Set data-driven academic policies (e.g., recommended study hours, attendance thresholds).  \n",
+    "- Identify early-warning signals of academic decline before examinations.\n",
+    "\n",
+    "---"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "944aa228",
+   "metadata": {
+    "papermill": {
+     "duration": 0.001818,
+     "end_time": "2026-03-03T02:56:04.891157",
+     "exception": false,
+     "start_time": "2026-03-03T02:56:04.889339",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "### 1.5 How Universities Can Use This Analysis\n",
+    "\n",
+    "| Stakeholder | Application |\n",
+    "|---|---|\n",
+    "| Academic advisors | Flag students with high screen time or low sleep for early intervention |\n",
+    "| Course directors | Correlate attendance policy with grade distributions |\n",
+    "| Student wellness teams | Quantify the mental health – performance relationship |\n",
+    "| Admissions offices | Build fair, multi-factor risk models |\n",
+    "| Institutional research | Report on equity across diet quality and parental education strata |\n",
+    "\n",
+    "---"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "5f18216e",
+   "metadata": {
+    "papermill": {
+     "duration": 0.002882,
+     "end_time": "2026-03-03T02:56:04.895748",
+     "exception": false,
+     "start_time": "2026-03-03T02:56:04.892866",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "### 1.6 Supervised Learning\n",
+    "\n",
+    "Supervised learning is a category of machine learning in which the algorithm is trained on **labelled data** — a dataset where every input observation `xᵢ` is paired with a known output label `yᵢ`. The algorithm learns to minimise the discrepancy between its predictions `ŷ` and the true labels `y`.\n",
+    "\n",
+    "Formally, we seek a function `f` such that  \n",
+    "`ŷ = f(X; θ)` and `L(y, ŷ)` is minimised,  \n",
+    "where `θ` are the model parameters and `L` is a loss function.\n",
+    "\n",
+    "Both regression and classification are supervised learning problems. They differ only in the nature of the target variable and the choice of loss function.\n",
+    "\n",
+    "---"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "5bf02ae7",
+   "metadata": {
+    "papermill": {
+     "duration": 0.001563,
+     "end_time": "2026-03-03T02:56:04.898916",
+     "exception": false,
+     "start_time": "2026-03-03T02:56:04.897353",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "### 1.7 Project Objectives\n",
+    "\n",
+    "This notebook pursues four interconnected objectives:\n",
+    "\n",
+    "1. **Factor Identification** — Determine which lifestyle and demographic variables most strongly predict exam scores.  \n",
+    "2. **Score Prediction** — Build regression models that accurately estimate a student's final exam score from their habits.  \n",
+    "3. **Performance Classification** — Classify students into Low, Medium, and High performance tiers.  \n",
+    "4. **Actionable Insights** — Translate statistical findings into concrete recommendations for students, teachers, universities, and parents.\n",
+    "\n",
+    "---"
+   ]
+  }
+ ],
+ "metadata": {
+  "kaggle": {
+   "accelerator": "none",
+   "dataSources": [
+    {
+     "databundleVersionId": 11808304,
+     "datasetId": 7122663,
+     "sourceId": 11376681,
+     "sourceType": "datasetVersion"
+    }
+   ],
+   "dockerImageVersionId": 31286,
+   "isGpuEnabled": false,
+   "isInternetEnabled": true,
+   "language": "python",
+   "sourceType": "notebook"
+  },
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.12.12"
+  },
+  "papermill": {
+   "default_parameters": {},
+   "duration": 3.557929,
+   "end_time": "2026-03-03T02:56:05.320763",
+   "environment_variables": {},
+   "exception": null,
+   "input_path": "__notebook__.ipynb",
+   "output_path": "__notebook__.ipynb",
+   "parameters": {},
+   "start_time": "2026-03-03T02:56:01.762834",
+   "version": "2.6.0"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}

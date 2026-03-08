@@ -2,13 +2,13 @@
  "cells": [
   {
    "cell_type": "markdown",
-   "id": "0926afc7",
+   "id": "aa9ee031",
    "metadata": {
     "papermill": {
-     "duration": 0.004475,
-     "end_time": "2026-03-07T20:56:10.426017",
+     "duration": 0.007996,
+     "end_time": "2026-03-08T22:21:55.909825",
      "exception": false,
-     "start_time": "2026-03-07T20:56:10.421542",
+     "start_time": "2026-03-08T22:21:55.901829",
      "status": "completed"
     },
     "tags": []
@@ -42,28 +42,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "20124514",
+   "id": "26e5dd8e",
    "metadata": {
     "papermill": {
-     "duration": 0.002683,
-     "end_time": "2026-03-07T20:56:10.431685",
+     "duration": 0.006597,
+     "end_time": "2026-03-08T22:21:55.923281",
      "exception": false,
-     "start_time": "2026-03-07T20:56:10.429002",
-     "status": "completed"
-    },
-    "tags": []
-   },
-   "source": []
-  },
-  {
-   "cell_type": "markdown",
-   "id": "7864bff7",
-   "metadata": {
-    "papermill": {
-     "duration": 0.002771,
-     "end_time": "2026-03-07T20:56:10.437128",
-     "exception": false,
-     "start_time": "2026-03-07T20:56:10.434357",
+     "start_time": "2026-03-08T22:21:55.916684",
      "status": "completed"
     },
     "tags": []
@@ -79,19 +64,19 @@
   {
    "cell_type": "code",
    "execution_count": 1,
-   "id": "ad4e01fe",
+   "id": "5e53ab02",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-03-07T20:56:10.444416Z",
-     "iopub.status.busy": "2026-03-07T20:56:10.444095Z",
-     "iopub.status.idle": "2026-03-07T20:56:14.575659Z",
-     "shell.execute_reply": "2026-03-07T20:56:14.574713Z"
+     "iopub.execute_input": "2026-03-08T22:21:55.939669Z",
+     "iopub.status.busy": "2026-03-08T22:21:55.939309Z",
+     "iopub.status.idle": "2026-03-08T22:22:00.501892Z",
+     "shell.execute_reply": "2026-03-08T22:22:00.500825Z"
     },
     "papermill": {
-     "duration": 4.137128,
-     "end_time": "2026-03-07T20:56:14.577031",
+     "duration": 4.572875,
+     "end_time": "2026-03-08T22:22:00.504093",
      "exception": false,
-     "start_time": "2026-03-07T20:56:10.439903",
+     "start_time": "2026-03-08T22:21:55.931218",
      "status": "completed"
     },
     "tags": []
@@ -136,19 +121,19 @@
   {
    "cell_type": "code",
    "execution_count": 2,
-   "id": "b5d18c07",
+   "id": "6a9ef76a",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-03-07T20:56:14.585413Z",
-     "iopub.status.busy": "2026-03-07T20:56:14.584999Z",
-     "iopub.status.idle": "2026-03-07T20:56:14.592368Z",
-     "shell.execute_reply": "2026-03-07T20:56:14.591671Z"
+     "iopub.execute_input": "2026-03-08T22:22:00.520158Z",
+     "iopub.status.busy": "2026-03-08T22:22:00.519594Z",
+     "iopub.status.idle": "2026-03-08T22:22:00.529014Z",
+     "shell.execute_reply": "2026-03-08T22:22:00.527967Z"
     },
     "papermill": {
-     "duration": 0.013093,
-     "end_time": "2026-03-07T20:56:14.593705",
+     "duration": 0.020233,
+     "end_time": "2026-03-08T22:22:00.531326",
      "exception": false,
-     "start_time": "2026-03-07T20:56:14.580612",
+     "start_time": "2026-03-08T22:22:00.511093",
      "status": "completed"
     },
     "tags": []
@@ -214,13 +199,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "1ff71947",
+   "id": "59c36166",
    "metadata": {
     "papermill": {
-     "duration": 0.003847,
-     "end_time": "2026-03-07T20:56:14.600804",
+     "duration": 0.008186,
+     "end_time": "2026-03-08T22:22:00.546633",
      "exception": false,
-     "start_time": "2026-03-07T20:56:14.596957",
+     "start_time": "2026-03-08T22:22:00.538447",
      "status": "completed"
     },
     "tags": []
@@ -241,19 +226,19 @@
   {
    "cell_type": "code",
    "execution_count": 3,
-   "id": "af395489",
+   "id": "3d739f86",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-03-07T20:56:14.607646Z",
-     "iopub.status.busy": "2026-03-07T20:56:14.607363Z",
-     "iopub.status.idle": "2026-03-07T20:56:16.695995Z",
-     "shell.execute_reply": "2026-03-07T20:56:16.694993Z"
+     "iopub.execute_input": "2026-03-08T22:22:00.563129Z",
+     "iopub.status.busy": "2026-03-08T22:22:00.562768Z",
+     "iopub.status.idle": "2026-03-08T22:22:03.906237Z",
+     "shell.execute_reply": "2026-03-08T22:22:03.905143Z"
     },
     "papermill": {
-     "duration": 2.093841,
-     "end_time": "2026-03-07T20:56:16.697480",
+     "duration": 3.353855,
+     "end_time": "2026-03-08T22:22:03.908150",
      "exception": false,
-     "start_time": "2026-03-07T20:56:14.603639",
+     "start_time": "2026-03-08T22:22:00.554295",
      "status": "completed"
     },
     "tags": []
@@ -283,19 +268,19 @@
   {
    "cell_type": "code",
    "execution_count": 4,
-   "id": "e2e6524c",
+   "id": "96bcb953",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-03-07T20:56:16.706430Z",
-     "iopub.status.busy": "2026-03-07T20:56:16.705724Z",
-     "iopub.status.idle": "2026-03-07T20:56:16.733273Z",
-     "shell.execute_reply": "2026-03-07T20:56:16.732690Z"
+     "iopub.execute_input": "2026-03-08T22:22:03.924050Z",
+     "iopub.status.busy": "2026-03-08T22:22:03.923697Z",
+     "iopub.status.idle": "2026-03-08T22:22:03.962224Z",
+     "shell.execute_reply": "2026-03-08T22:22:03.961089Z"
     },
     "papermill": {
-     "duration": 0.033461,
-     "end_time": "2026-03-07T20:56:16.734491",
+     "duration": 0.04895,
+     "end_time": "2026-03-08T22:22:03.964183",
      "exception": false,
-     "start_time": "2026-03-07T20:56:16.701030",
+     "start_time": "2026-03-08T22:22:03.915233",
      "status": "completed"
     },
     "tags": []
@@ -513,19 +498,19 @@
   {
    "cell_type": "code",
    "execution_count": 5,
-   "id": "c6448193",
+   "id": "b35bae04",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-03-07T20:56:16.742742Z",
-     "iopub.status.busy": "2026-03-07T20:56:16.742434Z",
-     "iopub.status.idle": "2026-03-07T20:56:17.083216Z",
-     "shell.execute_reply": "2026-03-07T20:56:17.082129Z"
+     "iopub.execute_input": "2026-03-08T22:22:03.980722Z",
+     "iopub.status.busy": "2026-03-08T22:22:03.980335Z",
+     "iopub.status.idle": "2026-03-08T22:22:03.985591Z",
+     "shell.execute_reply": "2026-03-08T22:22:03.984344Z"
     },
     "papermill": {
-     "duration": 0.34713,
-     "end_time": "2026-03-07T20:56:17.085071",
+     "duration": 0.016104,
+     "end_time": "2026-03-08T22:22:03.987599",
      "exception": false,
-     "start_time": "2026-03-07T20:56:16.737941",
+     "start_time": "2026-03-08T22:22:03.971495",
      "status": "completed"
     },
     "tags": []
@@ -535,51 +520,28 @@
      "name": "stdout",
      "output_type": "stream",
      "text": [
-      "<class 'pandas.core.frame.DataFrame'>\n",
-      "RangeIndex: 594194 entries, 0 to 594193\n",
-      "Data columns (total 21 columns):\n",
-      " #   Column            Non-Null Count   Dtype  \n",
-      "---  ------            --------------   -----  \n",
-      " 0   id                594194 non-null  int64  \n",
-      " 1   gender            594194 non-null  object \n",
-      " 2   SeniorCitizen     594194 non-null  int64  \n",
-      " 3   Partner           594194 non-null  object \n",
-      " 4   Dependents        594194 non-null  object \n",
-      " 5   tenure            594194 non-null  int64  \n",
-      " 6   PhoneService      594194 non-null  object \n",
-      " 7   MultipleLines     594194 non-null  object \n",
-      " 8   InternetService   594194 non-null  object \n",
-      " 9   OnlineSecurity    594194 non-null  object \n",
-      " 10  OnlineBackup      594194 non-null  object \n",
-      " 11  DeviceProtection  594194 non-null  object \n",
-      " 12  TechSupport       594194 non-null  object \n",
-      " 13  StreamingTV       594194 non-null  object \n",
-      " 14  StreamingMovies   594194 non-null  object \n",
-      " 15  Contract          594194 non-null  object \n",
-      " 16  PaperlessBilling  594194 non-null  object \n",
-      " 17  PaymentMethod     594194 non-null  object \n",
-      " 18  MonthlyCharges    594194 non-null  float64\n",
-      " 19  TotalCharges      594194 non-null  float64\n",
-      " 20  Churn             594194 non-null  object \n",
-      "dtypes: float64(2), int64(3), object(16)\n",
-      "memory usage: 95.2+ MB\n"
+      "Index(['id', 'gender', 'SeniorCitizen', 'Partner', 'Dependents', 'tenure',\n",
+      "       'PhoneService', 'MultipleLines', 'InternetService', 'OnlineSecurity',\n",
+      "       'OnlineBackup', 'DeviceProtection', 'TechSupport', 'StreamingTV',\n",
+      "       'StreamingMovies', 'Contract', 'PaperlessBilling', 'PaymentMethod',\n",
+      "       'MonthlyCharges', 'TotalCharges'],\n",
+      "      dtype='object')\n"
      ]
     }
    ],
    "source": [
-    "# Data types and non-null counts\n",
-    "train.info()"
+    "print(test.columns)"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "1541fa53",
+   "id": "fa124f5e",
    "metadata": {
     "papermill": {
-     "duration": 0.003343,
-     "end_time": "2026-03-07T20:56:17.092240",
+     "duration": 0.007844,
+     "end_time": "2026-03-08T22:22:04.003039",
      "exception": false,
-     "start_time": "2026-03-07T20:56:17.088897",
+     "start_time": "2026-03-08T22:22:03.995195",
      "status": "completed"
     },
     "tags": []
@@ -614,18 +576,19 @@
   },
   {
    "cell_type": "markdown",
-   "id": "bbc36af7",
+   "id": "ee31cd61",
    "metadata": {
     "papermill": {
-     "duration": 0.003151,
-     "end_time": "2026-03-07T20:56:17.098700",
+     "duration": 0.007246,
+     "end_time": "2026-03-08T22:22:04.017551",
      "exception": false,
-     "start_time": "2026-03-07T20:56:17.095549",
+     "start_time": "2026-03-08T22:22:04.010305",
      "status": "completed"
     },
     "tags": []
    },
    "source": [
+    "---\n",
     "## 4: Target Variable Analysis\n",
     "\n",
     "### Why analyse the target first?\n",
@@ -639,19 +602,19 @@
   {
    "cell_type": "code",
    "execution_count": 6,
-   "id": "7ebb4d9e",
+   "id": "cf05caf3",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-03-07T20:56:17.106501Z",
-     "iopub.status.busy": "2026-03-07T20:56:17.106193Z",
-     "iopub.status.idle": "2026-03-07T20:56:17.138347Z",
-     "shell.execute_reply": "2026-03-07T20:56:17.137450Z"
+     "iopub.execute_input": "2026-03-08T22:22:04.034105Z",
+     "iopub.status.busy": "2026-03-08T22:22:04.033791Z",
+     "iopub.status.idle": "2026-03-08T22:22:04.088559Z",
+     "shell.execute_reply": "2026-03-08T22:22:04.087468Z"
     },
     "papermill": {
-     "duration": 0.03778,
-     "end_time": "2026-03-07T20:56:17.139613",
+     "duration": 0.065785,
+     "end_time": "2026-03-08T22:22:04.090638",
      "exception": false,
-     "start_time": "2026-03-07T20:56:17.101833",
+     "start_time": "2026-03-08T22:22:04.024853",
      "status": "completed"
     },
     "tags": []
@@ -685,19 +648,19 @@
   {
    "cell_type": "code",
    "execution_count": 7,
-   "id": "63cab796",
+   "id": "9763d9f6",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-03-07T20:56:17.147952Z",
-     "iopub.status.busy": "2026-03-07T20:56:17.147671Z",
-     "iopub.status.idle": "2026-03-07T20:56:17.375698Z",
-     "shell.execute_reply": "2026-03-07T20:56:17.374974Z"
+     "iopub.execute_input": "2026-03-08T22:22:04.107772Z",
+     "iopub.status.busy": "2026-03-08T22:22:04.107284Z",
+     "iopub.status.idle": "2026-03-08T22:22:04.424987Z",
+     "shell.execute_reply": "2026-03-08T22:22:04.424027Z"
     },
     "papermill": {
-     "duration": 0.233705,
-     "end_time": "2026-03-07T20:56:17.377088",
+     "duration": 0.32895,
+     "end_time": "2026-03-08T22:22:04.427096",
      "exception": false,
-     "start_time": "2026-03-07T20:56:17.143383",
+     "start_time": "2026-03-08T22:22:04.098146",
      "status": "completed"
     },
     "tags": []
@@ -729,13 +692,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "fdbc66fb",
+   "id": "ef6f128b",
    "metadata": {
     "papermill": {
-     "duration": 0.003462,
-     "end_time": "2026-03-07T20:56:17.384444",
+     "duration": 0.007556,
+     "end_time": "2026-03-08T22:22:04.442649",
      "exception": false,
-     "start_time": "2026-03-07T20:56:17.380982",
+     "start_time": "2026-03-08T22:22:04.435093",
      "status": "completed"
     },
     "tags": []
@@ -747,18 +710,19 @@
   },
   {
    "cell_type": "markdown",
-   "id": "310ded8e",
+   "id": "e7ab8e44",
    "metadata": {
     "papermill": {
-     "duration": 0.003324,
-     "end_time": "2026-03-07T20:56:17.391340",
+     "duration": 0.008116,
+     "end_time": "2026-03-08T22:22:04.458443",
      "exception": false,
-     "start_time": "2026-03-07T20:56:17.388016",
+     "start_time": "2026-03-08T22:22:04.450327",
      "status": "completed"
     },
     "tags": []
    },
    "source": [
+    "---\n",
     "## 5: Data Quality Check\n",
     "\n",
     "### Why check data quality?\n",
@@ -774,19 +738,19 @@
   {
    "cell_type": "code",
    "execution_count": 8,
-   "id": "df650a03",
+   "id": "56d1541d",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-03-07T20:56:17.399640Z",
-     "iopub.status.busy": "2026-03-07T20:56:17.399019Z",
-     "iopub.status.idle": "2026-03-07T20:56:17.840049Z",
-     "shell.execute_reply": "2026-03-07T20:56:17.839246Z"
+     "iopub.execute_input": "2026-03-08T22:22:04.475861Z",
+     "iopub.status.busy": "2026-03-08T22:22:04.475335Z",
+     "iopub.status.idle": "2026-03-08T22:22:05.125987Z",
+     "shell.execute_reply": "2026-03-08T22:22:05.125017Z"
     },
     "papermill": {
-     "duration": 0.446808,
-     "end_time": "2026-03-07T20:56:17.841507",
+     "duration": 0.661649,
+     "end_time": "2026-03-08T22:22:05.127913",
      "exception": false,
-     "start_time": "2026-03-07T20:56:17.394699",
+     "start_time": "2026-03-08T22:22:04.466264",
      "status": "completed"
     },
     "tags": []
@@ -825,19 +789,19 @@
   {
    "cell_type": "code",
    "execution_count": 9,
-   "id": "b79dea1a",
+   "id": "61f98cd5",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-03-07T20:56:17.851333Z",
-     "iopub.status.busy": "2026-03-07T20:56:17.850631Z",
-     "iopub.status.idle": "2026-03-07T20:56:17.858161Z",
-     "shell.execute_reply": "2026-03-07T20:56:17.857547Z"
+     "iopub.execute_input": "2026-03-08T22:22:05.146569Z",
+     "iopub.status.busy": "2026-03-08T22:22:05.145772Z",
+     "iopub.status.idle": "2026-03-08T22:22:05.157385Z",
+     "shell.execute_reply": "2026-03-08T22:22:05.156186Z"
     },
     "papermill": {
-     "duration": 0.014305,
-     "end_time": "2026-03-07T20:56:17.860098",
+     "duration": 0.022904,
+     "end_time": "2026-03-08T22:22:05.159391",
      "exception": false,
-     "start_time": "2026-03-07T20:56:17.845793",
+     "start_time": "2026-03-08T22:22:05.136487",
      "status": "completed"
     },
     "tags": []
@@ -869,19 +833,19 @@
   {
    "cell_type": "code",
    "execution_count": 10,
-   "id": "9ca339c8",
+   "id": "cc284948",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-03-07T20:56:17.871212Z",
-     "iopub.status.busy": "2026-03-07T20:56:17.870528Z",
-     "iopub.status.idle": "2026-03-07T20:56:17.875084Z",
-     "shell.execute_reply": "2026-03-07T20:56:17.874382Z"
+     "iopub.execute_input": "2026-03-08T22:22:05.177369Z",
+     "iopub.status.busy": "2026-03-08T22:22:05.177020Z",
+     "iopub.status.idle": "2026-03-08T22:22:05.183132Z",
+     "shell.execute_reply": "2026-03-08T22:22:05.182205Z"
     },
     "papermill": {
-     "duration": 0.011723,
-     "end_time": "2026-03-07T20:56:17.876517",
+     "duration": 0.01734,
+     "end_time": "2026-03-08T22:22:05.184926",
      "exception": false,
-     "start_time": "2026-03-07T20:56:17.864794",
+     "start_time": "2026-03-08T22:22:05.167586",
      "status": "completed"
     },
     "tags": []
@@ -909,19 +873,19 @@
   {
    "cell_type": "code",
    "execution_count": 11,
-   "id": "4c6db2bf",
+   "id": "3cfcec20",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-03-07T20:56:17.885572Z",
-     "iopub.status.busy": "2026-03-07T20:56:17.885243Z",
-     "iopub.status.idle": "2026-03-07T20:56:18.459915Z",
-     "shell.execute_reply": "2026-03-07T20:56:18.459002Z"
+     "iopub.execute_input": "2026-03-08T22:22:05.202868Z",
+     "iopub.status.busy": "2026-03-08T22:22:05.202495Z",
+     "iopub.status.idle": "2026-03-08T22:22:06.136855Z",
+     "shell.execute_reply": "2026-03-08T22:22:06.135523Z"
     },
     "papermill": {
-     "duration": 0.580538,
-     "end_time": "2026-03-07T20:56:18.461137",
+     "duration": 0.945926,
+     "end_time": "2026-03-08T22:22:06.138964",
      "exception": false,
-     "start_time": "2026-03-07T20:56:17.880599",
+     "start_time": "2026-03-08T22:22:05.193038",
      "status": "completed"
     },
     "tags": []
@@ -945,19 +909,19 @@
   {
    "cell_type": "code",
    "execution_count": 12,
-   "id": "edc7f845",
+   "id": "c074c8a5",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-03-07T20:56:18.469974Z",
-     "iopub.status.busy": "2026-03-07T20:56:18.469293Z",
-     "iopub.status.idle": "2026-03-07T20:56:18.542154Z",
-     "shell.execute_reply": "2026-03-07T20:56:18.540800Z"
+     "iopub.execute_input": "2026-03-08T22:22:06.157438Z",
+     "iopub.status.busy": "2026-03-08T22:22:06.157121Z",
+     "iopub.status.idle": "2026-03-08T22:22:06.247545Z",
+     "shell.execute_reply": "2026-03-08T22:22:06.246606Z"
     },
     "papermill": {
-     "duration": 0.078751,
-     "end_time": "2026-03-07T20:56:18.543644",
+     "duration": 0.102209,
+     "end_time": "2026-03-08T22:22:06.249641",
      "exception": false,
-     "start_time": "2026-03-07T20:56:18.464893",
+     "start_time": "2026-03-08T22:22:06.147432",
      "status": "completed"
     },
     "tags": []
@@ -986,18 +950,19 @@
   },
   {
    "cell_type": "markdown",
-   "id": "5ee59ae5",
+   "id": "d05719e3",
    "metadata": {
     "papermill": {
-     "duration": 0.003557,
-     "end_time": "2026-03-07T20:56:18.551366",
+     "duration": 0.007836,
+     "end_time": "2026-03-08T22:22:06.265661",
      "exception": false,
-     "start_time": "2026-03-07T20:56:18.547809",
+     "start_time": "2026-03-08T22:22:06.257825",
      "status": "completed"
     },
     "tags": []
    },
    "source": [
+    "---\n",
     "## 6: Exploratory Data Analysis (EDA)\n",
     "\n",
     "### Why explore the data visually?\n",
@@ -1007,19 +972,19 @@
   {
    "cell_type": "code",
    "execution_count": 13,
-   "id": "a26ae2a0",
+   "id": "62b73435",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-03-07T20:56:18.559899Z",
-     "iopub.status.busy": "2026-03-07T20:56:18.559642Z",
-     "iopub.status.idle": "2026-03-07T20:56:19.538105Z",
-     "shell.execute_reply": "2026-03-07T20:56:19.537450Z"
+     "iopub.execute_input": "2026-03-08T22:22:06.284350Z",
+     "iopub.status.busy": "2026-03-08T22:22:06.284042Z",
+     "iopub.status.idle": "2026-03-08T22:22:07.652572Z",
+     "shell.execute_reply": "2026-03-08T22:22:07.651622Z"
     },
     "papermill": {
-     "duration": 0.984427,
-     "end_time": "2026-03-07T20:56:19.539406",
+     "duration": 1.382002,
+     "end_time": "2026-03-08T22:22:07.656267",
      "exception": false,
-     "start_time": "2026-03-07T20:56:18.554979",
+     "start_time": "2026-03-08T22:22:06.274265",
      "status": "completed"
     },
     "tags": []
@@ -1054,13 +1019,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "ceacdff4",
+   "id": "fb70ad7e",
    "metadata": {
     "papermill": {
-     "duration": 0.004205,
-     "end_time": "2026-03-07T20:56:19.548240",
+     "duration": 0.012756,
+     "end_time": "2026-03-08T22:22:07.680422",
      "exception": false,
-     "start_time": "2026-03-07T20:56:19.544035",
+     "start_time": "2026-03-08T22:22:07.667666",
      "status": "completed"
     },
     "tags": []
@@ -1077,19 +1042,19 @@
   {
    "cell_type": "code",
    "execution_count": 14,
-   "id": "bb617990",
+   "id": "97ca7f75",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-03-07T20:56:19.557784Z",
-     "iopub.status.busy": "2026-03-07T20:56:19.557527Z",
-     "iopub.status.idle": "2026-03-07T20:56:20.183530Z",
-     "shell.execute_reply": "2026-03-07T20:56:20.182895Z"
+     "iopub.execute_input": "2026-03-08T22:22:07.703154Z",
+     "iopub.status.busy": "2026-03-08T22:22:07.702833Z",
+     "iopub.status.idle": "2026-03-08T22:22:08.631381Z",
+     "shell.execute_reply": "2026-03-08T22:22:08.630219Z"
     },
     "papermill": {
-     "duration": 0.632797,
-     "end_time": "2026-03-07T20:56:20.185163",
+     "duration": 0.941078,
+     "end_time": "2026-03-08T22:22:08.633355",
      "exception": false,
-     "start_time": "2026-03-07T20:56:19.552366",
+     "start_time": "2026-03-08T22:22:07.692277",
      "status": "completed"
     },
     "tags": []
@@ -1125,13 +1090,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "47e6275c",
+   "id": "e8202e48",
    "metadata": {
     "papermill": {
-     "duration": 0.005415,
-     "end_time": "2026-03-07T20:56:20.197029",
+     "duration": 0.011036,
+     "end_time": "2026-03-08T22:22:08.655389",
      "exception": false,
-     "start_time": "2026-03-07T20:56:20.191614",
+     "start_time": "2026-03-08T22:22:08.644353",
      "status": "completed"
     },
     "tags": []
@@ -1149,19 +1114,19 @@
   {
    "cell_type": "code",
    "execution_count": 15,
-   "id": "9d4d7c0d",
+   "id": "9bb5ad9a",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-03-07T20:56:20.208929Z",
-     "iopub.status.busy": "2026-03-07T20:56:20.208640Z",
-     "iopub.status.idle": "2026-03-07T20:56:20.436298Z",
-     "shell.execute_reply": "2026-03-07T20:56:20.435532Z"
+     "iopub.execute_input": "2026-03-08T22:22:08.678752Z",
+     "iopub.status.busy": "2026-03-08T22:22:08.677831Z",
+     "iopub.status.idle": "2026-03-08T22:22:08.993951Z",
+     "shell.execute_reply": "2026-03-08T22:22:08.993002Z"
     },
     "papermill": {
-     "duration": 0.235604,
-     "end_time": "2026-03-07T20:56:20.437920",
+     "duration": 0.329872,
+     "end_time": "2026-03-08T22:22:08.995793",
      "exception": false,
-     "start_time": "2026-03-07T20:56:20.202316",
+     "start_time": "2026-03-08T22:22:08.665921",
      "status": "completed"
     },
     "tags": []
@@ -1190,13 +1155,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "a2f368c8",
+   "id": "5b607e7d",
    "metadata": {
     "papermill": {
-     "duration": 0.005684,
-     "end_time": "2026-03-07T20:56:20.449694",
+     "duration": 0.011101,
+     "end_time": "2026-03-08T22:22:09.018646",
      "exception": false,
-     "start_time": "2026-03-07T20:56:20.444010",
+     "start_time": "2026-03-08T22:22:09.007545",
      "status": "completed"
     },
     "tags": []
@@ -1218,19 +1183,1856 @@
     "Customers with *higher bills* are *more likely* to churn. Expensive plans push people away.\n",
     "\n",
     "**TotalCharges → Churn = -0.22** (light blue)\n",
-    "Higher total charges means the customer has stayed longer and paid more overall — so they're *slightly less likely* to churn.\n",
+    "Higher total charges means the customer has stayed longer and paid more overall so they're *slightly less likely* to churn.\n",
     "\n",
     "**SeniorCitizen → Churn = +0.24** (light red)\n",
     "Senior citizens churn a bit more than younger customers.\n",
     "\n",
     "**tenure → TotalCharges = +0.77** (strong red)\n",
-    "This just makes logical sense — the longer you stay, the more total money you've paid.\n",
+    "This just makes logical sense - the longer you stay, the more total money you've paid.\n",
     "\n",
     "**The big takeaway for your model:**\n",
-    "> **Tenure** is your most powerful predictor of churn. Long-tenured customers almost never leave. **MonthlyCharges** is the second most important — high bills drive customers away.\n",
+    "> - **Tenure** is your most powerful predictor of churn. Long-tenured customers almost never leave.\n",
+    "> - **MonthlyCharges** is the second most important - high bills drive customers away."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "100bc02f",
+   "metadata": {
+    "papermill": {
+     "duration": 0.014781,
+     "end_time": "2026-03-08T22:22:09.045499",
+     "exception": false,
+     "start_time": "2026-03-08T22:22:09.030718",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "---\n",
+    "## 7: Feature Engineering\n",
+    "\n",
+    "### Why create new features?\n",
+    "Raw columns sometimes don't capture the full story. By **combining** or **transforming** existing features we can give the model richer information.\n",
+    "\n",
+    "| New Feature | Logic | Why it might help |\n",
+    "|-------------|-------|-------------------|\n",
+    "| **tenure_group** | Bucket tenure into groups (0-12, 13-24, etc.) | Captures non-linear effects of loyalty |\n",
+    "| **service_count** | Count how many services a customer subscribes to | More services = more locked in = less likely to churn? |\n",
+    "| **avg_monthly_charge** | TotalCharges / (tenure + 1) | Smooths out billing fluctuations |\n",
+    "| **charge_per_service** | MonthlyCharges / (service_count + 1) | Cost efficiency per service |"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "id": "01458986",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2026-03-08T22:22:09.071621Z",
+     "iopub.status.busy": "2026-03-08T22:22:09.070706Z",
+     "iopub.status.idle": "2026-03-08T22:22:09.627372Z",
+     "shell.execute_reply": "2026-03-08T22:22:09.626107Z"
+    },
+    "papermill": {
+     "duration": 0.572028,
+     "end_time": "2026-03-08T22:22:09.629403",
+     "exception": false,
+     "start_time": "2026-03-08T22:22:09.057375",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "gender\n",
+      "['Male' 'Female']\n",
+      "Partner\n",
+      "['Yes' 'No']\n",
+      "Dependents\n",
+      "['Yes' 'No']\n",
+      "PhoneService\n",
+      "['Yes' 'No']\n",
+      "MultipleLines\n",
+      "['No' 'Yes' 'No phone service']\n",
+      "InternetService\n",
+      "['DSL' 'Fiber optic' 'No']\n",
+      "OnlineSecurity\n",
+      "['Yes' 'No' 'No internet service']\n",
+      "OnlineBackup\n",
+      "['No' 'Yes' 'No internet service']\n",
+      "DeviceProtection\n",
+      "['Yes' 'No' 'No internet service']\n",
+      "TechSupport\n",
+      "['Yes' 'No' 'No internet service']\n",
+      "StreamingTV\n",
+      "['No' 'Yes' 'No internet service']\n",
+      "StreamingMovies\n",
+      "['No' 'Yes' 'No internet service']\n",
+      "Contract\n",
+      "['One year' 'Two year' 'Month-to-month']\n",
+      "PaperlessBilling\n",
+      "['Yes' 'No']\n",
+      "PaymentMethod\n",
+      "['Mailed check' 'Credit card (automatic)' 'Electronic check'\n",
+      " 'Bank transfer (automatic)']\n"
+     ]
+    }
+   ],
+   "source": [
+    "categorical_columns = train.select_dtypes(include=\"object\").columns\n",
+    "for col in categorical_columns:\n",
+    "    print(col)\n",
+    "    print(train[col].unique())"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "id": "a9ac2138",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2026-03-08T22:22:09.657176Z",
+     "iopub.status.busy": "2026-03-08T22:22:09.655717Z",
+     "iopub.status.idle": "2026-03-08T22:22:14.327431Z",
+     "shell.execute_reply": "2026-03-08T22:22:14.326489Z"
+    },
+    "papermill": {
+     "duration": 4.687372,
+     "end_time": "2026-03-08T22:22:14.329361",
+     "exception": false,
+     "start_time": "2026-03-08T22:22:09.641989",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "New features created!\n",
+      "Columns now: 25\n"
+     ]
+    },
+    {
+     "data": {
+      "text/html": [
+       "<div>\n",
+       "<style scoped>\n",
+       "    .dataframe tbody tr th:only-of-type {\n",
+       "        vertical-align: middle;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe tbody tr th {\n",
+       "        vertical-align: top;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe thead th {\n",
+       "        text-align: right;\n",
+       "    }\n",
+       "</style>\n",
+       "<table border=\"1\" class=\"dataframe\">\n",
+       "  <thead>\n",
+       "    <tr style=\"text-align: right;\">\n",
+       "      <th></th>\n",
+       "      <th>tenure</th>\n",
+       "      <th>TotalCharges</th>\n",
+       "      <th>MonthlyCharges</th>\n",
+       "      <th>tenure_group</th>\n",
+       "      <th>service_count</th>\n",
+       "      <th>avg_monthly_charge</th>\n",
+       "      <th>charge_per_service</th>\n",
+       "    </tr>\n",
+       "  </thead>\n",
+       "  <tbody>\n",
+       "    <tr>\n",
+       "      <th>0</th>\n",
+       "      <td>29</td>\n",
+       "      <td>1653.8500</td>\n",
+       "      <td>60.1000</td>\n",
+       "      <td>25-36</td>\n",
+       "      <td>5</td>\n",
+       "      <td>55.1283</td>\n",
+       "      <td>10.0167</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>1</th>\n",
+       "      <td>58</td>\n",
+       "      <td>3778.2000</td>\n",
+       "      <td>69.5000</td>\n",
+       "      <td>49-60</td>\n",
+       "      <td>6</td>\n",
+       "      <td>64.0373</td>\n",
+       "      <td>9.9286</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>2</th>\n",
+       "      <td>58</td>\n",
+       "      <td>5841.3500</td>\n",
+       "      <td>100.4000</td>\n",
+       "      <td>49-60</td>\n",
+       "      <td>6</td>\n",
+       "      <td>99.0059</td>\n",
+       "      <td>14.3429</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>3</th>\n",
+       "      <td>1</td>\n",
+       "      <td>70.7000</td>\n",
+       "      <td>69.7000</td>\n",
+       "      <td>0-12</td>\n",
+       "      <td>2</td>\n",
+       "      <td>35.3500</td>\n",
+       "      <td>23.2333</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>4</th>\n",
+       "      <td>1</td>\n",
+       "      <td>70.4500</td>\n",
+       "      <td>70.4500</td>\n",
+       "      <td>0-12</td>\n",
+       "      <td>2</td>\n",
+       "      <td>35.2250</td>\n",
+       "      <td>23.4833</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>5</th>\n",
+       "      <td>1</td>\n",
+       "      <td>20.2000</td>\n",
+       "      <td>20.2000</td>\n",
+       "      <td>0-12</td>\n",
+       "      <td>1</td>\n",
+       "      <td>10.1000</td>\n",
+       "      <td>10.1000</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>6</th>\n",
+       "      <td>24</td>\n",
+       "      <td>533.6000</td>\n",
+       "      <td>20.4000</td>\n",
+       "      <td>13-24</td>\n",
+       "      <td>1</td>\n",
+       "      <td>21.3440</td>\n",
+       "      <td>10.2000</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>7</th>\n",
+       "      <td>72</td>\n",
+       "      <td>6827.5000</td>\n",
+       "      <td>92.0000</td>\n",
+       "      <td>61-72</td>\n",
+       "      <td>9</td>\n",
+       "      <td>93.5274</td>\n",
+       "      <td>9.2000</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>8</th>\n",
+       "      <td>1</td>\n",
+       "      <td>79.5500</td>\n",
+       "      <td>79.5500</td>\n",
+       "      <td>0-12</td>\n",
+       "      <td>4</td>\n",
+       "      <td>39.7750</td>\n",
+       "      <td>15.9100</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>9</th>\n",
+       "      <td>55</td>\n",
+       "      <td>4738.3000</td>\n",
+       "      <td>100.0500</td>\n",
+       "      <td>49-60</td>\n",
+       "      <td>6</td>\n",
+       "      <td>84.6125</td>\n",
+       "      <td>14.2929</td>\n",
+       "    </tr>\n",
+       "  </tbody>\n",
+       "</table>\n",
+       "</div>"
+      ],
+      "text/plain": [
+       "   tenure  TotalCharges  MonthlyCharges tenure_group  service_count  \\\n",
+       "0      29     1653.8500         60.1000        25-36              5   \n",
+       "1      58     3778.2000         69.5000        49-60              6   \n",
+       "2      58     5841.3500        100.4000        49-60              6   \n",
+       "3       1       70.7000         69.7000         0-12              2   \n",
+       "4       1       70.4500         70.4500         0-12              2   \n",
+       "5       1       20.2000         20.2000         0-12              1   \n",
+       "6      24      533.6000         20.4000        13-24              1   \n",
+       "7      72     6827.5000         92.0000        61-72              9   \n",
+       "8       1       79.5500         79.5500         0-12              4   \n",
+       "9      55     4738.3000        100.0500        49-60              6   \n",
+       "\n",
+       "   avg_monthly_charge  charge_per_service  \n",
+       "0             55.1283             10.0167  \n",
+       "1             64.0373              9.9286  \n",
+       "2             99.0059             14.3429  \n",
+       "3             35.3500             23.2333  \n",
+       "4             35.2250             23.4833  \n",
+       "5             10.1000             10.1000  \n",
+       "6             21.3440             10.2000  \n",
+       "7             93.5274              9.2000  \n",
+       "8             39.7750             15.9100  \n",
+       "9             84.6125             14.2929  "
+      ]
+     },
+     "execution_count": 17,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "# Apply feature engineering to both train and test\n",
+    "for df in [train, test]:\n",
+    "    # Tenure groups\n",
+    "    df[\"tenure_group\"] = pd.cut(df[\"tenure\"], bins=[0, 12, 24, 36, 48, 60, 72],\n",
+    "                                 labels=[\"0-12\", \"13-24\", \"25-36\", \"37-48\", \"49-60\", \"61-72\"])\n",
+    "\n",
+    "    # Count of subscribed services\n",
+    "    service_cols = [\"PhoneService\", \"MultipleLines\", \"InternetService\",\n",
+    "                    \"OnlineSecurity\", \"OnlineBackup\", \"DeviceProtection\",\n",
+    "                    \"TechSupport\", \"StreamingTV\", \"StreamingMovies\"]\n",
+    "    df[\"service_count\"] = df[service_cols].apply(\n",
+    "        lambda row: sum(1 for v in row if v not in [\"No\", \"No internet service\", \"No phone service\"]),\n",
+    "        axis=1\n",
+    "    )\n",
+    "\n",
+    "    # Average monthly charge\n",
+    "    df[\"avg_monthly_charge\"] = df[\"TotalCharges\"] / (df[\"tenure\"] + 1)\n",
+    "\n",
+    "    # Charge per service\n",
+    "    df[\"charge_per_service\"] = df[\"MonthlyCharges\"] / (df[\"service_count\"] + 1)\n",
+    "\n",
+    "print(\"New features created!\")\n",
+    "print(\"Columns now:\", train.shape[1])\n",
+    "train[[\"tenure\", \"TotalCharges\", \"MonthlyCharges\", \"tenure_group\", \"service_count\", \"avg_monthly_charge\", \"charge_per_service\"]].head(10)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "3793b182",
+   "metadata": {
+    "papermill": {
+     "duration": 0.012499,
+     "end_time": "2026-03-08T22:22:14.354443",
+     "exception": false,
+     "start_time": "2026-03-08T22:22:14.341944",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "---\n",
+    "\n",
+    "## 8: Encoding Categorical Variables\n",
+    "\n",
+    "### Why encode?\n",
+    "ML models understand numbers, not text. We must convert every categorical column to a numeric representation.\n",
+    "\n",
+    "**Two main approaches:**\n",
+    "\n",
+    "| Method | How it works | Best for |\n",
+    "|--------|-------------|----------|\n",
+    "| **Label Encoding** | Assigns an integer to each category (Male=0, Female=1) | Binary or ordinal categories |\n",
+    "| **One-Hot Encoding** | Creates a new 0/1 column for each category | Nominal (no order) categories with few unique values |\n",
+    "\n",
+    "For this dataset we will use **Label Encoding** for all categorical columns. It is simpler, works well with tree-based models (Random Forest, XGBoost), and keeps the number of columns manageable."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "id": "76692d25",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2026-03-08T22:22:14.381374Z",
+     "iopub.status.busy": "2026-03-08T22:22:14.380701Z",
+     "iopub.status.idle": "2026-03-08T22:22:14.488243Z",
+     "shell.execute_reply": "2026-03-08T22:22:14.487282Z"
+    },
+    "papermill": {
+     "duration": 0.123857,
+     "end_time": "2026-03-08T22:22:14.490634",
+     "exception": false,
+     "start_time": "2026-03-08T22:22:14.366777",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Categorical columns to encode (15): ['gender', 'Partner', 'Dependents', 'PhoneService', 'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup', 'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies', 'Contract', 'PaperlessBilling', 'PaymentMethod']\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Identify categorical columns (object dtype) in training data\n",
+    "# Exclude \"id\" and \"Churn\" (target)\n",
+    "cat_columns = train.select_dtypes(include=\"object\").columns.tolist()\n",
+    "print(f\"Categorical columns to encode ({len(cat_columns)}): {cat_columns}\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "id": "f7a8f7b5",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2026-03-08T22:22:14.519685Z",
+     "iopub.status.busy": "2026-03-08T22:22:14.518762Z",
+     "iopub.status.idle": "2026-03-08T22:22:17.213608Z",
+     "shell.execute_reply": "2026-03-08T22:22:17.212678Z"
+    },
+    "papermill": {
+     "duration": 2.711846,
+     "end_time": "2026-03-08T22:22:17.215673",
+     "exception": false,
+     "start_time": "2026-03-08T22:22:14.503827",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "All categorical columns encoded!\n"
+     ]
+    },
+    {
+     "data": {
+      "text/html": [
+       "<div>\n",
+       "<style scoped>\n",
+       "    .dataframe tbody tr th:only-of-type {\n",
+       "        vertical-align: middle;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe tbody tr th {\n",
+       "        vertical-align: top;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe thead th {\n",
+       "        text-align: right;\n",
+       "    }\n",
+       "</style>\n",
+       "<table border=\"1\" class=\"dataframe\">\n",
+       "  <thead>\n",
+       "    <tr style=\"text-align: right;\">\n",
+       "      <th></th>\n",
+       "      <th>id</th>\n",
+       "      <th>gender</th>\n",
+       "      <th>SeniorCitizen</th>\n",
+       "      <th>Partner</th>\n",
+       "      <th>Dependents</th>\n",
+       "      <th>tenure</th>\n",
+       "      <th>PhoneService</th>\n",
+       "      <th>MultipleLines</th>\n",
+       "      <th>InternetService</th>\n",
+       "      <th>OnlineSecurity</th>\n",
+       "      <th>OnlineBackup</th>\n",
+       "      <th>DeviceProtection</th>\n",
+       "      <th>TechSupport</th>\n",
+       "      <th>StreamingTV</th>\n",
+       "      <th>StreamingMovies</th>\n",
+       "      <th>Contract</th>\n",
+       "      <th>PaperlessBilling</th>\n",
+       "      <th>PaymentMethod</th>\n",
+       "      <th>MonthlyCharges</th>\n",
+       "      <th>TotalCharges</th>\n",
+       "      <th>Churn</th>\n",
+       "      <th>tenure_group</th>\n",
+       "      <th>service_count</th>\n",
+       "      <th>avg_monthly_charge</th>\n",
+       "      <th>charge_per_service</th>\n",
+       "    </tr>\n",
+       "  </thead>\n",
+       "  <tbody>\n",
+       "    <tr>\n",
+       "      <th>0</th>\n",
+       "      <td>0</td>\n",
+       "      <td>1</td>\n",
+       "      <td>0</td>\n",
+       "      <td>1</td>\n",
+       "      <td>1</td>\n",
+       "      <td>29</td>\n",
+       "      <td>1</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>2</td>\n",
+       "      <td>0</td>\n",
+       "      <td>2</td>\n",
+       "      <td>2</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>1</td>\n",
+       "      <td>1</td>\n",
+       "      <td>3</td>\n",
+       "      <td>60.1000</td>\n",
+       "      <td>1653.8500</td>\n",
+       "      <td>0</td>\n",
+       "      <td>25-36</td>\n",
+       "      <td>5</td>\n",
+       "      <td>55.1283</td>\n",
+       "      <td>10.0167</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>1</th>\n",
+       "      <td>1</td>\n",
+       "      <td>1</td>\n",
+       "      <td>0</td>\n",
+       "      <td>1</td>\n",
+       "      <td>1</td>\n",
+       "      <td>58</td>\n",
+       "      <td>1</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>2</td>\n",
+       "      <td>2</td>\n",
+       "      <td>0</td>\n",
+       "      <td>2</td>\n",
+       "      <td>2</td>\n",
+       "      <td>0</td>\n",
+       "      <td>2</td>\n",
+       "      <td>0</td>\n",
+       "      <td>1</td>\n",
+       "      <td>69.5000</td>\n",
+       "      <td>3778.2000</td>\n",
+       "      <td>0</td>\n",
+       "      <td>49-60</td>\n",
+       "      <td>6</td>\n",
+       "      <td>64.0373</td>\n",
+       "      <td>9.9286</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>2</th>\n",
+       "      <td>2</td>\n",
+       "      <td>1</td>\n",
+       "      <td>0</td>\n",
+       "      <td>1</td>\n",
+       "      <td>0</td>\n",
+       "      <td>58</td>\n",
+       "      <td>1</td>\n",
+       "      <td>2</td>\n",
+       "      <td>1</td>\n",
+       "      <td>0</td>\n",
+       "      <td>2</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>2</td>\n",
+       "      <td>2</td>\n",
+       "      <td>0</td>\n",
+       "      <td>1</td>\n",
+       "      <td>2</td>\n",
+       "      <td>100.4000</td>\n",
+       "      <td>5841.3500</td>\n",
+       "      <td>0</td>\n",
+       "      <td>49-60</td>\n",
+       "      <td>6</td>\n",
+       "      <td>99.0059</td>\n",
+       "      <td>14.3429</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>3</th>\n",
+       "      <td>3</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>1</td>\n",
+       "      <td>1</td>\n",
+       "      <td>0</td>\n",
+       "      <td>1</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>1</td>\n",
+       "      <td>2</td>\n",
+       "      <td>69.7000</td>\n",
+       "      <td>70.7000</td>\n",
+       "      <td>1</td>\n",
+       "      <td>0-12</td>\n",
+       "      <td>2</td>\n",
+       "      <td>35.3500</td>\n",
+       "      <td>23.2333</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>4</th>\n",
+       "      <td>4</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>1</td>\n",
+       "      <td>1</td>\n",
+       "      <td>0</td>\n",
+       "      <td>1</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>1</td>\n",
+       "      <td>2</td>\n",
+       "      <td>70.4500</td>\n",
+       "      <td>70.4500</td>\n",
+       "      <td>1</td>\n",
+       "      <td>0-12</td>\n",
+       "      <td>2</td>\n",
+       "      <td>35.2250</td>\n",
+       "      <td>23.4833</td>\n",
+       "    </tr>\n",
+       "  </tbody>\n",
+       "</table>\n",
+       "</div>"
+      ],
+      "text/plain": [
+       "   id  gender  SeniorCitizen  Partner  Dependents  tenure  PhoneService  \\\n",
+       "0   0       1              0        1           1      29             1   \n",
+       "1   1       1              0        1           1      58             1   \n",
+       "2   2       1              0        1           0      58             1   \n",
+       "3   3       0              0        0           0       1             1   \n",
+       "4   4       0              0        0           0       1             1   \n",
+       "\n",
+       "   MultipleLines  InternetService  OnlineSecurity  OnlineBackup  \\\n",
+       "0              0                0               2             0   \n",
+       "1              0                0               2             2   \n",
+       "2              2                1               0             2   \n",
+       "3              0                1               0             0   \n",
+       "4              0                1               0             0   \n",
+       "\n",
+       "   DeviceProtection  TechSupport  StreamingTV  StreamingMovies  Contract  \\\n",
+       "0                 2            2            0                0         1   \n",
+       "1                 0            2            2                0         2   \n",
+       "2                 0            0            2                2         0   \n",
+       "3                 0            0            0                0         0   \n",
+       "4                 0            0            0                0         0   \n",
+       "\n",
+       "   PaperlessBilling  PaymentMethod  MonthlyCharges  TotalCharges  Churn  \\\n",
+       "0                 1              3         60.1000     1653.8500      0   \n",
+       "1                 0              1         69.5000     3778.2000      0   \n",
+       "2                 1              2        100.4000     5841.3500      0   \n",
+       "3                 1              2         69.7000       70.7000      1   \n",
+       "4                 1              2         70.4500       70.4500      1   \n",
+       "\n",
+       "  tenure_group  service_count  avg_monthly_charge  charge_per_service  \n",
+       "0        25-36              5             55.1283             10.0167  \n",
+       "1        49-60              6             64.0373              9.9286  \n",
+       "2        49-60              6             99.0059             14.3429  \n",
+       "3         0-12              2             35.3500             23.2333  \n",
+       "4         0-12              2             35.2250             23.4833  "
+      ]
+     },
+     "execution_count": 19,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "# Label-encode each categorical column\n",
+    "label_encoders = {}\n",
+    "\n",
+    "for col in cat_columns:\n",
+    "    le = LabelEncoder()\n",
+    "    # Fit on combined train+test to ensure consistent encoding\n",
+    "    combined_values = pd.concat([train[col], test[col]], axis=0).astype(str)\n",
+    "    le.fit(combined_values)\n",
+    "    train[col] = le.transform(train[col].astype(str))\n",
+    "    test[col]  = le.transform(test[col].astype(str))\n",
+    "    label_encoders[col] = le\n",
+    "\n",
+    "print(\"All categorical columns encoded!\")\n",
+    "train.head()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 20,
+   "id": "ce5bd44a",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2026-03-08T22:22:17.243357Z",
+     "iopub.status.busy": "2026-03-08T22:22:17.243009Z",
+     "iopub.status.idle": "2026-03-08T22:22:17.686206Z",
+     "shell.execute_reply": "2026-03-08T22:22:17.684250Z"
+    },
+    "papermill": {
+     "duration": 0.46043,
+     "end_time": "2026-03-08T22:22:17.689135",
+     "exception": false,
+     "start_time": "2026-03-08T22:22:17.228705",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "tenure_group encoded.\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Also encode tenure_group (it was created as a categorical)\n",
+    "le_tg = LabelEncoder()\n",
+    "combined_tg = pd.concat([train[\"tenure_group\"].astype(str), test[\"tenure_group\"].astype(str)])\n",
+    "le_tg.fit(combined_tg)\n",
+    "train[\"tenure_group\"] = le_tg.transform(train[\"tenure_group\"].astype(str))\n",
+    "test[\"tenure_group\"]  = le_tg.transform(test[\"tenure_group\"].astype(str))\n",
+    "print(\"tenure_group encoded.\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "cd75d676",
+   "metadata": {
+    "papermill": {
+     "duration": 0.012795,
+     "end_time": "2026-03-08T22:22:17.715111",
+     "exception": false,
+     "start_time": "2026-03-08T22:22:17.702316",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "---\n",
+    "\n",
+    "## 9: Feature Scaling\n",
+    "\n",
+    "### Why scale features?\n",
+    "Some models (e.g. Logistic Regression) are sensitive to the **magnitude** of features. If `tenure` ranges 0–72 but `TotalCharges` ranges 0–9000, the model might give unfair weight to TotalCharges simply because its numbers are bigger.\n",
+    "\n",
+    "| Method | Formula | When to use |\n",
+    "|--------|---------|-------------|\n",
+    "| **Standardisation (Z-score)** | (x − mean) / std | Most general-purpose; centres data around 0 |\n",
+    "| **Min-Max Normalisation** | (x − min) / (max − min) | When you need values strictly in [0, 1] |\n",
+    "\n",
+    "Tree-based models (Random Forest, XGBoost) are **not** affected by scale, but Logistic Regression **is**. We will scale features for all models to keep things consistent."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "id": "40ac87b6",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2026-03-08T22:22:17.742703Z",
+     "iopub.status.busy": "2026-03-08T22:22:17.742384Z",
+     "iopub.status.idle": "2026-03-08T22:22:18.013420Z",
+     "shell.execute_reply": "2026-03-08T22:22:18.012285Z"
+    },
+    "papermill": {
+     "duration": 0.287536,
+     "end_time": "2026-03-08T22:22:18.015411",
+     "exception": false,
+     "start_time": "2026-03-08T22:22:17.727875",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Feature matrix shape: (594194, 23)\n",
+      "Test matrix shape:    (254655, 23)\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Separate target and features\n",
+    "target = train[\"Churn\"]\n",
+    "drop_cols = [\"id\", \"Churn\"]\n",
+    "feature_cols = [c for c in train.columns if c not in drop_cols]\n",
+    "\n",
+    "X = train[feature_cols].copy()\n",
+    "X_test = test[feature_cols].copy()\n",
+    "\n",
+    "print(f\"Feature matrix shape: {X.shape}\")\n",
+    "print(f\"Test matrix shape:    {X_test.shape}\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 22,
+   "id": "3275e635",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2026-03-08T22:22:18.043464Z",
+     "iopub.status.busy": "2026-03-08T22:22:18.042725Z",
+     "iopub.status.idle": "2026-03-08T22:22:18.056693Z",
+     "shell.execute_reply": "2026-03-08T22:22:18.055809Z"
+    },
+    "papermill": {
+     "duration": 0.030181,
+     "end_time": "2026-03-08T22:22:18.058518",
+     "exception": false,
+     "start_time": "2026-03-08T22:22:18.028337",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "<div>\n",
+       "<style scoped>\n",
+       "    .dataframe tbody tr th:only-of-type {\n",
+       "        vertical-align: middle;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe tbody tr th {\n",
+       "        vertical-align: top;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe thead th {\n",
+       "        text-align: right;\n",
+       "    }\n",
+       "</style>\n",
+       "<table border=\"1\" class=\"dataframe\">\n",
+       "  <thead>\n",
+       "    <tr style=\"text-align: right;\">\n",
+       "      <th></th>\n",
+       "      <th>gender</th>\n",
+       "      <th>SeniorCitizen</th>\n",
+       "      <th>Partner</th>\n",
+       "      <th>Dependents</th>\n",
+       "      <th>tenure</th>\n",
+       "      <th>PhoneService</th>\n",
+       "      <th>MultipleLines</th>\n",
+       "      <th>InternetService</th>\n",
+       "      <th>OnlineSecurity</th>\n",
+       "      <th>OnlineBackup</th>\n",
+       "      <th>DeviceProtection</th>\n",
+       "      <th>TechSupport</th>\n",
+       "      <th>StreamingTV</th>\n",
+       "      <th>StreamingMovies</th>\n",
+       "      <th>Contract</th>\n",
+       "      <th>PaperlessBilling</th>\n",
+       "      <th>PaymentMethod</th>\n",
+       "      <th>MonthlyCharges</th>\n",
+       "      <th>TotalCharges</th>\n",
+       "      <th>tenure_group</th>\n",
+       "      <th>service_count</th>\n",
+       "      <th>avg_monthly_charge</th>\n",
+       "      <th>charge_per_service</th>\n",
+       "    </tr>\n",
+       "  </thead>\n",
+       "  <tbody>\n",
+       "    <tr>\n",
+       "      <th>0</th>\n",
+       "      <td>1</td>\n",
+       "      <td>0</td>\n",
+       "      <td>1</td>\n",
+       "      <td>1</td>\n",
+       "      <td>29</td>\n",
+       "      <td>1</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>2</td>\n",
+       "      <td>0</td>\n",
+       "      <td>2</td>\n",
+       "      <td>2</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>1</td>\n",
+       "      <td>1</td>\n",
+       "      <td>3</td>\n",
+       "      <td>60.1000</td>\n",
+       "      <td>1653.8500</td>\n",
+       "      <td>2</td>\n",
+       "      <td>5</td>\n",
+       "      <td>55.1283</td>\n",
+       "      <td>10.0167</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>1</th>\n",
+       "      <td>1</td>\n",
+       "      <td>0</td>\n",
+       "      <td>1</td>\n",
+       "      <td>1</td>\n",
+       "      <td>58</td>\n",
+       "      <td>1</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>2</td>\n",
+       "      <td>2</td>\n",
+       "      <td>0</td>\n",
+       "      <td>2</td>\n",
+       "      <td>2</td>\n",
+       "      <td>0</td>\n",
+       "      <td>2</td>\n",
+       "      <td>0</td>\n",
+       "      <td>1</td>\n",
+       "      <td>69.5000</td>\n",
+       "      <td>3778.2000</td>\n",
+       "      <td>4</td>\n",
+       "      <td>6</td>\n",
+       "      <td>64.0373</td>\n",
+       "      <td>9.9286</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>2</th>\n",
+       "      <td>1</td>\n",
+       "      <td>0</td>\n",
+       "      <td>1</td>\n",
+       "      <td>0</td>\n",
+       "      <td>58</td>\n",
+       "      <td>1</td>\n",
+       "      <td>2</td>\n",
+       "      <td>1</td>\n",
+       "      <td>0</td>\n",
+       "      <td>2</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>2</td>\n",
+       "      <td>2</td>\n",
+       "      <td>0</td>\n",
+       "      <td>1</td>\n",
+       "      <td>2</td>\n",
+       "      <td>100.4000</td>\n",
+       "      <td>5841.3500</td>\n",
+       "      <td>4</td>\n",
+       "      <td>6</td>\n",
+       "      <td>99.0059</td>\n",
+       "      <td>14.3429</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>3</th>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>1</td>\n",
+       "      <td>1</td>\n",
+       "      <td>0</td>\n",
+       "      <td>1</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>1</td>\n",
+       "      <td>2</td>\n",
+       "      <td>69.7000</td>\n",
+       "      <td>70.7000</td>\n",
+       "      <td>0</td>\n",
+       "      <td>2</td>\n",
+       "      <td>35.3500</td>\n",
+       "      <td>23.2333</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>4</th>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>1</td>\n",
+       "      <td>1</td>\n",
+       "      <td>0</td>\n",
+       "      <td>1</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>1</td>\n",
+       "      <td>2</td>\n",
+       "      <td>70.4500</td>\n",
+       "      <td>70.4500</td>\n",
+       "      <td>0</td>\n",
+       "      <td>2</td>\n",
+       "      <td>35.2250</td>\n",
+       "      <td>23.4833</td>\n",
+       "    </tr>\n",
+       "  </tbody>\n",
+       "</table>\n",
+       "</div>"
+      ],
+      "text/plain": [
+       "   gender  SeniorCitizen  Partner  Dependents  tenure  PhoneService  \\\n",
+       "0       1              0        1           1      29             1   \n",
+       "1       1              0        1           1      58             1   \n",
+       "2       1              0        1           0      58             1   \n",
+       "3       0              0        0           0       1             1   \n",
+       "4       0              0        0           0       1             1   \n",
+       "\n",
+       "   MultipleLines  InternetService  OnlineSecurity  OnlineBackup  \\\n",
+       "0              0                0               2             0   \n",
+       "1              0                0               2             2   \n",
+       "2              2                1               0             2   \n",
+       "3              0                1               0             0   \n",
+       "4              0                1               0             0   \n",
+       "\n",
+       "   DeviceProtection  TechSupport  StreamingTV  StreamingMovies  Contract  \\\n",
+       "0                 2            2            0                0         1   \n",
+       "1                 0            2            2                0         2   \n",
+       "2                 0            0            2                2         0   \n",
+       "3                 0            0            0                0         0   \n",
+       "4                 0            0            0                0         0   \n",
+       "\n",
+       "   PaperlessBilling  PaymentMethod  MonthlyCharges  TotalCharges  \\\n",
+       "0                 1              3         60.1000     1653.8500   \n",
+       "1                 0              1         69.5000     3778.2000   \n",
+       "2                 1              2        100.4000     5841.3500   \n",
+       "3                 1              2         69.7000       70.7000   \n",
+       "4                 1              2         70.4500       70.4500   \n",
+       "\n",
+       "   tenure_group  service_count  avg_monthly_charge  charge_per_service  \n",
+       "0             2              5             55.1283             10.0167  \n",
+       "1             4              6             64.0373              9.9286  \n",
+       "2             4              6             99.0059             14.3429  \n",
+       "3             0              2             35.3500             23.2333  \n",
+       "4             0              2             35.2250             23.4833  "
+      ]
+     },
+     "execution_count": 22,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "X.head()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 23,
+   "id": "74f3a77d",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2026-03-08T22:22:18.087192Z",
+     "iopub.status.busy": "2026-03-08T22:22:18.086808Z",
+     "iopub.status.idle": "2026-03-08T22:22:18.403174Z",
+     "shell.execute_reply": "2026-03-08T22:22:18.402235Z"
+    },
+    "papermill": {
+     "duration": 0.333098,
+     "end_time": "2026-03-08T22:22:18.405277",
+     "exception": false,
+     "start_time": "2026-03-08T22:22:18.072179",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Scaling complete. Sample:\n"
+     ]
+    },
+    {
+     "data": {
+      "text/html": [
+       "<div>\n",
+       "<style scoped>\n",
+       "    .dataframe tbody tr th:only-of-type {\n",
+       "        vertical-align: middle;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe tbody tr th {\n",
+       "        vertical-align: top;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe thead th {\n",
+       "        text-align: right;\n",
+       "    }\n",
+       "</style>\n",
+       "<table border=\"1\" class=\"dataframe\">\n",
+       "  <thead>\n",
+       "    <tr style=\"text-align: right;\">\n",
+       "      <th></th>\n",
+       "      <th>gender</th>\n",
+       "      <th>SeniorCitizen</th>\n",
+       "      <th>Partner</th>\n",
+       "      <th>Dependents</th>\n",
+       "      <th>tenure</th>\n",
+       "      <th>PhoneService</th>\n",
+       "      <th>MultipleLines</th>\n",
+       "      <th>InternetService</th>\n",
+       "      <th>OnlineSecurity</th>\n",
+       "      <th>OnlineBackup</th>\n",
+       "      <th>DeviceProtection</th>\n",
+       "      <th>TechSupport</th>\n",
+       "      <th>StreamingTV</th>\n",
+       "      <th>StreamingMovies</th>\n",
+       "      <th>Contract</th>\n",
+       "      <th>PaperlessBilling</th>\n",
+       "      <th>PaymentMethod</th>\n",
+       "      <th>MonthlyCharges</th>\n",
+       "      <th>TotalCharges</th>\n",
+       "      <th>tenure_group</th>\n",
+       "      <th>service_count</th>\n",
+       "      <th>avg_monthly_charge</th>\n",
+       "      <th>charge_per_service</th>\n",
+       "    </tr>\n",
+       "  </thead>\n",
+       "  <tbody>\n",
+       "    <tr>\n",
+       "      <th>0</th>\n",
+       "      <td>1.0055</td>\n",
+       "      <td>-0.3589</td>\n",
+       "      <td>0.9589</td>\n",
+       "      <td>1.5179</td>\n",
+       "      <td>-0.3023</td>\n",
+       "      <td>0.2551</td>\n",
+       "      <td>-1.0167</td>\n",
+       "      <td>-1.2720</td>\n",
+       "      <td>1.4288</td>\n",
+       "      <td>-1.0590</td>\n",
+       "      <td>1.2281</td>\n",
+       "      <td>1.4240</td>\n",
+       "      <td>-1.1986</td>\n",
+       "      <td>-1.2033</td>\n",
+       "      <td>0.2131</td>\n",
+       "      <td>0.7908</td>\n",
+       "      <td>1.3782</td>\n",
+       "      <td>-0.1856</td>\n",
+       "      <td>-0.3571</td>\n",
+       "      <td>-0.2414</td>\n",
+       "      <td>0.3159</td>\n",
+       "      <td>-0.1741</td>\n",
+       "      <td>-0.7306</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>1</th>\n",
+       "      <td>1.0055</td>\n",
+       "      <td>-0.3589</td>\n",
+       "      <td>0.9589</td>\n",
+       "      <td>1.5179</td>\n",
+       "      <td>0.8548</td>\n",
+       "      <td>0.2551</td>\n",
+       "      <td>-1.0167</td>\n",
+       "      <td>-1.2720</td>\n",
+       "      <td>1.4288</td>\n",
+       "      <td>1.2397</td>\n",
+       "      <td>-1.0685</td>\n",
+       "      <td>1.4240</td>\n",
+       "      <td>1.0939</td>\n",
+       "      <td>-1.2033</td>\n",
+       "      <td>1.3438</td>\n",
+       "      <td>-1.2646</td>\n",
+       "      <td>-0.5558</td>\n",
+       "      <td>0.1170</td>\n",
+       "      <td>0.5454</td>\n",
+       "      <td>0.7699</td>\n",
+       "      <td>0.7197</td>\n",
+       "      <td>0.0683</td>\n",
+       "      <td>-0.7541</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>2</th>\n",
+       "      <td>1.0055</td>\n",
+       "      <td>-0.3589</td>\n",
+       "      <td>0.9589</td>\n",
+       "      <td>-0.6588</td>\n",
+       "      <td>0.8548</td>\n",
+       "      <td>0.2551</td>\n",
+       "      <td>1.0476</td>\n",
+       "      <td>0.0927</td>\n",
+       "      <td>-0.9306</td>\n",
+       "      <td>1.2397</td>\n",
+       "      <td>-1.0685</td>\n",
+       "      <td>-0.9333</td>\n",
+       "      <td>1.0939</td>\n",
+       "      <td>1.0898</td>\n",
+       "      <td>-0.9176</td>\n",
+       "      <td>0.7908</td>\n",
+       "      <td>0.4112</td>\n",
+       "      <td>1.1116</td>\n",
+       "      <td>1.4219</td>\n",
+       "      <td>0.7699</td>\n",
+       "      <td>0.7197</td>\n",
+       "      <td>1.0198</td>\n",
+       "      <td>0.4250</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>3</th>\n",
+       "      <td>-0.9945</td>\n",
+       "      <td>-0.3589</td>\n",
+       "      <td>-1.0428</td>\n",
+       "      <td>-0.6588</td>\n",
+       "      <td>-1.4196</td>\n",
+       "      <td>0.2551</td>\n",
+       "      <td>-1.0167</td>\n",
+       "      <td>0.0927</td>\n",
+       "      <td>-0.9306</td>\n",
+       "      <td>-1.0590</td>\n",
+       "      <td>-1.0685</td>\n",
+       "      <td>-0.9333</td>\n",
+       "      <td>-1.1986</td>\n",
+       "      <td>-1.2033</td>\n",
+       "      <td>-0.9176</td>\n",
+       "      <td>0.7908</td>\n",
+       "      <td>0.4112</td>\n",
+       "      <td>0.1234</td>\n",
+       "      <td>-1.0296</td>\n",
+       "      <td>-1.2528</td>\n",
+       "      <td>-0.8952</td>\n",
+       "      <td>-0.7123</td>\n",
+       "      <td>2.7998</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>4</th>\n",
+       "      <td>-0.9945</td>\n",
+       "      <td>-0.3589</td>\n",
+       "      <td>-1.0428</td>\n",
+       "      <td>-0.6588</td>\n",
+       "      <td>-1.4196</td>\n",
+       "      <td>0.2551</td>\n",
+       "      <td>-1.0167</td>\n",
+       "      <td>0.0927</td>\n",
+       "      <td>-0.9306</td>\n",
+       "      <td>-1.0590</td>\n",
+       "      <td>-1.0685</td>\n",
+       "      <td>-0.9333</td>\n",
+       "      <td>-1.1986</td>\n",
+       "      <td>-1.2033</td>\n",
+       "      <td>-0.9176</td>\n",
+       "      <td>0.7908</td>\n",
+       "      <td>0.4112</td>\n",
+       "      <td>0.1475</td>\n",
+       "      <td>-1.0297</td>\n",
+       "      <td>-1.2528</td>\n",
+       "      <td>-0.8952</td>\n",
+       "      <td>-0.7157</td>\n",
+       "      <td>2.8666</td>\n",
+       "    </tr>\n",
+       "  </tbody>\n",
+       "</table>\n",
+       "</div>"
+      ],
+      "text/plain": [
+       "   gender  SeniorCitizen  Partner  Dependents  tenure  PhoneService  \\\n",
+       "0  1.0055        -0.3589   0.9589      1.5179 -0.3023        0.2551   \n",
+       "1  1.0055        -0.3589   0.9589      1.5179  0.8548        0.2551   \n",
+       "2  1.0055        -0.3589   0.9589     -0.6588  0.8548        0.2551   \n",
+       "3 -0.9945        -0.3589  -1.0428     -0.6588 -1.4196        0.2551   \n",
+       "4 -0.9945        -0.3589  -1.0428     -0.6588 -1.4196        0.2551   \n",
+       "\n",
+       "   MultipleLines  InternetService  OnlineSecurity  OnlineBackup  \\\n",
+       "0        -1.0167          -1.2720          1.4288       -1.0590   \n",
+       "1        -1.0167          -1.2720          1.4288        1.2397   \n",
+       "2         1.0476           0.0927         -0.9306        1.2397   \n",
+       "3        -1.0167           0.0927         -0.9306       -1.0590   \n",
+       "4        -1.0167           0.0927         -0.9306       -1.0590   \n",
+       "\n",
+       "   DeviceProtection  TechSupport  StreamingTV  StreamingMovies  Contract  \\\n",
+       "0            1.2281       1.4240      -1.1986          -1.2033    0.2131   \n",
+       "1           -1.0685       1.4240       1.0939          -1.2033    1.3438   \n",
+       "2           -1.0685      -0.9333       1.0939           1.0898   -0.9176   \n",
+       "3           -1.0685      -0.9333      -1.1986          -1.2033   -0.9176   \n",
+       "4           -1.0685      -0.9333      -1.1986          -1.2033   -0.9176   \n",
+       "\n",
+       "   PaperlessBilling  PaymentMethod  MonthlyCharges  TotalCharges  \\\n",
+       "0            0.7908         1.3782         -0.1856       -0.3571   \n",
+       "1           -1.2646        -0.5558          0.1170        0.5454   \n",
+       "2            0.7908         0.4112          1.1116        1.4219   \n",
+       "3            0.7908         0.4112          0.1234       -1.0296   \n",
+       "4            0.7908         0.4112          0.1475       -1.0297   \n",
+       "\n",
+       "   tenure_group  service_count  avg_monthly_charge  charge_per_service  \n",
+       "0       -0.2414         0.3159             -0.1741             -0.7306  \n",
+       "1        0.7699         0.7197              0.0683             -0.7541  \n",
+       "2        0.7699         0.7197              1.0198              0.4250  \n",
+       "3       -1.2528        -0.8952             -0.7123              2.7998  \n",
+       "4       -1.2528        -0.8952             -0.7157              2.8666  "
+      ]
+     },
+     "execution_count": 23,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "# Apply StandardScaler\n",
+    "scaler = StandardScaler()\n",
+    "X_scaled = pd.DataFrame(scaler.fit_transform(X), columns=feature_cols, index=X.index)\n",
+    "X_test_scaled = pd.DataFrame(scaler.transform(X_test), columns=feature_cols, index=X_test.index)\n",
+    "\n",
+    "print(\"Scaling complete. Sample:\")\n",
+    "X_scaled.head()"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "739203ba",
+   "metadata": {
+    "papermill": {
+     "duration": 0.013643,
+     "end_time": "2026-03-08T22:22:18.433027",
+     "exception": false,
+     "start_time": "2026-03-08T22:22:18.419384",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "---\n",
+    "\n",
+    "### StandardScaler\n",
+    "\n",
+    "In your churn dataset, every column is called a **feature**. Things like:\n",
+    "- How long the customer stayed → **tenure**\n",
+    "- How much they pay monthly → **MonthlyCharges**\n",
+    "- How much they paid in total → **TotalCharges**\n",
+    "\n",
+    "Imagine you are hiring a chef. You judge them on two things:\n",
+    "- **Years of experience** → ranges from 1 to 10\n",
+    "- **Number of recipes they know** → ranges from 100 to 5000\n",
+    "  \n",
+    "Now you ask your friend to score both and pick the better chef. Your friend looks at the numbers and says:\n",
+    "*\"Chef A knows 4000 recipes and has 5 years experience. Chef B knows 500 recipes and has 9 years experience. Chef A wins obviously — 4000 is way bigger than 500!\"*\n",
+    "\n",
+    "But wait. **9 years of experience is actually incredible.** Your friend was fooled by the big recipe number. They compared 4000 vs 500 instead of fairly judging both categories.\n",
+    "\n",
+    "**That is exactly what happens to Logistic Regression without StandardScaler.**\n",
+    "\n",
+    "### Now With Your Actual Churn Data\n",
+    "\n",
+    "| Customer | tenure | TotalCharges |\n",
+    "|----------|--------|--------------|\n",
+    "| Sneha    | 2      | 170          |\n",
+    "| Sanskar  | 72     | 8500         |\n",
+    "\n",
+    "The model does this math to calculate churn risk:\n",
+    "```\n",
+    "Without Scaling:\n",
+    "Sneha churn score = tenure(2)  +  TotalCharges(170)  =  172\n",
+    "Sanskar   churn score = tenure(72) +  TotalCharges(8500) =  8572\n",
+    "```\n",
+    "The model basically **only sees TotalCharges** because 8500 dominates everything. Tenure is invisible. It contributes only 2 or 72 — tiny compared to thousands.\n",
+    "But we KNOW from the correlation matrix that **tenure is your strongest churn predictor** with -0.42 correlation. Short tenure = very likely to churn. The model is ignoring your best weapon.\n",
+    "\n",
+    "### What StandardScaler Does Step by Step\n",
+    "It takes each column and applies this simple idea:\n",
+    "> *\"How far is this value from the average? Express that distance in standard units.\"*\n",
+    "\n",
+    "The formula is just:\n",
+    "```\n",
+    "new value = (your value - average of column) / spread of column\n",
+    "```\n",
+    "After doing this, every single column ends up with:\n",
+    "- Average = **0**\n",
+    "- All values roughly between **-3 and +3**\n",
+    "\n",
+    "### Your Data Before and After Scaling\n",
+    "**Before scaling - completely unfair:**\n",
+    "| Customer | tenure | TotalCharges |\n",
+    "|----------|--------|-------------|\n",
+    "| Sneha | 2 | 170 |\n",
+    "|Sanskar | 72 | 8500 |\n",
+    "| Sakshi | 24 | 3200 |\n",
+    "\n",
+    "**After scaling - perfectly fair:**\n",
+    "| Customer | tenure | TotalCharges |\n",
+    "|----------|--------|-------------|\n",
+    "| Sneha | -1.30 | -1.20 |\n",
+    "| Sanskar | 1.50 | 1.40 |\n",
+    "| Sakshi| -0.20 | 0.10 |\n",
+    "\n",
+    "Now both columns live between -2 and +2. The model treats them **equally and fairly.**\n",
+    "\n",
+    "### What Happens If You Skip It\n",
+    "| Situation | What Happens |\n",
+    "|-----------|-------------|\n",
+    "| You use **Random Forest** | Nothing bad — trees don't care about scale ✅ |\n",
+    "| You use **XGBoost** | Nothing bad — same reason ✅ |\n",
+    "| You use **Logistic Regression** | Quietly gives you wrong predictions ❌ |\n",
+    "\n",
+    "The scary part is **no error message appears.** The code runs fine. The predictions come out. But they are silently wrong because the model was judging features unfairly the whole time. Your Kaggle ROC-AUC score will be lower than it should be and you will have no idea why."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "e27be74f",
+   "metadata": {
+    "papermill": {
+     "duration": 0.014015,
+     "end_time": "2026-03-08T22:22:18.460926",
+     "exception": false,
+     "start_time": "2026-03-08T22:22:18.446911",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "---\n",
+    "## 10: Train / Validation Split\n",
+    "\n",
+    "### Why split the data?\n",
+    "If we train and evaluate on the **same** data, the model can just memorise answers this is called **overfitting**. It will look great on training data but fail on new customers.\n",
+    "\n",
+    "By holding out a portion as a **validation set**, we simulate Kaggle's hidden test and get an honest estimate of our model's performance.\n",
+    "\n",
+    "We use an 80/20 split and **stratify** by the target to ensure both halves have the same churn ratio."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 24,
+   "id": "1e258a54",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2026-03-08T22:22:18.491299Z",
+     "iopub.status.busy": "2026-03-08T22:22:18.490934Z",
+     "iopub.status.idle": "2026-03-08T22:22:18.884723Z",
+     "shell.execute_reply": "2026-03-08T22:22:18.883638Z"
+    },
+    "papermill": {
+     "duration": 0.411913,
+     "end_time": "2026-03-08T22:22:18.886710",
+     "exception": false,
+     "start_time": "2026-03-08T22:22:18.474797",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Training:   475,355 samples\n",
+      "Validation: 118,839 samples\n",
+      "Churn rate — train: 0.225, val: 0.225\n"
+     ]
+    }
+   ],
+   "source": [
+    "X_train, X_val, y_train, y_val = train_test_split(\n",
+    "    X_scaled,        # your features (all columns except Churn)\n",
+    "    target,          # the answer column (Churn = 0 or 1)\n",
+    "    test_size=0.20,  # keep 20% aside for testing\n",
+    "    random_state=42, # so you get same split every time you run\n",
+    "    stratify=target  # explained below\n",
+    ")\n",
+    "\n",
+    "print(f\"Training:   {X_train.shape[0]:,} samples\")\n",
+    "print(f\"Validation: {X_val.shape[0]:,} samples\")\n",
+    "print(f\"Churn rate — train: {y_train.mean():.3f}, val: {y_val.mean():.3f}\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "ef1e8d85",
+   "metadata": {
+    "papermill": {
+     "duration": 0.013569,
+     "end_time": "2026-03-08T22:22:18.913872",
+     "exception": false,
+     "start_time": "2026-03-08T22:22:18.900303",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "### Visualising The Split\n",
+    "```\n",
+    "Your 594,000 customers\n",
+    "├── 80% → X_train, y_train  (475,000 customers) → MODEL LEARNS FROM THIS\n",
+    "└── 20% → X_val,   y_val    (119,000 customers) → MODEL IS TESTED ON THIS\n",
+    "```\n",
+    "The model **never sees** the validation set during learning. It is a fair blind test.\n",
+    "\n",
+    "---\n",
+    "\n",
+    "### What Is `stratify=target`?\n",
+    "This is very important because your churn data is **imbalanced** - roughly 73% No Churn and 27% Churn.\n",
+    "Without stratify, by bad luck you might get:\n",
+    "```\n",
+    "Training set   → 80% No Churn, 20% Churn\n",
+    "Validation set → 60% No Churn, 40% Churn   ← completely different ratio, unfair test\n",
+    "```\n",
+    "With `stratify=target`, it **guarantees** both sets have the same ratio:\n",
+    "```\n",
+    "Training set   → 73% No Churn, 27% Churn\n",
+    "Validation set → 73% No Churn, 27% Churn\n",
+    "```\n",
+    "The last print line confirms this worked:\n",
+    "```\n",
+    "Churn rate — train: 0.265, val: 0.265  ← identical, perfect!"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "aa2201c0",
+   "metadata": {
+    "papermill": {
+     "duration": 0.013554,
+     "end_time": "2026-03-08T22:22:18.940861",
+     "exception": false,
+     "start_time": "2026-03-08T22:22:18.927307",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "---\n",
+    "## 11: Train Multiple Models"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "cba7239f",
+   "metadata": {
+    "papermill": {
+     "duration": 0.013687,
+     "end_time": "2026-03-08T22:22:18.968195",
+     "exception": false,
+     "start_time": "2026-03-08T22:22:18.954508",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "\n",
+    "## Model 1. Logistic Regression\n",
+    "\n",
+    "### What It Does\n",
+    "\n",
+    "Imagine plotting every customer on a graph. Blue dots = stayed, Red dots = churned.\n",
+    "\n",
+    "```\n",
+    "Monthly Charges\n",
+    "     |        🔴 🔴 🔴\n",
+    "     |     🔴 🔴 🔴\n",
+    "     |___________← draws this straight line\n",
+    "     |  🔵 🔵 \n",
+    "     | 🔵 🔵 🔵\n",
+    "     |_________________ Tenure\n",
+    "```\n",
+    "\n",
+    "Logistic Regression simply **draws one straight line** to separate churners from non-churners. Everyone on the left side = probably stays. Everyone on the right side = probably churns.\n",
+    "\n",
+    "### Real Life Analogy\n",
+    "Think of a bank deciding who gets a loan. They say:\n",
+    "> *\"If income is above $50,000 AND age is above 25 → approve. Otherwise → reject.\"*\n",
+    "\n",
+    "That is a straight line decision. Simple, fast, explainable.\n",
+    "\n",
+    "### For Churn It Learns Things Like\n",
+    "> *\"If tenure is low AND monthly charges are high → likely to churn\"*\n",
+    "\n",
+    "### Strengths and Weaknesses\n",
+    "\n",
+    "| Strengths | Weaknesses |\n",
+    "|-----------|-----------|\n",
+    "| Very fast to train | Cannot learn curved/complex patterns |\n",
+    "| Easy to explain to business | Needs feature scaling |\n",
+    "| Great starting baseline | Struggles with many interacting features |\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 25,
+   "id": "953247f5",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2026-03-08T22:22:18.997583Z",
+     "iopub.status.busy": "2026-03-08T22:22:18.996879Z",
+     "iopub.status.idle": "2026-03-08T22:22:25.506382Z",
+     "shell.execute_reply": "2026-03-08T22:22:25.505234Z"
+    },
+    "papermill": {
+     "duration": 6.527457,
+     "end_time": "2026-03-08T22:22:25.509317",
+     "exception": false,
+     "start_time": "2026-03-08T22:22:18.981860",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Training Logistic Regression...\n",
+      "  ROC-AUC: 0.9069\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Dictionary to store results\n",
+    "results = {}\n",
+    "\n",
+    "# ---- 1. Logistic Regression ----\n",
+    "print(\"Training Logistic Regression...\")\n",
+    "lr = LogisticRegression(max_iter=1000, random_state=42)\n",
+    "lr.fit(X_train, y_train)\n",
+    "lr_proba = lr.predict_proba(X_val)[:, 1]\n",
+    "lr_auc = roc_auc_score(y_val, lr_proba)\n",
+    "results[\"Logistic Regression\"] = lr_auc\n",
+    "print(f\"  ROC-AUC: {lr_auc:.4f}\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "fe1d0ecc",
+   "metadata": {
+    "papermill": {
+     "duration": 0.022516,
+     "end_time": "2026-03-08T22:22:25.555203",
+     "exception": false,
+     "start_time": "2026-03-08T22:22:25.532687",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "---\n",
+    "\n",
+    "## Model 2. Random Forest\n",
+    "\n",
+    "### What It Does - Start With One Decision Tree\n",
+    "\n",
+    "A single decision tree asks questions like a flowchart:\n",
+    "\n",
+    "```\n",
+    "Is tenure < 12 months?\n",
+    "        │\n",
+    "   YES──┘──NO\n",
+    "   │         │\n",
+    "High churn   Is MonthlyCharges > $70?\n",
+    "risk 🔴            │\n",
+    "              YES──┘──NO\n",
+    "              │         │\n",
+    "         High churn   Low churn\n",
+    "         risk 🔴      risk 🔵\n",
+    "```\n",
+    "\n",
+    "One tree is okay but makes mistakes. So Random Forest builds **300 trees** - each tree sees a random subset of customers and random subset of features.\n",
+    "\n",
+    "### The Voting System\n",
+    "\n",
+    "```\n",
+    "Customer Sneha enters:\n",
+    "  tenure=2, MonthlyCharges=85, Contract=Month-to-month\n",
+    "\n",
+    "Tree 1   → Churn ✅\n",
+    "Tree 2   → Churn ✅\n",
+    "Tree 3   → No Churn ❌\n",
+    "Tree 4   → Churn ✅\n",
+    "Tree 5   → Churn ✅\n",
+    "...\n",
+    "Tree 300 → Churn ✅\n",
+    "\n",
+    "Final Vote: 258 say Churn, 42 say No Churn\n",
+    "Answer: 0.86 churn probability 🔴\n",
+    "```\n",
+    "\n",
+    "### Real Life Analogy\n",
+    "You want to know which restaurant to go to. You ask **300 different friends** instead of just one. You go with what the majority says. Much more reliable than trusting one person.\n",
+    "\n",
+    "### For Churn It Learns Things Like\n",
+    "> *\"Tree 47 notices that month-to-month contract + fiber optic + short tenure = almost always churns\"*\n",
+    "> *\"Tree 183 notices that senior citizens with high bills churn a lot\"*\n",
+    "> *\"Together they catch patterns no single tree would find alone\"*\n",
+    "\n",
+    "### Strengths and Weaknesses\n",
+    "\n",
+    "| Strengths | Weaknesses |\n",
+    "|-----------|-----------|\n",
+    "| Very accurate | Slower than Logistic Regression |\n",
+    "| Handles complex patterns | Hard to explain individual decisions |\n",
+    "| Does not need scaling | Uses more memory |\n",
+    "| Resistant to overfitting | |\n",
     "\n",
     "---"
    ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "716e0142",
+   "metadata": {
+    "papermill": {
+     "duration": 0.013902,
+     "end_time": "2026-03-08T22:22:25.592209",
+     "exception": false,
+     "start_time": "2026-03-08T22:22:25.578307",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "## Model 3. Gradient Boosting\n",
+    "\n",
+    "### What It Does\n",
+    "\n",
+    "This is where it gets clever. Instead of 300 independent trees voting, Gradient Boosting builds trees **one by one** - and each new tree specifically focuses on fixing what the previous tree got wrong.\n",
+    "\n",
+    "### Step By Step\n",
+    "\n",
+    "```\n",
+    "Step 1: Tree 1 makes predictions\n",
+    "        Got Sneha right ✅  Got Sanskar wrong ❌  Got Sakshi right ✅\n",
+    "\n",
+    "Step 2: Tree 2 looks at mistakes\n",
+    "        \"Sanskar was wrong — let me focus extra hard on customers like Sanskar\"\n",
+    "        Got Sanskar right ✅  Got someone else wrong ❌\n",
+    "\n",
+    "Step 3: Tree 3 looks at NEW mistakes\n",
+    "        \"Let me fix the new mistakes...\"\n",
+    "\n",
+    "...repeat 300 times...\n",
+    "\n",
+    "Final: All 300 trees combined = very accurate model\n",
+    "```\n",
+    "\n",
+    "### Real Life Analogy\n",
+    "\n",
+    "Think of a student taking practice exams:\n",
+    "- **Exam 1** → scores 60%. Reviews wrong answers.\n",
+    "- **Exam 2** → focuses on weak topics. Scores 72%. Reviews wrong answers again.\n",
+    "- **Exam 3** → focuses on remaining weak spots. Scores 81%.\n",
+    "- After 300 practice exams → becomes an expert.\n",
+    "\n",
+    "Each attempt specifically targets previous failures. That is **Gradient Boosting**.\n",
+    "\n",
+    "### For Churn It Learns Things Like\n",
+    "> *\"First tree gets easy churners right — obvious cases like 1 month tenure, $90 bill\"*\n",
+    "> *\"Second tree focuses on tricky cases — maybe senior citizens with long tenure but high bills\"*\n",
+    "> *\"By tree 300 it is catching very subtle patterns\"*\n",
+    "\n",
+    "### Strengths and Weaknesses\n",
+    "\n",
+    "| Strengths | Weaknesses |\n",
+    "|-----------|-----------|\n",
+    "| Very high accuracy | Slow to train |\n",
+    "| Catches subtle patterns | Can overfit if not careful |\n",
+    "| Great for imbalanced data | Many settings to tune |\n",
+    "\n",
+    "---\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "51dbce76",
+   "metadata": {
+    "papermill": {
+     "duration": 0.014157,
+     "end_time": "2026-03-08T22:22:25.620476",
+     "exception": false,
+     "start_time": "2026-03-08T22:22:25.606319",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "## 4. XGBoost - Gradient Boosting But Supercharged\n",
+    "\n",
+    "### What It Does\n",
+    "\n",
+    "XGBoost is basically Gradient Boosting with several smart improvements added on top. The X stands for **eXtreme** - it is an extreme version of Gradient Boosting.\n",
+    "\n",
+    "### What Makes It Different\n",
+    "\n",
+    "| Feature | Regular Gradient Boosting | XGBoost |\n",
+    "|---------|--------------------------|---------|\n",
+    "| Speed | Slow | **10x faster** |\n",
+    "| Overfitting protection | Basic | **Built-in regularisation** |\n",
+    "| Missing values | You must handle them | **Handles automatically** |\n",
+    "| Parallel processing | No | **Uses all CPU cores** |\n",
+    "\n",
+    "### The Regularisation Part Simply Explained\n",
+    "\n",
+    "Regular Gradient Boosting is like a student who **memorises** every single practice exam answer including weird edge cases. XGBoost adds a penalty:\n",
+    "\n",
+    "> *\"Do not make your trees too complicated. Keep them simple and general.\"*\n",
+    "\n",
+    "This means XGBoost generalises better to new unseen customers - exactly what you need for Kaggle test data.\n",
+    "\n",
+    "### Why XGBoost Wins on Kaggle\n",
+    "\n",
+    "Between 2015 and 2023, XGBoost won **more Kaggle competitions than any other single algorithm.** For churn prediction specifically it works brilliantly because:\n",
+    "\n",
+    "- Churn data is **imbalanced** → XGBoost handles this well\n",
+    "- Churn has **complex interactions** between features → XGBoost catches them\n",
+    "- Churn dataset is **large** → XGBoost is fast enough to handle it"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "960ec31e",
+   "metadata": {
+    "papermill": {
+     "duration": 0.013876,
+     "end_time": "2026-03-08T22:22:25.648158",
+     "exception": false,
+     "start_time": "2026-03-08T22:22:25.634282",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "---\n",
+    "\n",
+    "## Side by Side Comparison For Your Churn Problem\n",
+    "\n",
+    "```\n",
+    "Customer: tenure=2, MonthlyCharges=85, Contract=Month-to-month\n",
+    "\n",
+    "Logistic Regression  → 0.71  (good, caught the pattern linearly)\n",
+    "Random Forest        → 0.83  (better, 300 trees voted)\n",
+    "Gradient Boosting    → 0.86  (very good, learned from mistakes)\n",
+    "XGBoost              → 0.88  (best, fast + smart + regularised)\n",
+    "```\n",
+    "\n",
+    "---\n",
+    "\n",
+    "## One Line Summary For Each\n",
+    "\n",
+    "> **Logistic Regression** → draws one straight line to separate churners from non-churners. Simple and fast.\n",
+    "\n",
+    "> **Random Forest** → asks 300 different decision trees and takes a majority vote. Reliable and accurate.\n",
+    "\n",
+    "> **Gradient Boosting** → builds trees one by one, each fixing the previous one's mistakes. Like a student reviewing wrong answers.\n",
+    "\n",
+    "> **XGBoost** → same idea as Gradient Boosting but 10x faster, smarter, and with built-in protection against memorising the training data."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "347eef3b",
+   "metadata": {
+    "papermill": {
+     "duration": 0.013839,
+     "end_time": "2026-03-08T22:22:25.676763",
+     "exception": false,
+     "start_time": "2026-03-08T22:22:25.662924",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [],
+   "source": []
   }
  ],
  "metadata": {
@@ -1268,14 +3070,14 @@
   },
   "papermill": {
    "default_parameters": {},
-   "duration": 13.533398,
-   "end_time": "2026-03-07T20:56:21.174384",
+   "duration": 33.912739,
+   "end_time": "2026-03-08T22:22:26.511442",
    "environment_variables": {},
    "exception": null,
    "input_path": "__notebook__.ipynb",
    "output_path": "__notebook__.ipynb",
    "parameters": {},
-   "start_time": "2026-03-07T20:56:07.640986",
+   "start_time": "2026-03-08T22:21:52.598703",
    "version": "2.6.0"
   }
  },

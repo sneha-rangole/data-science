@@ -2,13 +2,13 @@
  "cells": [
   {
    "cell_type": "markdown",
-   "id": "d0d751de",
+   "id": "1f7621f4",
    "metadata": {
     "papermill": {
-     "duration": 0.004193,
-     "end_time": "2026-03-11T00:55:18.427541",
+     "duration": 0.003803,
+     "end_time": "2026-03-11T01:09:03.554504",
      "exception": false,
-     "start_time": "2026-03-11T00:55:18.423348",
+     "start_time": "2026-03-11T01:09:03.550701",
      "status": "completed"
     },
     "tags": []
@@ -28,13 +28,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "d3e19cc4",
+   "id": "084432a6",
    "metadata": {
     "papermill": {
-     "duration": 0.003276,
-     "end_time": "2026-03-11T00:55:18.434280",
+     "duration": 0.002549,
+     "end_time": "2026-03-11T01:09:03.559807",
      "exception": false,
-     "start_time": "2026-03-11T00:55:18.431004",
+     "start_time": "2026-03-11T01:09:03.557258",
      "status": "completed"
     },
     "tags": []
@@ -64,19 +64,19 @@
   {
    "cell_type": "code",
    "execution_count": 1,
-   "id": "4f29b993",
+   "id": "c65c7eb0",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-03-11T00:55:18.442855Z",
-     "iopub.status.busy": "2026-03-11T00:55:18.442049Z",
-     "iopub.status.idle": "2026-03-11T00:55:23.109366Z",
-     "shell.execute_reply": "2026-03-11T00:55:23.108487Z"
+     "iopub.execute_input": "2026-03-11T01:09:03.566478Z",
+     "iopub.status.busy": "2026-03-11T01:09:03.566162Z",
+     "iopub.status.idle": "2026-03-11T01:09:07.919312Z",
+     "shell.execute_reply": "2026-03-11T01:09:07.918244Z"
     },
     "papermill": {
-     "duration": 4.673399,
-     "end_time": "2026-03-11T00:55:23.111210",
+     "duration": 4.358642,
+     "end_time": "2026-03-11T01:09:07.921018",
      "exception": false,
-     "start_time": "2026-03-11T00:55:18.437811",
+     "start_time": "2026-03-11T01:09:03.562376",
      "status": "completed"
     },
     "tags": []
@@ -106,19 +106,19 @@
   {
    "cell_type": "code",
    "execution_count": 2,
-   "id": "605410f2",
+   "id": "77928e75",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-03-11T00:55:23.119426Z",
-     "iopub.status.busy": "2026-03-11T00:55:23.118703Z",
-     "iopub.status.idle": "2026-03-11T00:55:40.424331Z",
-     "shell.execute_reply": "2026-03-11T00:55:40.423324Z"
+     "iopub.execute_input": "2026-03-11T01:09:07.928479Z",
+     "iopub.status.busy": "2026-03-11T01:09:07.928169Z",
+     "iopub.status.idle": "2026-03-11T01:09:24.244861Z",
+     "shell.execute_reply": "2026-03-11T01:09:24.243809Z"
     },
     "papermill": {
-     "duration": 17.311643,
-     "end_time": "2026-03-11T00:55:40.426140",
+     "duration": 16.322618,
+     "end_time": "2026-03-11T01:09:24.246778",
      "exception": false,
-     "start_time": "2026-03-11T00:55:23.114497",
+     "start_time": "2026-03-11T01:09:07.924160",
      "status": "completed"
     },
     "tags": []
@@ -175,13 +175,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "d235fbbf",
+   "id": "214945e1",
    "metadata": {
     "papermill": {
-     "duration": 0.003183,
-     "end_time": "2026-03-11T00:55:40.432800",
+     "duration": 0.002685,
+     "end_time": "2026-03-11T01:09:24.252577",
      "exception": false,
-     "start_time": "2026-03-11T00:55:40.429617",
+     "start_time": "2026-03-11T01:09:24.249892",
      "status": "completed"
     },
     "tags": []
@@ -193,19 +193,19 @@
   {
    "cell_type": "code",
    "execution_count": 3,
-   "id": "4f82c649",
+   "id": "9d1bea6e",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-03-11T00:55:40.441510Z",
-     "iopub.status.busy": "2026-03-11T00:55:40.440692Z",
-     "iopub.status.idle": "2026-03-11T00:55:40.455899Z",
-     "shell.execute_reply": "2026-03-11T00:55:40.454904Z"
+     "iopub.execute_input": "2026-03-11T01:09:24.259998Z",
+     "iopub.status.busy": "2026-03-11T01:09:24.259480Z",
+     "iopub.status.idle": "2026-03-11T01:09:24.276678Z",
+     "shell.execute_reply": "2026-03-11T01:09:24.275697Z"
     },
     "papermill": {
-     "duration": 0.021581,
-     "end_time": "2026-03-11T00:55:40.457750",
+     "duration": 0.022706,
+     "end_time": "2026-03-11T01:09:24.278041",
      "exception": false,
-     "start_time": "2026-03-11T00:55:40.436169",
+     "start_time": "2026-03-11T01:09:24.255335",
      "status": "completed"
     },
     "tags": []
@@ -272,13 +272,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "30b10b46",
+   "id": "7c6743a9",
    "metadata": {
     "papermill": {
-     "duration": 0.003538,
-     "end_time": "2026-03-11T00:55:40.464803",
+     "duration": 0.003716,
+     "end_time": "2026-03-11T01:09:24.284827",
      "exception": false,
-     "start_time": "2026-03-11T00:55:40.461265",
+     "start_time": "2026-03-11T01:09:24.281111",
      "status": "completed"
     },
     "tags": []
@@ -301,19 +301,19 @@
   {
    "cell_type": "code",
    "execution_count": 4,
-   "id": "66676e5b",
+   "id": "a1b5636d",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-03-11T00:55:40.472638Z",
-     "iopub.status.busy": "2026-03-11T00:55:40.472322Z",
-     "iopub.status.idle": "2026-03-11T00:55:40.578884Z",
-     "shell.execute_reply": "2026-03-11T00:55:40.577813Z"
+     "iopub.execute_input": "2026-03-11T01:09:24.292973Z",
+     "iopub.status.busy": "2026-03-11T01:09:24.292684Z",
+     "iopub.status.idle": "2026-03-11T01:09:24.390045Z",
+     "shell.execute_reply": "2026-03-11T01:09:24.389303Z"
     },
     "papermill": {
-     "duration": 0.112557,
-     "end_time": "2026-03-11T00:55:40.580561",
+     "duration": 0.103672,
+     "end_time": "2026-03-11T01:09:24.391297",
      "exception": false,
-     "start_time": "2026-03-11T00:55:40.468004",
+     "start_time": "2026-03-11T01:09:24.287625",
      "status": "completed"
     },
     "tags": []
@@ -514,13 +514,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "7ce45837",
+   "id": "d2acf303",
    "metadata": {
     "papermill": {
-     "duration": 0.003526,
-     "end_time": "2026-03-11T00:55:40.589060",
+     "duration": 0.003196,
+     "end_time": "2026-03-11T01:09:24.397836",
      "exception": false,
-     "start_time": "2026-03-11T00:55:40.585534",
+     "start_time": "2026-03-11T01:09:24.394640",
      "status": "completed"
     },
     "tags": []
@@ -536,19 +536,19 @@
   {
    "cell_type": "code",
    "execution_count": 5,
-   "id": "eee1e488",
+   "id": "2c08f1fd",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-03-11T00:55:40.598248Z",
-     "iopub.status.busy": "2026-03-11T00:55:40.597435Z",
-     "iopub.status.idle": "2026-03-11T00:55:41.287322Z",
-     "shell.execute_reply": "2026-03-11T00:55:41.286494Z"
+     "iopub.execute_input": "2026-03-11T01:09:24.406101Z",
+     "iopub.status.busy": "2026-03-11T01:09:24.405552Z",
+     "iopub.status.idle": "2026-03-11T01:09:24.950789Z",
+     "shell.execute_reply": "2026-03-11T01:09:24.949938Z"
     },
     "papermill": {
-     "duration": 0.696566,
-     "end_time": "2026-03-11T00:55:41.289289",
+     "duration": 0.551169,
+     "end_time": "2026-03-11T01:09:24.952159",
      "exception": false,
-     "start_time": "2026-03-11T00:55:40.592723",
+     "start_time": "2026-03-11T01:09:24.400990",
      "status": "completed"
     },
     "tags": []
@@ -609,13 +609,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "2dd6b06a",
+   "id": "2dcbb72e",
    "metadata": {
     "papermill": {
-     "duration": 0.00416,
-     "end_time": "2026-03-11T00:55:41.297872",
+     "duration": 0.003512,
+     "end_time": "2026-03-11T01:09:24.959385",
      "exception": false,
-     "start_time": "2026-03-11T00:55:41.293712",
+     "start_time": "2026-03-11T01:09:24.955873",
      "status": "completed"
     },
     "tags": []
@@ -629,19 +629,19 @@
   {
    "cell_type": "code",
    "execution_count": 6,
-   "id": "792fbf94",
+   "id": "6d031a44",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-03-11T00:55:41.307507Z",
-     "iopub.status.busy": "2026-03-11T00:55:41.307050Z",
-     "iopub.status.idle": "2026-03-11T00:55:43.749903Z",
-     "shell.execute_reply": "2026-03-11T00:55:43.748928Z"
+     "iopub.execute_input": "2026-03-11T01:09:24.970255Z",
+     "iopub.status.busy": "2026-03-11T01:09:24.969935Z",
+     "iopub.status.idle": "2026-03-11T01:09:26.954722Z",
+     "shell.execute_reply": "2026-03-11T01:09:26.953628Z"
     },
     "papermill": {
-     "duration": 2.471191,
-     "end_time": "2026-03-11T00:55:43.773084",
+     "duration": 2.002584,
+     "end_time": "2026-03-11T01:09:26.965668",
      "exception": false,
-     "start_time": "2026-03-11T00:55:41.301893",
+     "start_time": "2026-03-11T01:09:24.963084",
      "status": "completed"
     },
     "tags": []
@@ -697,13 +697,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "9596c0c0",
+   "id": "7db432c3",
    "metadata": {
     "papermill": {
-     "duration": 0.018148,
-     "end_time": "2026-03-11T00:55:43.810666",
+     "duration": 0.012841,
+     "end_time": "2026-03-11T01:09:26.991382",
      "exception": false,
-     "start_time": "2026-03-11T00:55:43.792518",
+     "start_time": "2026-03-11T01:09:26.978541",
      "status": "completed"
     },
     "tags": []
@@ -717,19 +717,19 @@
   {
    "cell_type": "code",
    "execution_count": 7,
-   "id": "42bf84c4",
+   "id": "e73a2a0a",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-03-11T00:55:43.846628Z",
-     "iopub.status.busy": "2026-03-11T00:55:43.846259Z",
-     "iopub.status.idle": "2026-03-11T00:55:46.484270Z",
-     "shell.execute_reply": "2026-03-11T00:55:46.483385Z"
+     "iopub.execute_input": "2026-03-11T01:09:27.016146Z",
+     "iopub.status.busy": "2026-03-11T01:09:27.015897Z",
+     "iopub.status.idle": "2026-03-11T01:09:30.308507Z",
+     "shell.execute_reply": "2026-03-11T01:09:30.307565Z"
     },
     "papermill": {
-     "duration": 2.658961,
-     "end_time": "2026-03-11T00:55:46.486714",
+     "duration": 3.307396,
+     "end_time": "2026-03-11T01:09:30.310361",
      "exception": false,
-     "start_time": "2026-03-11T00:55:43.827753",
+     "start_time": "2026-03-11T01:09:27.002965",
      "status": "completed"
     },
     "tags": []
@@ -806,13 +806,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "af3b5e6e",
+   "id": "09e12e01",
    "metadata": {
     "papermill": {
-     "duration": 0.016915,
-     "end_time": "2026-03-11T00:55:46.522632",
+     "duration": 0.011746,
+     "end_time": "2026-03-11T01:09:30.335435",
      "exception": false,
-     "start_time": "2026-03-11T00:55:46.505717",
+     "start_time": "2026-03-11T01:09:30.323689",
      "status": "completed"
     },
     "tags": []
@@ -834,19 +834,19 @@
   {
    "cell_type": "code",
    "execution_count": 8,
-   "id": "298bfba5",
+   "id": "291df3cb",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-03-11T00:55:46.558935Z",
-     "iopub.status.busy": "2026-03-11T00:55:46.558603Z",
-     "iopub.status.idle": "2026-03-11T00:55:46.599529Z",
-     "shell.execute_reply": "2026-03-11T00:55:46.598509Z"
+     "iopub.execute_input": "2026-03-11T01:09:30.365397Z",
+     "iopub.status.busy": "2026-03-11T01:09:30.365113Z",
+     "iopub.status.idle": "2026-03-11T01:09:30.399180Z",
+     "shell.execute_reply": "2026-03-11T01:09:30.398166Z"
     },
     "papermill": {
-     "duration": 0.061662,
-     "end_time": "2026-03-11T00:55:46.601375",
+     "duration": 0.050886,
+     "end_time": "2026-03-11T01:09:30.400900",
      "exception": false,
-     "start_time": "2026-03-11T00:55:46.539713",
+     "start_time": "2026-03-11T01:09:30.350014",
      "status": "completed"
     },
     "tags": []
@@ -912,13 +912,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "4c23d6f0",
+   "id": "4bc2aad1",
    "metadata": {
     "papermill": {
-     "duration": 0.016522,
-     "end_time": "2026-03-11T00:55:46.634881",
+     "duration": 0.012612,
+     "end_time": "2026-03-11T01:09:30.425851",
      "exception": false,
-     "start_time": "2026-03-11T00:55:46.618359",
+     "start_time": "2026-03-11T01:09:30.413239",
      "status": "completed"
     },
     "tags": []
@@ -948,19 +948,19 @@
   {
    "cell_type": "code",
    "execution_count": 9,
-   "id": "230abb3d",
+   "id": "af354b71",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-03-11T00:55:46.670078Z",
-     "iopub.status.busy": "2026-03-11T00:55:46.669732Z",
-     "iopub.status.idle": "2026-03-11T00:55:46.687974Z",
-     "shell.execute_reply": "2026-03-11T00:55:46.687193Z"
+     "iopub.execute_input": "2026-03-11T01:09:30.453347Z",
+     "iopub.status.busy": "2026-03-11T01:09:30.453053Z",
+     "iopub.status.idle": "2026-03-11T01:09:30.470432Z",
+     "shell.execute_reply": "2026-03-11T01:09:30.469094Z"
     },
     "papermill": {
-     "duration": 0.038331,
-     "end_time": "2026-03-11T00:55:46.689578",
+     "duration": 0.033145,
+     "end_time": "2026-03-11T01:09:30.472242",
      "exception": false,
-     "start_time": "2026-03-11T00:55:46.651247",
+     "start_time": "2026-03-11T01:09:30.439097",
      "status": "completed"
     },
     "tags": []
@@ -1037,6 +1037,323 @@
     "print(f'Training pipeline   : {len(train_transform.transforms)} transforms')\n",
     "print(f'Validation pipeline : {len(val_transform.transforms)} transforms (resize + normalise only)')"
    ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "2e67d2d7",
+   "metadata": {
+    "papermill": {
+     "duration": 0.012105,
+     "end_time": "2026-03-11T01:09:30.496344",
+     "exception": false,
+     "start_time": "2026-03-11T01:09:30.484239",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "### Step 4 - PyTorch Dataset and DataLoader\n",
+    "\n",
+    "A **Dataset** is a Python class that knows how to retrieve one training example. Think of it as a smart list: you ask for item number 500, it opens the 500th image file, applies the augmentation pipeline, and hands you back a (tensor, label) pair.\n",
+    "\n",
+    "A **DataLoader** wraps the Dataset and handles the mechanics of batching. It uses background worker processes (`num_workers=2`) to pre-load the next batch while the GPU is processing the current one, keeping the GPU busy at all times. `pin_memory=True` speeds up the transfer of image data from CPU RAM to GPU memory.\n",
+    "\n",
+    "The `_load_image` method includes a graceful fallback: if an image file is missing, it returns a neutral grey image instead of crashing. This makes the pipeline robust to small dataset issues."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "id": "a3706855",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2026-03-11T01:09:30.523912Z",
+     "iopub.status.busy": "2026-03-11T01:09:30.523630Z",
+     "iopub.status.idle": "2026-03-11T01:09:31.631741Z",
+     "shell.execute_reply": "2026-03-11T01:09:31.630788Z"
+    },
+    "papermill": {
+     "duration": 1.124845,
+     "end_time": "2026-03-11T01:09:31.633094",
+     "exception": false,
+     "start_time": "2026-03-11T01:09:30.508249",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Train batches : 1006\n",
+      "Val   batches : 252\n",
+      "Test  batches : 185\n",
+      "One batch shape : torch.Size([32, 3, 224, 224])  (batch_size x channels x H x W)\n",
+      "Label range     : 0 to 7\n"
+     ]
+    }
+   ],
+   "source": [
+    "class CircleIDDataset(Dataset):\n",
+    "    \"\"\"\n",
+    "    Custom PyTorch Dataset for the CircleID pen classification task.\n",
+    "\n",
+    "    For a training row it returns (image_tensor, label).\n",
+    "    For a test row (is_test=True) it returns (image_tensor, image_id).\n",
+    "    \"\"\"\n",
+    "\n",
+    "    def __init__(self, df: pd.DataFrame, data_dir: Path,\n",
+    "                 transform=None, is_test: bool = False):\n",
+    "        self.df        = df.reset_index(drop=True)\n",
+    "        self.data_dir  = data_dir\n",
+    "        self.transform = transform\n",
+    "        self.is_test   = is_test\n",
+    "\n",
+    "    def __len__(self) -> int:\n",
+    "        return len(self.df)\n",
+    "\n",
+    "    def _load_image(self, path: Path) -> np.ndarray:\n",
+    "        '''Load a single PNG as an RGB numpy array.'''\n",
+    "        if path.exists():\n",
+    "            return np.array(Image.open(path).convert('RGB'))\n",
+    "        # If the file is missing, return a neutral grey image instead of crashing\n",
+    "        return np.full((IMG_SIZE, IMG_SIZE, 3), 128, dtype=np.uint8)\n",
+    "\n",
+    "    def __getitem__(self, idx: int):\n",
+    "        row   = self.df.iloc[idx]\n",
+    "        image = self._load_image(self.data_dir / row['image_path'])\n",
+    "\n",
+    "        if self.transform is not None:\n",
+    "            image = self.transform(image=image)['image']  # returns (C, H, W) tensor\n",
+    "        else:\n",
+    "            image = torch.from_numpy(image.transpose(2, 0, 1)).float() / 255.0\n",
+    "\n",
+    "        if self.is_test:\n",
+    "            return image, str(row['image_id'])\n",
+    "        return image, int(row['label'])\n",
+    "\n",
+    "\n",
+    "# Build Dataset objects \n",
+    "train_dataset = CircleIDDataset(train_split, DATA_DIR, transform=train_transform)\n",
+    "val_dataset   = CircleIDDataset(val_split,   DATA_DIR, transform=val_transform)\n",
+    "test_dataset  = CircleIDDataset(test_df,     DATA_DIR, transform=val_transform,\n",
+    "                                is_test=True)\n",
+    "\n",
+    "# Build DataLoader objects\n",
+    "# drop_last=True in the train loader drops the final incomplete batch so that\n",
+    "# batch normalisation layers always receive a full batch of 32 images.\n",
+    "train_loader = DataLoader(train_dataset, batch_size=BATCH_SIZE, shuffle=True,\n",
+    "                          num_workers=NUM_WORKERS, pin_memory=True, drop_last=True)\n",
+    "val_loader   = DataLoader(val_dataset,   batch_size=BATCH_SIZE, shuffle=False,\n",
+    "                          num_workers=NUM_WORKERS, pin_memory=True)\n",
+    "test_loader  = DataLoader(test_dataset,  batch_size=BATCH_SIZE, shuffle=False,\n",
+    "                          num_workers=NUM_WORKERS, pin_memory=True)\n",
+    "\n",
+    "# Quick sanity check\n",
+    "sample_imgs, sample_labels = next(iter(train_loader))\n",
+    "print(f'Train batches : {len(train_loader)}')\n",
+    "print(f'Val   batches : {len(val_loader)}')\n",
+    "print(f'Test  batches : {len(test_loader)}')\n",
+    "print(f'One batch shape : {sample_imgs.shape}  (batch_size x channels x H x W)')\n",
+    "print(f'Label range     : {sample_labels.min().item()} to {sample_labels.max().item()}')"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "f6a14a63",
+   "metadata": {
+    "papermill": {
+     "duration": 0.012718,
+     "end_time": "2026-03-11T01:09:31.657533",
+     "exception": false,
+     "start_time": "2026-03-11T01:09:31.644815",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "### Loss Function, Optimiser, and Learning Rate Scheduler\n",
+    "\n",
+    "**Label-smoothed CrossEntropyLoss** is the standard loss for multi-class classification. Normally the loss trains the model to predict exactly 1.0 for the correct class and 0.0 for all others. Label smoothing of 0.1 softens this to 0.9 / 0.1-spread, which prevents the model from becoming overconfident and helps it generalise to unseen writers.\n",
+    "\n",
+    "**AdamW optimiser** updates the weights based on the gradient of the loss. The 'W' means 'weight decay' — a penalty that discourages very large weights, similar to how a teacher penalises a student who memorises rather than understands. We use different weight decay settings for the main weights vs. bias and normalisation parameters (which should not be penalised).\n",
+    "\n",
+    "**Warm-up + cosine decay scheduler** controls how big the weight-update steps are over time. For the first 5% of training we gradually increase the learning rate from near-zero to the full value (warm-up). Then we slowly decrease it following a cosine curve until it reaches near-zero at the end of training. Large steps early, tiny precise steps later.\n",
+    "\n",
+    "**GradScaler (mixed precision)** lets most calculations use 16-bit floating point instead of 32-bit. This roughly doubles speed on modern GPUs with no meaningful accuracy loss. The scaler prevents gradients from underflowing to zero in 16-bit."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "id": "8c8e2a9f",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2026-03-11T01:09:31.684183Z",
+     "iopub.status.busy": "2026-03-11T01:09:31.683905Z",
+     "iopub.status.idle": "2026-03-11T01:09:35.527745Z",
+     "shell.execute_reply": "2026-03-11T01:09:35.526828Z"
+    },
+    "papermill": {
+     "duration": 3.859407,
+     "end_time": "2026-03-11T01:09:35.529166",
+     "exception": false,
+     "start_time": "2026-03-11T01:09:31.669759",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Device     : cpu\n",
+      "timm       : 1.0.24\n",
+      "Model      : tf_efficientnetv2_s.in21k_ft_in1k\n"
+     ]
+    },
+    {
+     "name": "stderr",
+     "output_type": "stream",
+     "text": [
+      "Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"
+     ]
+    },
+    {
+     "data": {
+      "application/vnd.jupyter.widget-view+json": {
+       "model_id": "2b81137504a84561aa441a6bbbbf3583",
+       "version_major": 2,
+       "version_minor": 0
+      },
+      "text/plain": [
+       "model.safetensors:   0%|          | 0.00/86.5M [00:00<?, ?B/s]"
+      ]
+     },
+     "metadata": {},
+     "output_type": "display_data"
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "\n",
+      "Backbone feature dim : 1280\n",
+      "Total params         : 20,190,296\n",
+      "Trainable params     : 20,190,296\n",
+      "\n",
+      "Loss        : CrossEntropyLoss  label_smoothing=0.1\n",
+      "Optimiser   : AdamW  |  LR=0.0003  |  weight_decay=0.01\n",
+      "Total steps : 20,120  (warm-up: 1006 steps)\n",
+      "Mixed prec. : False\n",
+      "\n",
+      "All components ready — proceed to the training loop.\n"
+     ]
+    }
+   ],
+   "source": [
+    "import math\n",
+    "import numpy as np\n",
+    "import torch\n",
+    "import torch.nn as nn\n",
+    "import torch.optim as optim\n",
+    "import timm\n",
+    "from torch.cuda.amp import GradScaler\n",
+    "\n",
+    "# Config (self-contained so this cell always works)\n",
+    "IMG_SIZE     = 224\n",
+    "NUM_CLASSES  = 8\n",
+    "LABEL_SMOOTH = 0.1\n",
+    "LR           = 3e-4\n",
+    "WEIGHT_DECAY = 1e-2\n",
+    "NUM_EPOCHS   = 20\n",
+    "DEVICE       = torch.device('cuda' if torch.cuda.is_available() else 'cpu')\n",
+    "\n",
+    "# FIXED: 'efficientnetv2_s' has no pretrained weights in timm 1.0+.\n",
+    "# 'tf_efficientnetv2_s.in21k_ft_in1k' is the correct pretrained variant —\n",
+    "# same architecture, weights from ImageNet-21k fine-tuned on ImageNet-1k.\n",
+    "MODEL_NAME   = 'tf_efficientnetv2_s.in21k_ft_in1k'\n",
+    "\n",
+    "print(f'Device     : {DEVICE}')\n",
+    "print(f'timm       : {timm.__version__}')\n",
+    "print(f'Model      : {MODEL_NAME}')\n",
+    "\n",
+    "# Model definition\n",
+    "def build_model(model_name=MODEL_NAME, num_classes=NUM_CLASSES, pretrained=True):\n",
+    "    '''\n",
+    "    Loads a pretrained EfficientNetV2-S backbone and attaches a custom head:\n",
+    "        LayerNorm → Dropout(0.3) → Linear(feat_dim, 8)\n",
+    "    '''\n",
+    "    backbone = timm.create_model(model_name, pretrained=pretrained, num_classes=0)\n",
+    "\n",
+    "    # Measure the feature vector size the backbone produces\n",
+    "    with torch.no_grad():\n",
+    "        feat_dim = backbone(torch.zeros(1, 3, IMG_SIZE, IMG_SIZE)).shape[-1]\n",
+    "\n",
+    "    # Replace the head with our 8-class classifier\n",
+    "    backbone.head = nn.Sequential(\n",
+    "        nn.LayerNorm(feat_dim),\n",
+    "        nn.Dropout(p=0.3),\n",
+    "        nn.Linear(feat_dim, num_classes),\n",
+    "    )\n",
+    "    return backbone, feat_dim\n",
+    "\n",
+    "\n",
+    "model, feat_dim = build_model()\n",
+    "model = model.to(DEVICE)\n",
+    "\n",
+    "total_params     = sum(p.numel() for p in model.parameters())\n",
+    "trainable_params = sum(p.numel() for p in model.parameters() if p.requires_grad)\n",
+    "print(f'\\nBackbone feature dim : {feat_dim}')\n",
+    "print(f'Total params         : {total_params:,}')\n",
+    "print(f'Trainable params     : {trainable_params:,}')\n",
+    "\n",
+    "# Loss function\n",
+    "criterion = nn.CrossEntropyLoss(label_smoothing=LABEL_SMOOTH)\n",
+    "\n",
+    "# Optimiser with per-group weight decay\n",
+    "# Bias and normalisation weights are excluded from weight decay because\n",
+    "# penalising them hurts rather than helps generalisation.\n",
+    "NO_DECAY = {'bias', 'LayerNorm.weight', 'layer_norm.weight', 'norm'}\n",
+    "param_groups = [\n",
+    "    {\n",
+    "        'params': [p for n, p in model.named_parameters()\n",
+    "                   if not any(nd in n for nd in NO_DECAY)],\n",
+    "        'weight_decay': WEIGHT_DECAY,\n",
+    "    },\n",
+    "    {\n",
+    "        'params': [p for n, p in model.named_parameters()\n",
+    "                   if any(nd in n for nd in NO_DECAY)],\n",
+    "        'weight_decay': 0.0,\n",
+    "    },\n",
+    "]\n",
+    "optimizer = optim.AdamW(param_groups, lr=LR)\n",
+    "\n",
+    "# Warm-up + cosine decay scheduler\n",
+    "total_steps  = NUM_EPOCHS * len(train_loader)\n",
+    "warmup_steps = int(0.05 * total_steps)   # First 5% of steps = warm-up phase\n",
+    "\n",
+    "def lr_lambda(step: int) -> float:\n",
+    "    '''Linear ramp-up for warmup_steps, then smooth cosine decay to ~0.'''\n",
+    "    if step < warmup_steps:\n",
+    "        return float(step) / float(max(1, warmup_steps))\n",
+    "    progress = float(step - warmup_steps) / float(max(1, total_steps - warmup_steps))\n",
+    "    return max(0.0, 0.5 * (1.0 + np.cos(np.pi * progress)))\n",
+    "\n",
+    "scheduler = optim.lr_scheduler.LambdaLR(optimizer, lr_lambda)\n",
+    "\n",
+    "# Mixed precision scaler\n",
+    "# Enabled only on GPU — on CPU it adds overhead without any speed benefit.\n",
+    "scaler = GradScaler(enabled=(DEVICE.type == 'cuda'))\n",
+    "\n",
+    "print(f'\\nLoss        : CrossEntropyLoss  label_smoothing={LABEL_SMOOTH}')\n",
+    "print(f'Optimiser   : AdamW  |  LR={LR}  |  weight_decay={WEIGHT_DECAY}')\n",
+    "print(f'Total steps : {total_steps:,}  (warm-up: {warmup_steps} steps)')\n",
+    "print(f'Mixed prec. : {DEVICE.type == \"cuda\"}')\n",
+    "print('\\nAll components ready — proceed to the training loop.')"
+   ]
   }
  ],
  "metadata": {
@@ -1074,15 +1391,383 @@
   },
   "papermill": {
    "default_parameters": {},
-   "duration": 32.950822,
-   "end_time": "2026-03-11T00:55:48.530251",
+   "duration": 37.29566,
+   "end_time": "2026-03-11T01:09:38.063699",
    "environment_variables": {},
    "exception": null,
    "input_path": "__notebook__.ipynb",
    "output_path": "__notebook__.ipynb",
    "parameters": {},
-   "start_time": "2026-03-11T00:55:15.579429",
+   "start_time": "2026-03-11T01:09:00.768039",
    "version": "2.6.0"
+  },
+  "widgets": {
+   "application/vnd.jupyter.widget-state+json": {
+    "state": {
+     "0abf8e9bfa6640efaa11f3e7e2d1d2ba": {
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "2.0.0",
+      "model_name": "HTMLStyleModel",
+      "state": {
+       "_model_module": "@jupyter-widgets/controls",
+       "_model_module_version": "2.0.0",
+       "_model_name": "HTMLStyleModel",
+       "_view_count": null,
+       "_view_module": "@jupyter-widgets/base",
+       "_view_module_version": "2.0.0",
+       "_view_name": "StyleView",
+       "background": null,
+       "description_width": "",
+       "font_size": null,
+       "text_color": null
+      }
+     },
+     "0fe0c45583d9457baf14d36ac64baf89": {
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "2.0.0",
+      "model_name": "LayoutModel",
+      "state": {
+       "_model_module": "@jupyter-widgets/base",
+       "_model_module_version": "2.0.0",
+       "_model_name": "LayoutModel",
+       "_view_count": null,
+       "_view_module": "@jupyter-widgets/base",
+       "_view_module_version": "2.0.0",
+       "_view_name": "LayoutView",
+       "align_content": null,
+       "align_items": null,
+       "align_self": null,
+       "border_bottom": null,
+       "border_left": null,
+       "border_right": null,
+       "border_top": null,
+       "bottom": null,
+       "display": null,
+       "flex": null,
+       "flex_flow": null,
+       "grid_area": null,
+       "grid_auto_columns": null,
+       "grid_auto_flow": null,
+       "grid_auto_rows": null,
+       "grid_column": null,
+       "grid_gap": null,
+       "grid_row": null,
+       "grid_template_areas": null,
+       "grid_template_columns": null,
+       "grid_template_rows": null,
+       "height": null,
+       "justify_content": null,
+       "justify_items": null,
+       "left": null,
+       "margin": null,
+       "max_height": null,
+       "max_width": null,
+       "min_height": null,
+       "min_width": null,
+       "object_fit": null,
+       "object_position": null,
+       "order": null,
+       "overflow": null,
+       "padding": null,
+       "right": null,
+       "top": null,
+       "visibility": null,
+       "width": null
+      }
+     },
+     "2b81137504a84561aa441a6bbbbf3583": {
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "2.0.0",
+      "model_name": "HBoxModel",
+      "state": {
+       "_dom_classes": [],
+       "_model_module": "@jupyter-widgets/controls",
+       "_model_module_version": "2.0.0",
+       "_model_name": "HBoxModel",
+       "_view_count": null,
+       "_view_module": "@jupyter-widgets/controls",
+       "_view_module_version": "2.0.0",
+       "_view_name": "HBoxView",
+       "box_style": "",
+       "children": [
+        "IPY_MODEL_638b51a41fbb47d395acd390e78eb3cf",
+        "IPY_MODEL_b8e7c454458240849feafccca9ec79db",
+        "IPY_MODEL_497ac688d96741cebdf02a0e7489581f"
+       ],
+       "layout": "IPY_MODEL_84f6e69c934446e485406d2885af2888",
+       "tabbable": null,
+       "tooltip": null
+      }
+     },
+     "3547c85789cf456f9ba61116b164106b": {
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "2.0.0",
+      "model_name": "LayoutModel",
+      "state": {
+       "_model_module": "@jupyter-widgets/base",
+       "_model_module_version": "2.0.0",
+       "_model_name": "LayoutModel",
+       "_view_count": null,
+       "_view_module": "@jupyter-widgets/base",
+       "_view_module_version": "2.0.0",
+       "_view_name": "LayoutView",
+       "align_content": null,
+       "align_items": null,
+       "align_self": null,
+       "border_bottom": null,
+       "border_left": null,
+       "border_right": null,
+       "border_top": null,
+       "bottom": null,
+       "display": null,
+       "flex": null,
+       "flex_flow": null,
+       "grid_area": null,
+       "grid_auto_columns": null,
+       "grid_auto_flow": null,
+       "grid_auto_rows": null,
+       "grid_column": null,
+       "grid_gap": null,
+       "grid_row": null,
+       "grid_template_areas": null,
+       "grid_template_columns": null,
+       "grid_template_rows": null,
+       "height": null,
+       "justify_content": null,
+       "justify_items": null,
+       "left": null,
+       "margin": null,
+       "max_height": null,
+       "max_width": null,
+       "min_height": null,
+       "min_width": null,
+       "object_fit": null,
+       "object_position": null,
+       "order": null,
+       "overflow": null,
+       "padding": null,
+       "right": null,
+       "top": null,
+       "visibility": null,
+       "width": null
+      }
+     },
+     "497ac688d96741cebdf02a0e7489581f": {
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "2.0.0",
+      "model_name": "HTMLModel",
+      "state": {
+       "_dom_classes": [],
+       "_model_module": "@jupyter-widgets/controls",
+       "_model_module_version": "2.0.0",
+       "_model_name": "HTMLModel",
+       "_view_count": null,
+       "_view_module": "@jupyter-widgets/controls",
+       "_view_module_version": "2.0.0",
+       "_view_name": "HTMLView",
+       "description": "",
+       "description_allow_html": false,
+       "layout": "IPY_MODEL_3547c85789cf456f9ba61116b164106b",
+       "placeholder": "​",
+       "style": "IPY_MODEL_0abf8e9bfa6640efaa11f3e7e2d1d2ba",
+       "tabbable": null,
+       "tooltip": null,
+       "value": " 86.5M/86.5M [00:02&lt;00:00, 77.3MB/s]"
+      }
+     },
+     "638b51a41fbb47d395acd390e78eb3cf": {
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "2.0.0",
+      "model_name": "HTMLModel",
+      "state": {
+       "_dom_classes": [],
+       "_model_module": "@jupyter-widgets/controls",
+       "_model_module_version": "2.0.0",
+       "_model_name": "HTMLModel",
+       "_view_count": null,
+       "_view_module": "@jupyter-widgets/controls",
+       "_view_module_version": "2.0.0",
+       "_view_name": "HTMLView",
+       "description": "",
+       "description_allow_html": false,
+       "layout": "IPY_MODEL_0fe0c45583d9457baf14d36ac64baf89",
+       "placeholder": "​",
+       "style": "IPY_MODEL_f243f2ba706f49a78b9bedcc1b77eef9",
+       "tabbable": null,
+       "tooltip": null,
+       "value": "model.safetensors: 100%"
+      }
+     },
+     "84f6e69c934446e485406d2885af2888": {
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "2.0.0",
+      "model_name": "LayoutModel",
+      "state": {
+       "_model_module": "@jupyter-widgets/base",
+       "_model_module_version": "2.0.0",
+       "_model_name": "LayoutModel",
+       "_view_count": null,
+       "_view_module": "@jupyter-widgets/base",
+       "_view_module_version": "2.0.0",
+       "_view_name": "LayoutView",
+       "align_content": null,
+       "align_items": null,
+       "align_self": null,
+       "border_bottom": null,
+       "border_left": null,
+       "border_right": null,
+       "border_top": null,
+       "bottom": null,
+       "display": null,
+       "flex": null,
+       "flex_flow": null,
+       "grid_area": null,
+       "grid_auto_columns": null,
+       "grid_auto_flow": null,
+       "grid_auto_rows": null,
+       "grid_column": null,
+       "grid_gap": null,
+       "grid_row": null,
+       "grid_template_areas": null,
+       "grid_template_columns": null,
+       "grid_template_rows": null,
+       "height": null,
+       "justify_content": null,
+       "justify_items": null,
+       "left": null,
+       "margin": null,
+       "max_height": null,
+       "max_width": null,
+       "min_height": null,
+       "min_width": null,
+       "object_fit": null,
+       "object_position": null,
+       "order": null,
+       "overflow": null,
+       "padding": null,
+       "right": null,
+       "top": null,
+       "visibility": null,
+       "width": null
+      }
+     },
+     "9c6d848d09a540f1b256e8f0ad65e3e8": {
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "2.0.0",
+      "model_name": "LayoutModel",
+      "state": {
+       "_model_module": "@jupyter-widgets/base",
+       "_model_module_version": "2.0.0",
+       "_model_name": "LayoutModel",
+       "_view_count": null,
+       "_view_module": "@jupyter-widgets/base",
+       "_view_module_version": "2.0.0",
+       "_view_name": "LayoutView",
+       "align_content": null,
+       "align_items": null,
+       "align_self": null,
+       "border_bottom": null,
+       "border_left": null,
+       "border_right": null,
+       "border_top": null,
+       "bottom": null,
+       "display": null,
+       "flex": null,
+       "flex_flow": null,
+       "grid_area": null,
+       "grid_auto_columns": null,
+       "grid_auto_flow": null,
+       "grid_auto_rows": null,
+       "grid_column": null,
+       "grid_gap": null,
+       "grid_row": null,
+       "grid_template_areas": null,
+       "grid_template_columns": null,
+       "grid_template_rows": null,
+       "height": null,
+       "justify_content": null,
+       "justify_items": null,
+       "left": null,
+       "margin": null,
+       "max_height": null,
+       "max_width": null,
+       "min_height": null,
+       "min_width": null,
+       "object_fit": null,
+       "object_position": null,
+       "order": null,
+       "overflow": null,
+       "padding": null,
+       "right": null,
+       "top": null,
+       "visibility": null,
+       "width": null
+      }
+     },
+     "b8e7c454458240849feafccca9ec79db": {
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "2.0.0",
+      "model_name": "FloatProgressModel",
+      "state": {
+       "_dom_classes": [],
+       "_model_module": "@jupyter-widgets/controls",
+       "_model_module_version": "2.0.0",
+       "_model_name": "FloatProgressModel",
+       "_view_count": null,
+       "_view_module": "@jupyter-widgets/controls",
+       "_view_module_version": "2.0.0",
+       "_view_name": "ProgressView",
+       "bar_style": "success",
+       "description": "",
+       "description_allow_html": false,
+       "layout": "IPY_MODEL_9c6d848d09a540f1b256e8f0ad65e3e8",
+       "max": 86523256.0,
+       "min": 0.0,
+       "orientation": "horizontal",
+       "style": "IPY_MODEL_e2386d479c8b44359784e62355bd3025",
+       "tabbable": null,
+       "tooltip": null,
+       "value": 86523256.0
+      }
+     },
+     "e2386d479c8b44359784e62355bd3025": {
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "2.0.0",
+      "model_name": "ProgressStyleModel",
+      "state": {
+       "_model_module": "@jupyter-widgets/controls",
+       "_model_module_version": "2.0.0",
+       "_model_name": "ProgressStyleModel",
+       "_view_count": null,
+       "_view_module": "@jupyter-widgets/base",
+       "_view_module_version": "2.0.0",
+       "_view_name": "StyleView",
+       "bar_color": null,
+       "description_width": ""
+      }
+     },
+     "f243f2ba706f49a78b9bedcc1b77eef9": {
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "2.0.0",
+      "model_name": "HTMLStyleModel",
+      "state": {
+       "_model_module": "@jupyter-widgets/controls",
+       "_model_module_version": "2.0.0",
+       "_model_name": "HTMLStyleModel",
+       "_view_count": null,
+       "_view_module": "@jupyter-widgets/base",
+       "_view_module_version": "2.0.0",
+       "_view_name": "StyleView",
+       "background": null,
+       "description_width": "",
+       "font_size": null,
+       "text_color": null
+      }
+     }
+    },
+    "version_major": 2,
+    "version_minor": 0
+   }
   }
  },
  "nbformat": 4,

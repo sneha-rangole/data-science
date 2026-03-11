@@ -2,13 +2,13 @@
  "cells": [
   {
    "cell_type": "markdown",
-   "id": "b31ea8d8",
+   "id": "1ec4f0a5",
    "metadata": {
     "papermill": {
-     "duration": 0.003763,
-     "end_time": "2026-03-09T15:40:50.070667",
+     "duration": 0.004347,
+     "end_time": "2026-03-11T00:50:30.035775",
      "exception": false,
-     "start_time": "2026-03-09T15:40:50.066904",
+     "start_time": "2026-03-11T00:50:30.031428",
      "status": "completed"
     },
     "tags": []
@@ -28,13 +28,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "25d7332a",
+   "id": "a3e7e601",
    "metadata": {
     "papermill": {
-     "duration": 0.002649,
-     "end_time": "2026-03-09T15:40:50.076265",
+     "duration": 0.003159,
+     "end_time": "2026-03-11T00:50:30.042273",
      "exception": false,
-     "start_time": "2026-03-09T15:40:50.073616",
+     "start_time": "2026-03-11T00:50:30.039114",
      "status": "completed"
     },
     "tags": []
@@ -64,19 +64,19 @@
   {
    "cell_type": "code",
    "execution_count": 1,
-   "id": "91b54d7a",
+   "id": "44ce2ef7",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-03-09T15:40:50.083142Z",
-     "iopub.status.busy": "2026-03-09T15:40:50.082813Z",
-     "iopub.status.idle": "2026-03-09T15:40:55.410899Z",
-     "shell.execute_reply": "2026-03-09T15:40:55.409993Z"
+     "iopub.execute_input": "2026-03-11T00:50:30.050443Z",
+     "iopub.status.busy": "2026-03-11T00:50:30.050049Z",
+     "iopub.status.idle": "2026-03-11T00:50:35.771155Z",
+     "shell.execute_reply": "2026-03-11T00:50:35.770087Z"
     },
     "papermill": {
-     "duration": 5.33412,
-     "end_time": "2026-03-09T15:40:55.413001",
+     "duration": 5.728116,
+     "end_time": "2026-03-11T00:50:35.773558",
      "exception": false,
-     "start_time": "2026-03-09T15:40:50.078881",
+     "start_time": "2026-03-11T00:50:30.045442",
      "status": "completed"
     },
     "tags": []
@@ -106,19 +106,19 @@
   {
    "cell_type": "code",
    "execution_count": 2,
-   "id": "42cb4fe5",
+   "id": "7e03119d",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-03-09T15:40:55.420499Z",
-     "iopub.status.busy": "2026-03-09T15:40:55.419762Z",
-     "iopub.status.idle": "2026-03-09T15:41:18.281084Z",
-     "shell.execute_reply": "2026-03-09T15:41:18.280042Z"
+     "iopub.execute_input": "2026-03-11T00:50:35.783060Z",
+     "iopub.status.busy": "2026-03-11T00:50:35.782614Z",
+     "iopub.status.idle": "2026-03-11T00:50:58.262980Z",
+     "shell.execute_reply": "2026-03-11T00:50:58.261814Z"
     },
     "papermill": {
-     "duration": 22.867135,
-     "end_time": "2026-03-09T15:41:18.282972",
+     "duration": 22.487869,
+     "end_time": "2026-03-11T00:50:58.265272",
      "exception": false,
-     "start_time": "2026-03-09T15:40:55.415837",
+     "start_time": "2026-03-11T00:50:35.777403",
      "status": "completed"
     },
     "tags": []
@@ -175,13 +175,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "a500bda3",
+   "id": "54880740",
    "metadata": {
     "papermill": {
-     "duration": 0.002722,
-     "end_time": "2026-03-09T15:41:18.288618",
+     "duration": 0.00335,
+     "end_time": "2026-03-11T00:50:58.272194",
      "exception": false,
-     "start_time": "2026-03-09T15:41:18.285896",
+     "start_time": "2026-03-11T00:50:58.268844",
      "status": "completed"
     },
     "tags": []
@@ -193,19 +193,19 @@
   {
    "cell_type": "code",
    "execution_count": 3,
-   "id": "90975dc6",
+   "id": "5bca656e",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-03-09T15:41:18.296183Z",
-     "iopub.status.busy": "2026-03-09T15:41:18.295624Z",
-     "iopub.status.idle": "2026-03-09T15:41:18.314409Z",
-     "shell.execute_reply": "2026-03-09T15:41:18.313248Z"
+     "iopub.execute_input": "2026-03-11T00:50:58.282005Z",
+     "iopub.status.busy": "2026-03-11T00:50:58.280778Z",
+     "iopub.status.idle": "2026-03-11T00:50:58.302995Z",
+     "shell.execute_reply": "2026-03-11T00:50:58.301562Z"
     },
     "papermill": {
-     "duration": 0.024904,
-     "end_time": "2026-03-09T15:41:18.316330",
+     "duration": 0.029425,
+     "end_time": "2026-03-11T00:50:58.304990",
      "exception": false,
-     "start_time": "2026-03-09T15:41:18.291426",
+     "start_time": "2026-03-11T00:50:58.275565",
      "status": "completed"
     },
     "tags": []
@@ -272,13 +272,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "fd82201a",
+   "id": "ccf7795a",
    "metadata": {
     "papermill": {
-     "duration": 0.002869,
-     "end_time": "2026-03-09T15:41:18.322273",
+     "duration": 0.003509,
+     "end_time": "2026-03-11T00:50:58.312165",
      "exception": false,
-     "start_time": "2026-03-09T15:41:18.319404",
+     "start_time": "2026-03-11T00:50:58.308656",
      "status": "completed"
     },
     "tags": []
@@ -301,19 +301,19 @@
   {
    "cell_type": "code",
    "execution_count": 4,
-   "id": "da76ba4c",
+   "id": "1acd83c9",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-03-09T15:41:18.330277Z",
-     "iopub.status.busy": "2026-03-09T15:41:18.329504Z",
-     "iopub.status.idle": "2026-03-09T15:41:18.610527Z",
-     "shell.execute_reply": "2026-03-09T15:41:18.609562Z"
+     "iopub.execute_input": "2026-03-11T00:50:58.320931Z",
+     "iopub.status.busy": "2026-03-11T00:50:58.320443Z",
+     "iopub.status.idle": "2026-03-11T00:50:58.448341Z",
+     "shell.execute_reply": "2026-03-11T00:50:58.447314Z"
     },
     "papermill": {
-     "duration": 0.28737,
-     "end_time": "2026-03-09T15:41:18.612489",
+     "duration": 0.135671,
+     "end_time": "2026-03-11T00:50:58.451099",
      "exception": false,
-     "start_time": "2026-03-09T15:41:18.325119",
+     "start_time": "2026-03-11T00:50:58.315428",
      "status": "completed"
     },
     "tags": []
@@ -514,13 +514,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "29d35f54",
+   "id": "fbef123b",
    "metadata": {
     "papermill": {
-     "duration": 0.003331,
-     "end_time": "2026-03-09T15:41:18.619129",
+     "duration": 0.003757,
+     "end_time": "2026-03-11T00:50:58.460377",
      "exception": false,
-     "start_time": "2026-03-09T15:41:18.615798",
+     "start_time": "2026-03-11T00:50:58.456620",
      "status": "completed"
     },
     "tags": []
@@ -536,19 +536,19 @@
   {
    "cell_type": "code",
    "execution_count": 5,
-   "id": "ff7f8f42",
+   "id": "b344d51f",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-03-09T15:41:18.627311Z",
-     "iopub.status.busy": "2026-03-09T15:41:18.626962Z",
-     "iopub.status.idle": "2026-03-09T15:41:19.397791Z",
-     "shell.execute_reply": "2026-03-09T15:41:19.396567Z"
+     "iopub.execute_input": "2026-03-11T00:50:58.470036Z",
+     "iopub.status.busy": "2026-03-11T00:50:58.469520Z",
+     "iopub.status.idle": "2026-03-11T00:50:59.232644Z",
+     "shell.execute_reply": "2026-03-11T00:50:59.231710Z"
     },
     "papermill": {
-     "duration": 0.777395,
-     "end_time": "2026-03-09T15:41:19.399796",
+     "duration": 0.771431,
+     "end_time": "2026-03-11T00:50:59.235634",
      "exception": false,
-     "start_time": "2026-03-09T15:41:18.622401",
+     "start_time": "2026-03-11T00:50:58.464203",
      "status": "completed"
     },
     "tags": []
@@ -609,13 +609,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "56d99b5e",
+   "id": "60e02d58",
    "metadata": {
     "papermill": {
-     "duration": 0.003814,
-     "end_time": "2026-03-09T15:41:19.408998",
+     "duration": 0.004063,
+     "end_time": "2026-03-11T00:50:59.244216",
      "exception": false,
-     "start_time": "2026-03-09T15:41:19.405184",
+     "start_time": "2026-03-11T00:50:59.240153",
      "status": "completed"
     },
     "tags": []
@@ -629,19 +629,19 @@
   {
    "cell_type": "code",
    "execution_count": 6,
-   "id": "f3ad61cd",
+   "id": "7a116bcd",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-03-09T15:41:19.418783Z",
-     "iopub.status.busy": "2026-03-09T15:41:19.418040Z",
-     "iopub.status.idle": "2026-03-09T15:41:23.073434Z",
-     "shell.execute_reply": "2026-03-09T15:41:23.072454Z"
+     "iopub.execute_input": "2026-03-11T00:50:59.254445Z",
+     "iopub.status.busy": "2026-03-11T00:50:59.253966Z",
+     "iopub.status.idle": "2026-03-11T00:51:01.818528Z",
+     "shell.execute_reply": "2026-03-11T00:51:01.817392Z"
     },
     "papermill": {
-     "duration": 3.694332,
-     "end_time": "2026-03-09T15:41:23.107125",
+     "duration": 2.594079,
+     "end_time": "2026-03-11T00:51:01.842414",
      "exception": false,
-     "start_time": "2026-03-09T15:41:19.412793",
+     "start_time": "2026-03-11T00:50:59.248335",
      "status": "completed"
     },
     "tags": []
@@ -697,13 +697,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "60a00a9e",
+   "id": "c957d593",
    "metadata": {
     "papermill": {
-     "duration": 0.017367,
-     "end_time": "2026-03-09T15:41:23.154519",
+     "duration": 0.018822,
+     "end_time": "2026-03-11T00:51:01.881633",
      "exception": false,
-     "start_time": "2026-03-09T15:41:23.137152",
+     "start_time": "2026-03-11T00:51:01.862811",
      "status": "completed"
     },
     "tags": []
@@ -717,19 +717,19 @@
   {
    "cell_type": "code",
    "execution_count": 7,
-   "id": "f2869f7e",
+   "id": "318b0cdc",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-03-09T15:41:23.188486Z",
-     "iopub.status.busy": "2026-03-09T15:41:23.188095Z",
-     "iopub.status.idle": "2026-03-09T15:41:32.997716Z",
-     "shell.execute_reply": "2026-03-09T15:41:32.996676Z"
+     "iopub.execute_input": "2026-03-11T00:51:01.918167Z",
+     "iopub.status.busy": "2026-03-11T00:51:01.917823Z",
+     "iopub.status.idle": "2026-03-11T00:51:05.110862Z",
+     "shell.execute_reply": "2026-03-11T00:51:05.109857Z"
     },
     "papermill": {
-     "duration": 9.829844,
-     "end_time": "2026-03-09T15:41:33.000300",
+     "duration": 3.214705,
+     "end_time": "2026-03-11T00:51:05.113247",
      "exception": false,
-     "start_time": "2026-03-09T15:41:23.170456",
+     "start_time": "2026-03-11T00:51:01.898542",
      "status": "completed"
     },
     "tags": []
@@ -803,6 +803,164 @@
     "plt.show()\n",
     "print('The red dashed line shows where we resize to. Most images should be near or larger than this line.')"
    ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "1f9944e1",
+   "metadata": {
+    "papermill": {
+     "duration": 0.017933,
+     "end_time": "2026-03-11T00:51:05.151795",
+     "exception": false,
+     "start_time": "2026-03-11T00:51:05.133862",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "## 3 - Data Loading\n",
+    "\n",
+    "### Step 1 - Merging the Training Data\n",
+    "\n",
+    "We have two labelled files: `train.csv` and `additional_train.csv`. The additional file contains some rows where `writer_id == -1`, meaning we know the pen used but not which person drew it.\n",
+    "\n",
+    "The toggle `INCLUDE_UNKNOWN_WRITERS` (set to `True` below) controls whether we include those rows. The pen label is still valid even when the writer is unknown, so including them generally helps. But if you suspect those images are lower quality, set it to `False` to exclude them.\n",
+    "\n",
+    "### Step 2 - Stratified Train / Validation Split\n",
+    "\n",
+    "We split the merged data 80% for training and 20% for validation. The word 'stratified' means we make sure both halves contain the same proportion of each pen class. Without stratification, a random split might put almost all pen-5 images in training and leave none for validation — making it impossible to measure how well the model handles pen 5."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "3622482b",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2026-03-11T00:51:05.188260Z",
+     "iopub.status.busy": "2026-03-11T00:51:05.187943Z",
+     "iopub.status.idle": "2026-03-11T00:51:05.234821Z",
+     "shell.execute_reply": "2026-03-11T00:51:05.233838Z"
+    },
+    "papermill": {
+     "duration": 0.068001,
+     "end_time": "2026-03-11T00:51:05.237269",
+     "exception": false,
+     "start_time": "2026-03-11T00:51:05.169268",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Total labelled images: 40,250\n",
+      "\n",
+      "Pen distribution in combined set:\n",
+      "pen_id\n",
+      "1    5050\n",
+      "2    5000\n",
+      "3    4950\n",
+      "4    5000\n",
+      "5    5100\n",
+      "6    5050\n",
+      "7    5050\n",
+      "8    5050\n",
+      "\n",
+      "Train split: 32,200 images\n",
+      "Val   split: 8,050 images\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Merge training sources\n",
+    "INCLUDE_UNKNOWN_WRITERS = True  # Set False to exclude writer_id == -1 rows\n",
+    "\n",
+    "combined_df = pd.concat([train_df, add_train_df], ignore_index=True)\n",
+    "\n",
+    "if not INCLUDE_UNKNOWN_WRITERS:\n",
+    "    before = len(combined_df)\n",
+    "    # writer_id can be the integer -1 or the string '-1' depending on the file\n",
+    "    combined_df = combined_df[\n",
+    "        (combined_df['writer_id'] != -1) &\n",
+    "        (combined_df['writer_id'] != '-1')\n",
+    "    ].copy()\n",
+    "    print(f'Excluded unknown writers: removed {before - len(combined_df)} rows')\n",
+    "\n",
+    "# Convert pen_id (1-8) to a 0-indexed label (0-7) that PyTorch loss expects\n",
+    "combined_df['label'] = combined_df['pen_id'].astype(int) - 1\n",
+    "\n",
+    "print(f'Total labelled images: {len(combined_df):,}')\n",
+    "print('\\nPen distribution in combined set:')\n",
+    "print(combined_df['pen_id'].value_counts().sort_index().to_string())\n",
+    "\n",
+    "# Stratified 80 / 20 split\n",
+    "train_split, val_split = train_test_split(\n",
+    "    combined_df,\n",
+    "    test_size=0.20,        # 20% of data goes to validation\n",
+    "    random_state=SEED,\n",
+    "    stratify=combined_df['label'],  # Preserve class proportions\n",
+    ")\n",
+    "train_split = train_split.reset_index(drop=True)\n",
+    "val_split   = val_split.reset_index(drop=True)\n",
+    "\n",
+    "print(f'\\nTrain split: {len(train_split):,} images')\n",
+    "print(f'Val   split: {len(val_split):,} images')"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "5ad10935",
+   "metadata": {
+    "papermill": {
+     "duration": 0.017587,
+     "end_time": "2026-03-11T00:51:05.272114",
+     "exception": false,
+     "start_time": "2026-03-11T00:51:05.254527",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "### Step 3 - Image Augmentation\n",
+    "\n",
+    "Augmentation is one of the most important tricks in computer vision. The idea is simple: instead of showing the model the exact same training images every epoch, we randomly modify each image slightly before feeding it in. This forces the model to learn the underlying pen stroke rather than memorising pixel positions.\n",
+    "\n",
+    "**Training augmentations explained one by one:**\n",
+    "\n",
+    "| Transform | What it does | Why it helps for circles |\n",
+    "|-----------|-------------|-------------------------|\n",
+    "| RandomResizedCrop | Crops a random part of the image and resizes to 224×224 | Teaches the model that the pen feature appears everywhere in the circle, not just the centre |\n",
+    "| HorizontalFlip | Mirrors the image left-right | A circle is symmetric; the pen texture is the same from either side |\n",
+    "| VerticalFlip | Mirrors top-bottom | Same reasoning as horizontal flip |\n",
+    "| Rotate | Rotates by a random angle up to 30° | A circle looks the same from any angle |\n",
+    "| ColorJitter | Randomly changes brightness, contrast, saturation | Simulates different scanner settings or lighting conditions |\n",
+    "| ElasticTransform | Applies a rubber-sheet-like local warp | Simulates the way different writers press the pen at different angles |\n",
+    "| CoarseDropout | Blacks out small random patches | Forces the model to use the whole stroke, not just one lucky patch |\n",
+    "| CLAHE | Enhances local contrast | Brings out fine ink texture details that might be washed out in low-contrast scans |\n",
+    "| Normalize | Subtracts ImageNet mean/std | Matches the pixel range the pretrained model was trained on |\n",
+    "\n",
+    "The **validation transform** does nothing random only resize and normalize. This gives a fair, consistent measure of accuracy on untouched images."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "e2a9d5ec",
+   "metadata": {
+    "papermill": {
+     "duration": 0.017066,
+     "end_time": "2026-03-11T00:51:05.306646",
+     "exception": false,
+     "start_time": "2026-03-11T00:51:05.289580",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [],
+   "source": []
   }
  ],
  "metadata": {
@@ -840,14 +998,14 @@
   },
   "papermill": {
    "default_parameters": {},
-   "duration": 48.38131,
-   "end_time": "2026-03-09T15:41:35.048302",
+   "duration": 41.857983,
+   "end_time": "2026-03-11T00:51:07.978341",
    "environment_variables": {},
    "exception": null,
    "input_path": "__notebook__.ipynb",
    "output_path": "__notebook__.ipynb",
    "parameters": {},
-   "start_time": "2026-03-09T15:40:46.666992",
+   "start_time": "2026-03-11T00:50:26.120358",
    "version": "2.6.0"
   }
  },

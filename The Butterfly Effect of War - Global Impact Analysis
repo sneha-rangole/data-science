@@ -1,1 +1,181 @@
-{"metadata":{"kernelspec":{"language":"python","display_name":"Python 3","name":"python3"},"language_info":{"name":"python","version":"3.12.12","mimetype":"text/x-python","codemirror_mode":{"name":"ipython","version":3},"pygments_lexer":"ipython3","nbconvert_exporter":"python","file_extension":".py"},"kaggle":{"accelerator":"none","dataSources":[{"sourceType":"modelInstanceVersion","sourceId":282751,"databundleVersionId":11375937,"modelInstanceId":239470,"modelId":222398,"isSourceIdPinned":false}],"dockerImageVersionId":31286,"isInternetEnabled":true,"language":"python","sourceType":"notebook","isGpuEnabled":false}},"nbformat_minor":4,"nbformat":4,"cells":[{"cell_type":"code","source":"# This Python 3 environment comes with many helpful analytics libraries installed\n# It is defined by the kaggle/python Docker image: https://github.com/kaggle/docker-python\n# For example, here's several helpful packages to load\n\nimport numpy as np # linear algebra\nimport pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)\n\n# Input data files are available in the read-only \"../input/\" directory\n# For example, running this (by clicking run or pressing Shift+Enter) will list all files under the input directory\n\nimport os\nfor dirname, _, filenames in os.walk('/kaggle/input'):\n    for filename in filenames:\n        print(os.path.join(dirname, filename))\n\n# You can write up to 20GB to the current directory (/kaggle/working/) that gets preserved as output when you create a version using \"Save & Run All\" \n# You can also write temporary files to /kaggle/temp/, but they won't be saved outside of the current session","metadata":{"_uuid":"8f2839f25d086af736a60e9eeb907d3b93b6e0e5","_cell_guid":"b1076dfc-b9ad-4769-8c92-a6c4dae69d19","trusted":true,"execution":{"iopub.status.busy":"2026-03-18T19:25:08.223292Z","iopub.execute_input":"2026-03-18T19:25:08.223620Z","iopub.status.idle":"2026-03-18T19:25:09.799362Z","shell.execute_reply.started":"2026-03-18T19:25:08.223582Z","shell.execute_reply":"2026-03-18T19:25:09.798215Z"}},"outputs":[{"name":"stdout","text":"/kaggle/input/models/google/gemma-3/transformers/gemma-3-4b-it/1/model.safetensors.index.json\n/kaggle/input/models/google/gemma-3/transformers/gemma-3-4b-it/1/config.json\n/kaggle/input/models/google/gemma-3/transformers/gemma-3-4b-it/1/model-00001-of-00002.safetensors\n/kaggle/input/models/google/gemma-3/transformers/gemma-3-4b-it/1/model-00002-of-00002.safetensors\n/kaggle/input/models/google/gemma-3/transformers/gemma-3-4b-it/1/preprocessor_config.json\n/kaggle/input/models/google/gemma-3/transformers/gemma-3-4b-it/1/tokenizer.json\n/kaggle/input/models/google/gemma-3/transformers/gemma-3-4b-it/1/tokenizer_config.json\n/kaggle/input/models/google/gemma-3/transformers/gemma-3-4b-it/1/chat_template.json\n/kaggle/input/models/google/gemma-3/transformers/gemma-3-4b-it/1/processor_config.json\n/kaggle/input/models/google/gemma-3/transformers/gemma-3-4b-it/1/special_tokens_map.json\n/kaggle/input/models/google/gemma-3/transformers/gemma-3-4b-it/1/tokenizer.model\n/kaggle/input/models/google/gemma-3/transformers/gemma-3-4b-it/1/added_tokens.json\n/kaggle/input/models/google/gemma-3/transformers/gemma-3-4b-it/1/generation_config.json\n","output_type":"stream"}],"execution_count":1},{"cell_type":"markdown","source":"# The Butterfly Effect of War - Global Impact Analysis\n\nWhen a war starts in one country, the shockwaves don't stop at its borders.\nThis notebook studies how conflict causes ripple effects across the world —\nrising food prices, refugee crises, energy shocks, and political instability\nin countries that never fired a single shot.\n\n**Three real examples:**\n- 🇺🇦 Ukraine 2022 → wheat shortage → hunger in Egypt & Lebanon\n- 🇸🇾 Syria 2011 → 1.5M refugees → Lebanon's economy collapsed\n- 🇵🇸 Gaza 2023 → Red Sea attacks → global shipping delays\n\n**What this notebook does:**\n- Uses Gemma 3 (Google's AI model) to analyze war's global chain reactions\n- Connects conflict events to economic, social, and political data worldwide\n- Makes the invisible ripples visible — with real numbers and clear explanations","metadata":{}},{"cell_type":"markdown","source":"## Why Gemma 3 (4B Instruction-Tuned)?\n\n**Model:** `gemma-3-4b-it`\n**Framework:** Transformers (Hugging Face) + PyTorch\n\n**Why this model:**\n- `4b` = 4 billion parameters — smart enough for deep analysis,\n   small enough to run on Kaggle's free GPU without crashing\n- `it` = instruction-tuned — I can ask it plain English questions\n   like *\"what economic effects did this war cause?\"* and it answers clearly\n- Transformers library loads it in 5 lines of code — beginner-friendly\n   but research-grade powerful\n\n**In simple terms:** It's the right balance of brain size and speed\nfor a research notebook running on free cloud hardware.","metadata":{}}]}
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "c46489a8",
+   "metadata": {
+    "_cell_guid": "b1076dfc-b9ad-4769-8c92-a6c4dae69d19",
+    "_uuid": "8f2839f25d086af736a60e9eeb907d3b93b6e0e5",
+    "execution": {
+     "iopub.execute_input": "2026-03-18T19:29:42.338331Z",
+     "iopub.status.busy": "2026-03-18T19:29:42.337286Z",
+     "iopub.status.idle": "2026-03-18T19:29:43.447992Z",
+     "shell.execute_reply": "2026-03-18T19:29:43.446856Z"
+    },
+    "papermill": {
+     "duration": 1.117624,
+     "end_time": "2026-03-18T19:29:43.450566",
+     "exception": false,
+     "start_time": "2026-03-18T19:29:42.332942",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "/kaggle/input/models/google/gemma-3/transformers/gemma-3-4b-it/1/model.safetensors.index.json\n",
+      "/kaggle/input/models/google/gemma-3/transformers/gemma-3-4b-it/1/config.json\n",
+      "/kaggle/input/models/google/gemma-3/transformers/gemma-3-4b-it/1/model-00001-of-00002.safetensors\n",
+      "/kaggle/input/models/google/gemma-3/transformers/gemma-3-4b-it/1/model-00002-of-00002.safetensors\n",
+      "/kaggle/input/models/google/gemma-3/transformers/gemma-3-4b-it/1/preprocessor_config.json\n",
+      "/kaggle/input/models/google/gemma-3/transformers/gemma-3-4b-it/1/tokenizer.json\n",
+      "/kaggle/input/models/google/gemma-3/transformers/gemma-3-4b-it/1/tokenizer_config.json\n",
+      "/kaggle/input/models/google/gemma-3/transformers/gemma-3-4b-it/1/chat_template.json\n",
+      "/kaggle/input/models/google/gemma-3/transformers/gemma-3-4b-it/1/processor_config.json\n",
+      "/kaggle/input/models/google/gemma-3/transformers/gemma-3-4b-it/1/special_tokens_map.json\n",
+      "/kaggle/input/models/google/gemma-3/transformers/gemma-3-4b-it/1/tokenizer.model\n",
+      "/kaggle/input/models/google/gemma-3/transformers/gemma-3-4b-it/1/added_tokens.json\n",
+      "/kaggle/input/models/google/gemma-3/transformers/gemma-3-4b-it/1/generation_config.json\n"
+     ]
+    }
+   ],
+   "source": [
+    "# This Python 3 environment comes with many helpful analytics libraries installed\n",
+    "# It is defined by the kaggle/python Docker image: https://github.com/kaggle/docker-python\n",
+    "# For example, here's several helpful packages to load\n",
+    "\n",
+    "import numpy as np # linear algebra\n",
+    "import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)\n",
+    "\n",
+    "# Input data files are available in the read-only \"../input/\" directory\n",
+    "# For example, running this (by clicking run or pressing Shift+Enter) will list all files under the input directory\n",
+    "\n",
+    "import os\n",
+    "for dirname, _, filenames in os.walk('/kaggle/input'):\n",
+    "    for filename in filenames:\n",
+    "        print(os.path.join(dirname, filename))\n",
+    "\n",
+    "# You can write up to 20GB to the current directory (/kaggle/working/) that gets preserved as output when you create a version using \"Save & Run All\" \n",
+    "# You can also write temporary files to /kaggle/temp/, but they won't be saved outside of the current session"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "84a8022a",
+   "metadata": {
+    "papermill": {
+     "duration": 0.001542,
+     "end_time": "2026-03-18T19:29:43.453758",
+     "exception": false,
+     "start_time": "2026-03-18T19:29:43.452216",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "# The Butterfly Effect of War - Global Impact Analysis\n",
+    "\n",
+    "When a war starts in one country, the shockwaves don't stop at its borders.\n",
+    "This notebook studies how conflict causes ripple effects across the world —\n",
+    "rising food prices, refugee crises, energy shocks, and political instability\n",
+    "in countries that never fired a single shot.\n",
+    "\n",
+    "**Three real examples:**\n",
+    "- 🇺🇦 Ukraine 2022 → wheat shortage → hunger in Egypt & Lebanon\n",
+    "- 🇸🇾 Syria 2011 → 1.5M refugees → Lebanon's economy collapsed\n",
+    "- 🇵🇸 Gaza 2023 → Red Sea attacks → global shipping delays\n",
+    "\n",
+    "**What this notebook does:**\n",
+    "- Uses Gemma 3 (Google's AI model) to analyze war's global chain reactions\n",
+    "- Connects conflict events to economic, social, and political data worldwide\n",
+    "- Makes the invisible ripples visible — with real numbers and clear explanations"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "fe1d46af",
+   "metadata": {
+    "papermill": {
+     "duration": 0.001228,
+     "end_time": "2026-03-18T19:29:43.456337",
+     "exception": false,
+     "start_time": "2026-03-18T19:29:43.455109",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "## Why Gemma 3 (4B Instruction-Tuned)?\n",
+    "\n",
+    "**Model:** `gemma-3-4b-it`\n",
+    "**Framework:** Transformers (Hugging Face) + PyTorch\n",
+    "\n",
+    "**Why this model:**\n",
+    "- `4b` = 4 billion parameters — smart enough for deep analysis,\n",
+    "   small enough to run on Kaggle's free GPU without crashing\n",
+    "- `it` = instruction-tuned — I can ask it plain English questions\n",
+    "   like *\"what economic effects did this war cause?\"* and it answers clearly\n",
+    "- Transformers library loads it in 5 lines of code — beginner-friendly\n",
+    "   but research-grade powerful\n",
+    "\n",
+    "**In simple terms:** It's the right balance of brain size and speed\n",
+    "for a research notebook running on free cloud hardware."
+   ]
+  }
+ ],
+ "metadata": {
+  "kaggle": {
+   "accelerator": "none",
+   "dataSources": [
+    {
+     "databundleVersionId": 11375937,
+     "isSourceIdPinned": false,
+     "modelId": 222398,
+     "modelInstanceId": 239470,
+     "sourceId": 282751,
+     "sourceType": "modelInstanceVersion"
+    }
+   ],
+   "dockerImageVersionId": 31286,
+   "isGpuEnabled": false,
+   "isInternetEnabled": true,
+   "language": "python",
+   "sourceType": "notebook"
+  },
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.12.12"
+  },
+  "papermill": {
+   "default_parameters": {},
+   "duration": 5.124939,
+   "end_time": "2026-03-18T19:29:43.979982",
+   "environment_variables": {},
+   "exception": null,
+   "input_path": "__notebook__.ipynb",
+   "output_path": "__notebook__.ipynb",
+   "parameters": {},
+   "start_time": "2026-03-18T19:29:38.855043",
+   "version": "2.6.0"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}

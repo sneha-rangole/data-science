@@ -3,21 +3,21 @@
   {
    "cell_type": "code",
    "execution_count": 1,
-   "id": "16a41053",
+   "id": "8970c8f2",
    "metadata": {
     "_cell_guid": "b1076dfc-b9ad-4769-8c92-a6c4dae69d19",
     "_uuid": "8f2839f25d086af736a60e9eeb907d3b93b6e0e5",
     "execution": {
-     "iopub.execute_input": "2026-03-19T01:37:03.673446Z",
-     "iopub.status.busy": "2026-03-19T01:37:03.672698Z",
-     "iopub.status.idle": "2026-03-19T01:37:04.498317Z",
-     "shell.execute_reply": "2026-03-19T01:37:04.497252Z"
+     "iopub.execute_input": "2026-03-19T01:43:03.726835Z",
+     "iopub.status.busy": "2026-03-19T01:43:03.726480Z",
+     "iopub.status.idle": "2026-03-19T01:43:05.095005Z",
+     "shell.execute_reply": "2026-03-19T01:43:05.093329Z"
     },
     "papermill": {
-     "duration": 0.833012,
-     "end_time": "2026-03-19T01:37:04.500059",
+     "duration": 1.377037,
+     "end_time": "2026-03-19T01:43:05.097448",
      "exception": false,
-     "start_time": "2026-03-19T01:37:03.667047",
+     "start_time": "2026-03-19T01:43:03.720411",
      "status": "completed"
     },
     "tags": []
@@ -65,19 +65,19 @@
   },
   {
    "cell_type": "markdown",
-   "id": "ab762fd7",
+   "id": "f0ba3aed",
    "metadata": {
     "papermill": {
-     "duration": 0.002753,
-     "end_time": "2026-03-19T01:37:04.506046",
+     "duration": 0.00304,
+     "end_time": "2026-03-19T01:43:05.104120",
      "exception": false,
-     "start_time": "2026-03-19T01:37:04.503293",
+     "start_time": "2026-03-19T01:43:05.101080",
      "status": "completed"
     },
     "tags": []
    },
    "source": [
-    "# The Butterfly Effect of War — Global Impact Analysis\n",
+    "# The Butterfly Effect of War - Global Impact Analysis\n",
     "\n",
     "> *\"When a butterfly flaps its wings in one part of the world, it can cause a hurricane somewhere else.\"*\n",
     "\n",
@@ -109,13 +109,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "0137c1df",
+   "id": "fb74b120",
    "metadata": {
     "papermill": {
-     "duration": 0.00284,
-     "end_time": "2026-03-19T01:37:04.511550",
+     "duration": 0.00275,
+     "end_time": "2026-03-19T01:43:05.109972",
      "exception": false,
-     "start_time": "2026-03-19T01:37:04.508710",
+     "start_time": "2026-03-19T01:43:05.107222",
      "status": "completed"
     },
     "tags": []
@@ -140,13 +140,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "de911e47",
+   "id": "9a02e969",
    "metadata": {
     "papermill": {
-     "duration": 0.00263,
-     "end_time": "2026-03-19T01:37:04.516818",
+     "duration": 0.00458,
+     "end_time": "2026-03-19T01:43:05.117232",
      "exception": false,
-     "start_time": "2026-03-19T01:37:04.514188",
+     "start_time": "2026-03-19T01:43:05.112652",
      "status": "completed"
     },
     "tags": []
@@ -167,19 +167,19 @@
   {
    "cell_type": "code",
    "execution_count": 2,
-   "id": "1acee942",
+   "id": "c7f07b65",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-03-19T01:37:04.523300Z",
-     "iopub.status.busy": "2026-03-19T01:37:04.522953Z",
-     "iopub.status.idle": "2026-03-19T01:37:31.959913Z",
-     "shell.execute_reply": "2026-03-19T01:37:31.958907Z"
+     "iopub.execute_input": "2026-03-19T01:43:05.125129Z",
+     "iopub.status.busy": "2026-03-19T01:43:05.124193Z",
+     "iopub.status.idle": "2026-03-19T01:43:41.555975Z",
+     "shell.execute_reply": "2026-03-19T01:43:41.554871Z"
     },
     "papermill": {
-     "duration": 27.442228,
-     "end_time": "2026-03-19T01:37:31.961631",
+     "duration": 36.441322,
+     "end_time": "2026-03-19T01:43:41.561145",
      "exception": false,
-     "start_time": "2026-03-19T01:37:04.519403",
+     "start_time": "2026-03-19T01:43:05.119823",
      "status": "completed"
     },
     "tags": []
@@ -189,12 +189,11 @@
      "name": "stdout",
      "output_type": "stream",
      "text": [
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m60.7/60.7 MB\u001b[0m \u001b[31m29.0 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
-      "\u001b[?25h✅ Device: CUDA\n",
-      "   GPU  : Tesla T4\n",
-      "   VRAM : 15.6 GB\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m60.7/60.7 MB\u001b[0m \u001b[31m24.3 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[?25hDevice: CPU\n",
+      "    No GPU found — model loading will be slow\n",
       "\n",
-      "✅ All libraries loaded. Ready to begin.\n"
+      " All libraries loaded. Ready to begin.\n"
      ]
     }
    ],
@@ -218,14 +217,14 @@
     "\n",
     "# Check if GPU is available\n",
     "device = 'cuda' if torch.cuda.is_available() else 'cpu'\n",
-    "print(f\"✅ Device: {device.upper()}\")\n",
+    "print(f\"Device: {device.upper()}\")\n",
     "if device == 'cuda':\n",
     "    gpu_name = torch.cuda.get_device_name(0)\n",
     "    gpu_mem  = torch.cuda.get_device_properties(0).total_memory / 1e9\n",
     "    print(f\"   GPU  : {gpu_name}\")\n",
     "    print(f\"   VRAM : {gpu_mem:.1f} GB\")\n",
     "else:\n",
-    "    print(\"   ⚠️  No GPU found — model loading will be slow\")\n",
+    "    print(\"    No GPU found — model loading will be slow\")\n",
     "\n",
     "# Chart style\n",
     "plt.rcParams['figure.facecolor'] = '#0d1117'   # dark background\n",
@@ -238,18 +237,18 @@
     "plt.rcParams['grid.color']       = '#21262d'\n",
     "plt.rcParams['font.family']      = 'DejaVu Sans'\n",
     "\n",
-    "print(\"\\n✅ All libraries loaded. Ready to begin.\")"
+    "print(\"\\n All libraries loaded. Ready to begin.\")"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "950348c5",
+   "id": "f0bed03c",
    "metadata": {
     "papermill": {
-     "duration": 0.003461,
-     "end_time": "2026-03-19T01:37:31.968889",
+     "duration": 0.00336,
+     "end_time": "2026-03-19T01:43:41.568019",
      "exception": false,
-     "start_time": "2026-03-19T01:37:31.965428",
+     "start_time": "2026-03-19T01:43:41.564659",
      "status": "completed"
     },
     "tags": []
@@ -263,13 +262,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "6183a102",
+   "id": "e6e8c83a",
    "metadata": {
     "papermill": {
-     "duration": 0.003519,
-     "end_time": "2026-03-19T01:37:31.975762",
+     "duration": 0.003391,
+     "end_time": "2026-03-19T01:43:41.574895",
      "exception": false,
-     "start_time": "2026-03-19T01:37:31.972243",
+     "start_time": "2026-03-19T01:43:41.571504",
      "status": "completed"
     },
     "tags": []
@@ -289,19 +288,19 @@
   {
    "cell_type": "code",
    "execution_count": 3,
-   "id": "8336a6b4",
+   "id": "7d14bae7",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-03-19T01:37:31.984118Z",
-     "iopub.status.busy": "2026-03-19T01:37:31.983714Z",
-     "iopub.status.idle": "2026-03-19T01:37:32.031976Z",
-     "shell.execute_reply": "2026-03-19T01:37:32.031264Z"
+     "iopub.execute_input": "2026-03-19T01:43:41.584039Z",
+     "iopub.status.busy": "2026-03-19T01:43:41.583341Z",
+     "iopub.status.idle": "2026-03-19T01:43:41.647695Z",
+     "shell.execute_reply": "2026-03-19T01:43:41.646004Z"
     },
     "papermill": {
-     "duration": 0.054272,
-     "end_time": "2026-03-19T01:37:32.033304",
+     "duration": 0.071754,
+     "end_time": "2026-03-19T01:43:41.649884",
      "exception": false,
-     "start_time": "2026-03-19T01:37:31.979032",
+     "start_time": "2026-03-19T01:43:41.578130",
      "status": "completed"
     },
     "tags": []
@@ -630,19 +629,19 @@
   {
    "cell_type": "code",
    "execution_count": 4,
-   "id": "31d58ec8",
+   "id": "2024a1ec",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-03-19T01:37:32.042022Z",
-     "iopub.status.busy": "2026-03-19T01:37:32.041540Z",
-     "iopub.status.idle": "2026-03-19T01:37:32.067904Z",
-     "shell.execute_reply": "2026-03-19T01:37:32.067235Z"
+     "iopub.execute_input": "2026-03-19T01:43:41.661383Z",
+     "iopub.status.busy": "2026-03-19T01:43:41.661017Z",
+     "iopub.status.idle": "2026-03-19T01:43:41.690676Z",
+     "shell.execute_reply": "2026-03-19T01:43:41.689740Z"
     },
     "papermill": {
-     "duration": 0.032306,
-     "end_time": "2026-03-19T01:37:32.069287",
+     "duration": 0.037156,
+     "end_time": "2026-03-19T01:43:41.692187",
      "exception": false,
-     "start_time": "2026-03-19T01:37:32.036981",
+     "start_time": "2026-03-19T01:43:41.655031",
      "status": "completed"
     },
     "tags": []
@@ -834,13 +833,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "203c6f4f",
+   "id": "9398bea7",
    "metadata": {
     "papermill": {
-     "duration": 0.003668,
-     "end_time": "2026-03-19T01:37:32.077000",
+     "duration": 0.003979,
+     "end_time": "2026-03-19T01:43:41.700738",
      "exception": false,
-     "start_time": "2026-03-19T01:37:32.073332",
+     "start_time": "2026-03-19T01:43:41.696759",
      "status": "completed"
     },
     "tags": []
@@ -854,13 +853,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "937336d0",
+   "id": "039119ca",
    "metadata": {
     "papermill": {
-     "duration": 0.003719,
-     "end_time": "2026-03-19T01:37:32.084428",
+     "duration": 0.003924,
+     "end_time": "2026-03-19T01:43:41.708943",
      "exception": false,
-     "start_time": "2026-03-19T01:37:32.080709",
+     "start_time": "2026-03-19T01:43:41.705019",
      "status": "completed"
     },
     "tags": []
@@ -875,19 +874,19 @@
   {
    "cell_type": "code",
    "execution_count": 5,
-   "id": "966c4cfd",
+   "id": "0892242e",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-03-19T01:37:32.092849Z",
-     "iopub.status.busy": "2026-03-19T01:37:32.092642Z",
-     "iopub.status.idle": "2026-03-19T01:37:32.113982Z",
-     "shell.execute_reply": "2026-03-19T01:37:32.112961Z"
+     "iopub.execute_input": "2026-03-19T01:43:41.719758Z",
+     "iopub.status.busy": "2026-03-19T01:43:41.718742Z",
+     "iopub.status.idle": "2026-03-19T01:43:41.749052Z",
+     "shell.execute_reply": "2026-03-19T01:43:41.747607Z"
     },
     "papermill": {
-     "duration": 0.027415,
-     "end_time": "2026-03-19T01:37:32.115588",
+     "duration": 0.037626,
+     "end_time": "2026-03-19T01:43:41.750617",
      "exception": false,
-     "start_time": "2026-03-19T01:37:32.088173",
+     "start_time": "2026-03-19T01:43:41.712991",
      "status": "completed"
     },
     "tags": []
@@ -981,13 +980,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "251bb7a1",
+   "id": "88e5ea39",
    "metadata": {
     "papermill": {
-     "duration": 0.004315,
-     "end_time": "2026-03-19T01:37:32.124174",
+     "duration": 0.004211,
+     "end_time": "2026-03-19T01:43:41.760232",
      "exception": false,
-     "start_time": "2026-03-19T01:37:32.119859",
+     "start_time": "2026-03-19T01:43:41.756021",
      "status": "completed"
     },
     "tags": []
@@ -1001,13 +1000,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "40711217",
+   "id": "d819cdfb",
    "metadata": {
     "papermill": {
-     "duration": 0.004652,
-     "end_time": "2026-03-19T01:37:32.133099",
+     "duration": 0.003824,
+     "end_time": "2026-03-19T01:43:41.768266",
      "exception": false,
-     "start_time": "2026-03-19T01:37:32.128447",
+     "start_time": "2026-03-19T01:43:41.764442",
      "status": "completed"
     },
     "tags": []
@@ -1023,19 +1022,19 @@
   {
    "cell_type": "code",
    "execution_count": 6,
-   "id": "d0ac2afb",
+   "id": "1717db74",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-03-19T01:37:32.142828Z",
-     "iopub.status.busy": "2026-03-19T01:37:32.142612Z",
-     "iopub.status.idle": "2026-03-19T01:37:32.811974Z",
-     "shell.execute_reply": "2026-03-19T01:37:32.811245Z"
+     "iopub.execute_input": "2026-03-19T01:43:41.777914Z",
+     "iopub.status.busy": "2026-03-19T01:43:41.777536Z",
+     "iopub.status.idle": "2026-03-19T01:43:42.420608Z",
+     "shell.execute_reply": "2026-03-19T01:43:42.419926Z"
     },
     "papermill": {
-     "duration": 0.677162,
-     "end_time": "2026-03-19T01:37:32.814901",
+     "duration": 0.650012,
+     "end_time": "2026-03-19T01:43:42.422121",
      "exception": false,
-     "start_time": "2026-03-19T01:37:32.137739",
+     "start_time": "2026-03-19T01:43:41.772109",
      "status": "completed"
     },
     "tags": []
@@ -1101,19 +1100,19 @@
   {
    "cell_type": "code",
    "execution_count": 7,
-   "id": "2751a7e8",
+   "id": "7e99a4c9",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-03-19T01:37:32.827356Z",
-     "iopub.status.busy": "2026-03-19T01:37:32.826758Z",
-     "iopub.status.idle": "2026-03-19T01:37:33.493899Z",
-     "shell.execute_reply": "2026-03-19T01:37:33.493261Z"
+     "iopub.execute_input": "2026-03-19T01:43:42.434351Z",
+     "iopub.status.busy": "2026-03-19T01:43:42.433988Z",
+     "iopub.status.idle": "2026-03-19T01:43:43.037475Z",
+     "shell.execute_reply": "2026-03-19T01:43:43.036370Z"
     },
     "papermill": {
-     "duration": 0.676793,
-     "end_time": "2026-03-19T01:37:33.497540",
+     "duration": 0.611622,
+     "end_time": "2026-03-19T01:43:43.039081",
      "exception": false,
-     "start_time": "2026-03-19T01:37:32.820747",
+     "start_time": "2026-03-19T01:43:42.427459",
      "status": "completed"
     },
     "tags": []
@@ -1180,19 +1179,19 @@
   {
    "cell_type": "code",
    "execution_count": 8,
-   "id": "2dffc654",
+   "id": "9c6c2e6b",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-03-19T01:37:33.512744Z",
-     "iopub.status.busy": "2026-03-19T01:37:33.512385Z",
-     "iopub.status.idle": "2026-03-19T01:37:34.508662Z",
-     "shell.execute_reply": "2026-03-19T01:37:34.508093Z"
+     "iopub.execute_input": "2026-03-19T01:43:43.054174Z",
+     "iopub.status.busy": "2026-03-19T01:43:43.053755Z",
+     "iopub.status.idle": "2026-03-19T01:43:43.967646Z",
+     "shell.execute_reply": "2026-03-19T01:43:43.966323Z"
     },
     "papermill": {
-     "duration": 1.007406,
-     "end_time": "2026-03-19T01:37:34.512128",
+     "duration": 0.924009,
+     "end_time": "2026-03-19T01:43:43.969622",
      "exception": false,
-     "start_time": "2026-03-19T01:37:33.504722",
+     "start_time": "2026-03-19T01:43:43.045613",
      "status": "completed"
     },
     "tags": []
@@ -1267,13 +1266,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "f3719a46",
+   "id": "bce97213",
    "metadata": {
     "papermill": {
-     "duration": 0.008321,
-     "end_time": "2026-03-19T01:37:34.529470",
+     "duration": 0.007894,
+     "end_time": "2026-03-19T01:43:43.986002",
      "exception": false,
-     "start_time": "2026-03-19T01:37:34.521149",
+     "start_time": "2026-03-19T01:43:43.978108",
      "status": "completed"
     },
     "tags": []
@@ -1287,11 +1286,133 @@
     "\n",
     "**Why:** A number in a table doesn't tell a story. A chart with an annotation that says \"Russia invades Ukraine\" right where the price spikes — that tells a story instantly. Recruiters and Kaggle voters respond to visuals that make the data obvious."
    ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "3ed847fa",
+   "metadata": {
+    "papermill": {
+     "duration": 0.00817,
+     "end_time": "2026-03-19T01:43:44.002491",
+     "exception": false,
+     "start_time": "2026-03-19T01:43:43.994321",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "---\n",
+    "## 5 - Gemma 3 Model Integration\n",
+    "\n",
+    "Now we load the actual AI brain - Gemma 3 (4B instruction-tuned).  \n",
+    "We use `bfloat16` precision (half the memory of normal) and `device_map=\"auto\"` so it automatically uses the GPU.\n",
+    "\n",
+    "**Memory note:** The 4B model uses ~8GB of VRAM. Kaggle's T4 GPU has 15GB — we have a comfortable buffer."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "5f96a4e9",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2026-03-19T01:43:44.020845Z",
+     "iopub.status.busy": "2026-03-19T01:43:44.020474Z",
+     "iopub.status.idle": "2026-03-19T01:43:54.445855Z",
+     "shell.execute_reply": "2026-03-19T01:43:54.423572Z"
+    },
+    "papermill": {
+     "duration": 10.788293,
+     "end_time": "2026-03-19T01:43:54.798991",
+     "exception": false,
+     "start_time": "2026-03-19T01:43:44.010698",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Step 1/2: Loading tokenizer (the word-to-number converter)...\n"
+     ]
+    },
+    {
+     "name": "stderr",
+     "output_type": "stream",
+     "text": [
+      "`torch_dtype` is deprecated! Use `dtype` instead!\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Tokenizer loaded\n",
+      "\n",
+      "Step 2/2: Loading Gemma 3 model onto GPU...\n",
+      "   (This takes 1–3 minutes - the model is ~8GB)\n"
+     ]
+    },
+    {
+     "data": {
+      "application/vnd.jupyter.widget-view+json": {
+       "model_id": "3498b39720e84524ac9950474a7d8b09",
+       "version_major": 2,
+       "version_minor": 0
+      },
+      "text/plain": [
+       "Loading weights:   0%|          | 0/883 [00:00<?, ?it/s]"
+      ]
+     },
+     "metadata": {},
+     "output_type": "display_data"
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "\n",
+      " Model loaded (CPU mode - will be slower)\n"
+     ]
+    }
+   ],
+   "source": [
+    "# LOAD GEMMA 3 — The AI brain of this project\n",
+    "\n",
+    "# Path where Kaggle stored the model files we added earlier\n",
+    "MODEL_PATH = \"/kaggle/input/models/google/gemma-3/transformers/gemma-3-4b-it/1\"\n",
+    "\n",
+    "print(\"Step 1/2: Loading tokenizer (the word-to-number converter)...\")\n",
+    "tokenizer = AutoTokenizer.from_pretrained(MODEL_PATH)\n",
+    "print(\"Tokenizer loaded\")\n",
+    "\n",
+    "print(\"\\nStep 2/2: Loading Gemma 3 model onto GPU...\")\n",
+    "print(\"   (This takes 1–3 minutes - the model is ~8GB)\")\n",
+    "\n",
+    "model = AutoModelForCausalLM.from_pretrained(\n",
+    "    MODEL_PATH,\n",
+    "    torch_dtype=torch.bfloat16,   # half precision = half memory usage\n",
+    "    device_map=\"auto\"             # auto-detects and uses GPU\n",
+    ")\n",
+    "model.eval()  # set to evaluation mode (not training mode)\n",
+    "\n",
+    "# Report memory usage\n",
+    "if device == 'cuda':\n",
+    "    used_mem = torch.cuda.memory_allocated() / 1e9\n",
+    "    total_mem = torch.cuda.get_device_properties(0).total_memory / 1e9\n",
+    "    print(f\"\\n Model loaded successfully!\")\n",
+    "    print(f\"   GPU memory used : {used_mem:.1f} GB / {total_mem:.1f} GB\")\n",
+    "    print(f\"   Memory remaining: {total_mem - used_mem:.1f} GB free\")\n",
+    "else:\n",
+    "    print(\"\\n Model loaded (CPU mode - will be slower)\")"
+   ]
   }
  ],
  "metadata": {
   "kaggle": {
-   "accelerator": "nvidiaTeslaT4",
+   "accelerator": "none",
    "dataSources": [
     {
      "databundleVersionId": 11375937,
@@ -1302,8 +1423,8 @@
      "sourceType": "modelInstanceVersion"
     }
    ],
-   "dockerImageVersionId": 31287,
-   "isGpuEnabled": true,
+   "dockerImageVersionId": 31286,
+   "isGpuEnabled": false,
    "isInternetEnabled": true,
    "language": "python",
    "sourceType": "notebook"
@@ -1327,15 +1448,383 @@
   },
   "papermill": {
    "default_parameters": {},
-   "duration": 36.003292,
-   "end_time": "2026-03-19T01:37:37.244731",
+   "duration": 58.042821,
+   "end_time": "2026-03-19T01:43:57.856269",
    "environment_variables": {},
    "exception": null,
    "input_path": "__notebook__.ipynb",
    "output_path": "__notebook__.ipynb",
    "parameters": {},
-   "start_time": "2026-03-19T01:37:01.241439",
+   "start_time": "2026-03-19T01:42:59.813448",
    "version": "2.6.0"
+  },
+  "widgets": {
+   "application/vnd.jupyter.widget-state+json": {
+    "state": {
+     "23f3f67234154a9586cdb0a6f80fc9d2": {
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "2.0.0",
+      "model_name": "HTMLStyleModel",
+      "state": {
+       "_model_module": "@jupyter-widgets/controls",
+       "_model_module_version": "2.0.0",
+       "_model_name": "HTMLStyleModel",
+       "_view_count": null,
+       "_view_module": "@jupyter-widgets/base",
+       "_view_module_version": "2.0.0",
+       "_view_name": "StyleView",
+       "background": null,
+       "description_width": "",
+       "font_size": null,
+       "text_color": null
+      }
+     },
+     "2d15f0890376437c916377b3e28f54ec": {
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "2.0.0",
+      "model_name": "HTMLStyleModel",
+      "state": {
+       "_model_module": "@jupyter-widgets/controls",
+       "_model_module_version": "2.0.0",
+       "_model_name": "HTMLStyleModel",
+       "_view_count": null,
+       "_view_module": "@jupyter-widgets/base",
+       "_view_module_version": "2.0.0",
+       "_view_name": "StyleView",
+       "background": null,
+       "description_width": "",
+       "font_size": null,
+       "text_color": null
+      }
+     },
+     "3498b39720e84524ac9950474a7d8b09": {
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "2.0.0",
+      "model_name": "HBoxModel",
+      "state": {
+       "_dom_classes": [],
+       "_model_module": "@jupyter-widgets/controls",
+       "_model_module_version": "2.0.0",
+       "_model_name": "HBoxModel",
+       "_view_count": null,
+       "_view_module": "@jupyter-widgets/controls",
+       "_view_module_version": "2.0.0",
+       "_view_name": "HBoxView",
+       "box_style": "",
+       "children": [
+        "IPY_MODEL_42e3708b5bba4decb1b3f936e47c2b7a",
+        "IPY_MODEL_4edde8e33e25447da338255582f8e563",
+        "IPY_MODEL_7a6d8325f8284d42b08a95c6b15797bf"
+       ],
+       "layout": "IPY_MODEL_f4ee564de82948c5b340263057adc40b",
+       "tabbable": null,
+       "tooltip": null
+      }
+     },
+     "42e3708b5bba4decb1b3f936e47c2b7a": {
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "2.0.0",
+      "model_name": "HTMLModel",
+      "state": {
+       "_dom_classes": [],
+       "_model_module": "@jupyter-widgets/controls",
+       "_model_module_version": "2.0.0",
+       "_model_name": "HTMLModel",
+       "_view_count": null,
+       "_view_module": "@jupyter-widgets/controls",
+       "_view_module_version": "2.0.0",
+       "_view_name": "HTMLView",
+       "description": "",
+       "description_allow_html": false,
+       "layout": "IPY_MODEL_7c6666c7bc8b42de855549f443f568f2",
+       "placeholder": "​",
+       "style": "IPY_MODEL_2d15f0890376437c916377b3e28f54ec",
+       "tabbable": null,
+       "tooltip": null,
+       "value": "Loading weights: 100%"
+      }
+     },
+     "4edde8e33e25447da338255582f8e563": {
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "2.0.0",
+      "model_name": "FloatProgressModel",
+      "state": {
+       "_dom_classes": [],
+       "_model_module": "@jupyter-widgets/controls",
+       "_model_module_version": "2.0.0",
+       "_model_name": "FloatProgressModel",
+       "_view_count": null,
+       "_view_module": "@jupyter-widgets/controls",
+       "_view_module_version": "2.0.0",
+       "_view_name": "ProgressView",
+       "bar_style": "success",
+       "description": "",
+       "description_allow_html": false,
+       "layout": "IPY_MODEL_d2c95bdc18974755a4f54eedfa2ec624",
+       "max": 883.0,
+       "min": 0.0,
+       "orientation": "horizontal",
+       "style": "IPY_MODEL_9ac7e1a577b845bba94403866bf41091",
+       "tabbable": null,
+       "tooltip": null,
+       "value": 883.0
+      }
+     },
+     "7a6d8325f8284d42b08a95c6b15797bf": {
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "2.0.0",
+      "model_name": "HTMLModel",
+      "state": {
+       "_dom_classes": [],
+       "_model_module": "@jupyter-widgets/controls",
+       "_model_module_version": "2.0.0",
+       "_model_name": "HTMLModel",
+       "_view_count": null,
+       "_view_module": "@jupyter-widgets/controls",
+       "_view_module_version": "2.0.0",
+       "_view_name": "HTMLView",
+       "description": "",
+       "description_allow_html": false,
+       "layout": "IPY_MODEL_cf103d01c7c840ff8d12ca831cc45e7d",
+       "placeholder": "​",
+       "style": "IPY_MODEL_23f3f67234154a9586cdb0a6f80fc9d2",
+       "tabbable": null,
+       "tooltip": null,
+       "value": " 883/883 [00:03&lt;00:00, 308.16it/s, Materializing param=model.vision_tower.vision_model.post_layernorm.weight]"
+      }
+     },
+     "7c6666c7bc8b42de855549f443f568f2": {
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "2.0.0",
+      "model_name": "LayoutModel",
+      "state": {
+       "_model_module": "@jupyter-widgets/base",
+       "_model_module_version": "2.0.0",
+       "_model_name": "LayoutModel",
+       "_view_count": null,
+       "_view_module": "@jupyter-widgets/base",
+       "_view_module_version": "2.0.0",
+       "_view_name": "LayoutView",
+       "align_content": null,
+       "align_items": null,
+       "align_self": null,
+       "border_bottom": null,
+       "border_left": null,
+       "border_right": null,
+       "border_top": null,
+       "bottom": null,
+       "display": null,
+       "flex": null,
+       "flex_flow": null,
+       "grid_area": null,
+       "grid_auto_columns": null,
+       "grid_auto_flow": null,
+       "grid_auto_rows": null,
+       "grid_column": null,
+       "grid_gap": null,
+       "grid_row": null,
+       "grid_template_areas": null,
+       "grid_template_columns": null,
+       "grid_template_rows": null,
+       "height": null,
+       "justify_content": null,
+       "justify_items": null,
+       "left": null,
+       "margin": null,
+       "max_height": null,
+       "max_width": null,
+       "min_height": null,
+       "min_width": null,
+       "object_fit": null,
+       "object_position": null,
+       "order": null,
+       "overflow": null,
+       "padding": null,
+       "right": null,
+       "top": null,
+       "visibility": null,
+       "width": null
+      }
+     },
+     "9ac7e1a577b845bba94403866bf41091": {
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "2.0.0",
+      "model_name": "ProgressStyleModel",
+      "state": {
+       "_model_module": "@jupyter-widgets/controls",
+       "_model_module_version": "2.0.0",
+       "_model_name": "ProgressStyleModel",
+       "_view_count": null,
+       "_view_module": "@jupyter-widgets/base",
+       "_view_module_version": "2.0.0",
+       "_view_name": "StyleView",
+       "bar_color": null,
+       "description_width": ""
+      }
+     },
+     "cf103d01c7c840ff8d12ca831cc45e7d": {
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "2.0.0",
+      "model_name": "LayoutModel",
+      "state": {
+       "_model_module": "@jupyter-widgets/base",
+       "_model_module_version": "2.0.0",
+       "_model_name": "LayoutModel",
+       "_view_count": null,
+       "_view_module": "@jupyter-widgets/base",
+       "_view_module_version": "2.0.0",
+       "_view_name": "LayoutView",
+       "align_content": null,
+       "align_items": null,
+       "align_self": null,
+       "border_bottom": null,
+       "border_left": null,
+       "border_right": null,
+       "border_top": null,
+       "bottom": null,
+       "display": null,
+       "flex": null,
+       "flex_flow": null,
+       "grid_area": null,
+       "grid_auto_columns": null,
+       "grid_auto_flow": null,
+       "grid_auto_rows": null,
+       "grid_column": null,
+       "grid_gap": null,
+       "grid_row": null,
+       "grid_template_areas": null,
+       "grid_template_columns": null,
+       "grid_template_rows": null,
+       "height": null,
+       "justify_content": null,
+       "justify_items": null,
+       "left": null,
+       "margin": null,
+       "max_height": null,
+       "max_width": null,
+       "min_height": null,
+       "min_width": null,
+       "object_fit": null,
+       "object_position": null,
+       "order": null,
+       "overflow": null,
+       "padding": null,
+       "right": null,
+       "top": null,
+       "visibility": null,
+       "width": null
+      }
+     },
+     "d2c95bdc18974755a4f54eedfa2ec624": {
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "2.0.0",
+      "model_name": "LayoutModel",
+      "state": {
+       "_model_module": "@jupyter-widgets/base",
+       "_model_module_version": "2.0.0",
+       "_model_name": "LayoutModel",
+       "_view_count": null,
+       "_view_module": "@jupyter-widgets/base",
+       "_view_module_version": "2.0.0",
+       "_view_name": "LayoutView",
+       "align_content": null,
+       "align_items": null,
+       "align_self": null,
+       "border_bottom": null,
+       "border_left": null,
+       "border_right": null,
+       "border_top": null,
+       "bottom": null,
+       "display": null,
+       "flex": null,
+       "flex_flow": null,
+       "grid_area": null,
+       "grid_auto_columns": null,
+       "grid_auto_flow": null,
+       "grid_auto_rows": null,
+       "grid_column": null,
+       "grid_gap": null,
+       "grid_row": null,
+       "grid_template_areas": null,
+       "grid_template_columns": null,
+       "grid_template_rows": null,
+       "height": null,
+       "justify_content": null,
+       "justify_items": null,
+       "left": null,
+       "margin": null,
+       "max_height": null,
+       "max_width": null,
+       "min_height": null,
+       "min_width": null,
+       "object_fit": null,
+       "object_position": null,
+       "order": null,
+       "overflow": null,
+       "padding": null,
+       "right": null,
+       "top": null,
+       "visibility": null,
+       "width": null
+      }
+     },
+     "f4ee564de82948c5b340263057adc40b": {
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "2.0.0",
+      "model_name": "LayoutModel",
+      "state": {
+       "_model_module": "@jupyter-widgets/base",
+       "_model_module_version": "2.0.0",
+       "_model_name": "LayoutModel",
+       "_view_count": null,
+       "_view_module": "@jupyter-widgets/base",
+       "_view_module_version": "2.0.0",
+       "_view_name": "LayoutView",
+       "align_content": null,
+       "align_items": null,
+       "align_self": null,
+       "border_bottom": null,
+       "border_left": null,
+       "border_right": null,
+       "border_top": null,
+       "bottom": null,
+       "display": null,
+       "flex": null,
+       "flex_flow": null,
+       "grid_area": null,
+       "grid_auto_columns": null,
+       "grid_auto_flow": null,
+       "grid_auto_rows": null,
+       "grid_column": null,
+       "grid_gap": null,
+       "grid_row": null,
+       "grid_template_areas": null,
+       "grid_template_columns": null,
+       "grid_template_rows": null,
+       "height": null,
+       "justify_content": null,
+       "justify_items": null,
+       "left": null,
+       "margin": null,
+       "max_height": null,
+       "max_width": null,
+       "min_height": null,
+       "min_width": null,
+       "object_fit": null,
+       "object_position": null,
+       "order": null,
+       "overflow": null,
+       "padding": null,
+       "right": null,
+       "top": null,
+       "visibility": null,
+       "width": null
+      }
+     }
+    },
+    "version_major": 2,
+    "version_minor": 0
+   }
   }
  },
  "nbformat": 4,

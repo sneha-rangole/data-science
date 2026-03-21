@@ -3,21 +3,21 @@
   {
    "cell_type": "code",
    "execution_count": 1,
-   "id": "422307dc",
+   "id": "cf261f4a",
    "metadata": {
     "_cell_guid": "b1076dfc-b9ad-4769-8c92-a6c4dae69d19",
     "_uuid": "8f2839f25d086af736a60e9eeb907d3b93b6e0e5",
     "execution": {
-     "iopub.execute_input": "2026-03-20T23:23:52.390193Z",
-     "iopub.status.busy": "2026-03-20T23:23:52.389832Z",
-     "iopub.status.idle": "2026-03-20T23:23:53.469579Z",
-     "shell.execute_reply": "2026-03-20T23:23:53.468692Z"
+     "iopub.execute_input": "2026-03-20T23:46:28.869268Z",
+     "iopub.status.busy": "2026-03-20T23:46:28.868845Z",
+     "iopub.status.idle": "2026-03-20T23:46:30.070669Z",
+     "shell.execute_reply": "2026-03-20T23:46:30.069483Z"
     },
     "papermill": {
-     "duration": 1.091349,
-     "end_time": "2026-03-20T23:23:53.471930",
+     "duration": 1.213179,
+     "end_time": "2026-03-20T23:46:30.072945",
      "exception": false,
-     "start_time": "2026-03-20T23:23:52.380581",
+     "start_time": "2026-03-20T23:46:28.859766",
      "status": "completed"
     },
     "tags": []
@@ -65,13 +65,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "ae4e0f8f",
+   "id": "3842834e",
    "metadata": {
     "papermill": {
-     "duration": 0.007107,
-     "end_time": "2026-03-20T23:23:53.486166",
+     "duration": 0.006241,
+     "end_time": "2026-03-20T23:46:30.085768",
      "exception": false,
-     "start_time": "2026-03-20T23:23:53.479059",
+     "start_time": "2026-03-20T23:46:30.079527",
      "status": "completed"
     },
     "tags": []
@@ -109,13 +109,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "af56a925",
+   "id": "c50ca4c0",
    "metadata": {
     "papermill": {
-     "duration": 0.00632,
-     "end_time": "2026-03-20T23:23:53.500712",
+     "duration": 0.006127,
+     "end_time": "2026-03-20T23:46:30.099297",
      "exception": false,
-     "start_time": "2026-03-20T23:23:53.494392",
+     "start_time": "2026-03-20T23:46:30.093170",
      "status": "completed"
     },
     "tags": []
@@ -140,13 +140,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "20f259a9",
+   "id": "345fe5bf",
    "metadata": {
     "papermill": {
-     "duration": 0.006388,
-     "end_time": "2026-03-20T23:23:53.513879",
+     "duration": 0.006613,
+     "end_time": "2026-03-20T23:46:30.112110",
      "exception": false,
-     "start_time": "2026-03-20T23:23:53.507491",
+     "start_time": "2026-03-20T23:46:30.105497",
      "status": "completed"
     },
     "tags": []
@@ -167,19 +167,19 @@
   {
    "cell_type": "code",
    "execution_count": 2,
-   "id": "b5e33a0d",
+   "id": "f6d100b3",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-03-20T23:23:53.528524Z",
-     "iopub.status.busy": "2026-03-20T23:23:53.527881Z",
-     "iopub.status.idle": "2026-03-20T23:24:26.659100Z",
-     "shell.execute_reply": "2026-03-20T23:24:26.658033Z"
+     "iopub.execute_input": "2026-03-20T23:46:30.126741Z",
+     "iopub.status.busy": "2026-03-20T23:46:30.125725Z",
+     "iopub.status.idle": "2026-03-20T23:47:04.958803Z",
+     "shell.execute_reply": "2026-03-20T23:47:04.957721Z"
     },
     "papermill": {
-     "duration": 33.147732,
-     "end_time": "2026-03-20T23:24:26.667938",
+     "duration": 34.849101,
+     "end_time": "2026-03-20T23:47:04.967381",
      "exception": false,
-     "start_time": "2026-03-20T23:23:53.520206",
+     "start_time": "2026-03-20T23:46:30.118280",
      "status": "completed"
     },
     "tags": []
@@ -189,7 +189,7 @@
      "name": "stdout",
      "output_type": "stream",
      "text": [
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m60.7/60.7 MB\u001b[0m \u001b[31m30.1 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m60.7/60.7 MB\u001b[0m \u001b[31m30.8 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hDevice: CPU\n",
       "    No GPU found — model loading will be slow\n",
       "\n",
@@ -242,13 +242,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "983b41e1",
+   "id": "98fbf940",
    "metadata": {
     "papermill": {
-     "duration": 0.00689,
-     "end_time": "2026-03-20T23:24:26.681642",
+     "duration": 0.00709,
+     "end_time": "2026-03-20T23:47:04.981363",
      "exception": false,
-     "start_time": "2026-03-20T23:24:26.674752",
+     "start_time": "2026-03-20T23:47:04.974273",
      "status": "completed"
     },
     "tags": []
@@ -262,13 +262,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "a9c49c8d",
+   "id": "2f720191",
    "metadata": {
     "papermill": {
-     "duration": 0.006931,
-     "end_time": "2026-03-20T23:24:26.695441",
+     "duration": 0.007247,
+     "end_time": "2026-03-20T23:47:04.996034",
      "exception": false,
-     "start_time": "2026-03-20T23:24:26.688510",
+     "start_time": "2026-03-20T23:47:04.988787",
      "status": "completed"
     },
     "tags": []
@@ -288,19 +288,19 @@
   {
    "cell_type": "code",
    "execution_count": 3,
-   "id": "2fb54182",
+   "id": "6ed93175",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-03-20T23:24:26.711793Z",
-     "iopub.status.busy": "2026-03-20T23:24:26.711000Z",
-     "iopub.status.idle": "2026-03-20T23:24:26.778259Z",
-     "shell.execute_reply": "2026-03-20T23:24:26.777365Z"
+     "iopub.execute_input": "2026-03-20T23:47:05.012874Z",
+     "iopub.status.busy": "2026-03-20T23:47:05.012026Z",
+     "iopub.status.idle": "2026-03-20T23:47:05.076240Z",
+     "shell.execute_reply": "2026-03-20T23:47:05.075138Z"
     },
     "papermill": {
-     "duration": 0.077853,
-     "end_time": "2026-03-20T23:24:26.780110",
+     "duration": 0.075283,
+     "end_time": "2026-03-20T23:47:05.078276",
      "exception": false,
-     "start_time": "2026-03-20T23:24:26.702257",
+     "start_time": "2026-03-20T23:47:05.002993",
      "status": "completed"
     },
     "tags": []
@@ -629,19 +629,19 @@
   {
    "cell_type": "code",
    "execution_count": 4,
-   "id": "b9eedd80",
+   "id": "24d6b66d",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-03-20T23:24:26.797504Z",
-     "iopub.status.busy": "2026-03-20T23:24:26.797078Z",
-     "iopub.status.idle": "2026-03-20T23:24:26.839280Z",
-     "shell.execute_reply": "2026-03-20T23:24:26.838346Z"
+     "iopub.execute_input": "2026-03-20T23:47:05.095362Z",
+     "iopub.status.busy": "2026-03-20T23:47:05.094790Z",
+     "iopub.status.idle": "2026-03-20T23:47:05.135532Z",
+     "shell.execute_reply": "2026-03-20T23:47:05.134723Z"
     },
     "papermill": {
-     "duration": 0.053159,
-     "end_time": "2026-03-20T23:24:26.841045",
+     "duration": 0.051528,
+     "end_time": "2026-03-20T23:47:05.137325",
      "exception": false,
-     "start_time": "2026-03-20T23:24:26.787886",
+     "start_time": "2026-03-20T23:47:05.085797",
      "status": "completed"
     },
     "tags": []
@@ -875,13 +875,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "1b9df9bd",
+   "id": "cfc722d5",
    "metadata": {
     "papermill": {
-     "duration": 0.007473,
-     "end_time": "2026-03-20T23:24:26.856074",
+     "duration": 0.007438,
+     "end_time": "2026-03-20T23:47:05.152481",
      "exception": false,
-     "start_time": "2026-03-20T23:24:26.848601",
+     "start_time": "2026-03-20T23:47:05.145043",
      "status": "completed"
     },
     "tags": []
@@ -895,13 +895,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "52cbc0f8",
+   "id": "af54f6c9",
    "metadata": {
     "papermill": {
-     "duration": 0.007345,
-     "end_time": "2026-03-20T23:24:26.870806",
+     "duration": 0.00745,
+     "end_time": "2026-03-20T23:47:05.167430",
      "exception": false,
-     "start_time": "2026-03-20T23:24:26.863461",
+     "start_time": "2026-03-20T23:47:05.159980",
      "status": "completed"
     },
     "tags": []
@@ -916,19 +916,19 @@
   {
    "cell_type": "code",
    "execution_count": 5,
-   "id": "1dcfa94a",
+   "id": "d0c3916d",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-03-20T23:24:26.887382Z",
-     "iopub.status.busy": "2026-03-20T23:24:26.887033Z",
-     "iopub.status.idle": "2026-03-20T23:24:26.918354Z",
-     "shell.execute_reply": "2026-03-20T23:24:26.917328Z"
+     "iopub.execute_input": "2026-03-20T23:47:05.184375Z",
+     "iopub.status.busy": "2026-03-20T23:47:05.184034Z",
+     "iopub.status.idle": "2026-03-20T23:47:05.215943Z",
+     "shell.execute_reply": "2026-03-20T23:47:05.214552Z"
     },
     "papermill": {
-     "duration": 0.042066,
-     "end_time": "2026-03-20T23:24:26.920333",
+     "duration": 0.043426,
+     "end_time": "2026-03-20T23:47:05.218448",
      "exception": false,
-     "start_time": "2026-03-20T23:24:26.878267",
+     "start_time": "2026-03-20T23:47:05.175022",
      "status": "completed"
     },
     "tags": []
@@ -1023,13 +1023,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "e3252136",
+   "id": "8df55184",
    "metadata": {
     "papermill": {
-     "duration": 0.00776,
-     "end_time": "2026-03-20T23:24:26.935989",
+     "duration": 0.007591,
+     "end_time": "2026-03-20T23:47:05.234158",
      "exception": false,
-     "start_time": "2026-03-20T23:24:26.928229",
+     "start_time": "2026-03-20T23:47:05.226567",
      "status": "completed"
     },
     "tags": []
@@ -1043,13 +1043,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "9fa9dc45",
+   "id": "f3498692",
    "metadata": {
     "papermill": {
-     "duration": 0.007715,
-     "end_time": "2026-03-20T23:24:26.951322",
+     "duration": 0.007668,
+     "end_time": "2026-03-20T23:47:05.249504",
      "exception": false,
-     "start_time": "2026-03-20T23:24:26.943607",
+     "start_time": "2026-03-20T23:47:05.241836",
      "status": "completed"
     },
     "tags": []
@@ -1065,19 +1065,19 @@
   {
    "cell_type": "code",
    "execution_count": 6,
-   "id": "bf002155",
+   "id": "12982cc8",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-03-20T23:24:26.969462Z",
-     "iopub.status.busy": "2026-03-20T23:24:26.968369Z",
-     "iopub.status.idle": "2026-03-20T23:24:28.038821Z",
-     "shell.execute_reply": "2026-03-20T23:24:28.037823Z"
+     "iopub.execute_input": "2026-03-20T23:47:05.267231Z",
+     "iopub.status.busy": "2026-03-20T23:47:05.266673Z",
+     "iopub.status.idle": "2026-03-20T23:47:06.320842Z",
+     "shell.execute_reply": "2026-03-20T23:47:06.319850Z"
     },
     "papermill": {
-     "duration": 1.08297,
-     "end_time": "2026-03-20T23:24:28.042035",
+     "duration": 1.067513,
+     "end_time": "2026-03-20T23:47:06.324734",
      "exception": false,
-     "start_time": "2026-03-20T23:24:26.959065",
+     "start_time": "2026-03-20T23:47:05.257221",
      "status": "completed"
     },
     "tags": []
@@ -1163,19 +1163,19 @@
   {
    "cell_type": "code",
    "execution_count": 7,
-   "id": "4f78be24",
+   "id": "74238630",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-03-20T23:24:28.063665Z",
-     "iopub.status.busy": "2026-03-20T23:24:28.063302Z",
-     "iopub.status.idle": "2026-03-20T23:24:29.030671Z",
-     "shell.execute_reply": "2026-03-20T23:24:29.029748Z"
+     "iopub.execute_input": "2026-03-20T23:47:06.346603Z",
+     "iopub.status.busy": "2026-03-20T23:47:06.345722Z",
+     "iopub.status.idle": "2026-03-20T23:47:07.307522Z",
+     "shell.execute_reply": "2026-03-20T23:47:07.306576Z"
     },
     "papermill": {
-     "duration": 0.982268,
-     "end_time": "2026-03-20T23:24:29.034451",
+     "duration": 0.976981,
+     "end_time": "2026-03-20T23:47:07.311662",
      "exception": false,
-     "start_time": "2026-03-20T23:24:28.052183",
+     "start_time": "2026-03-20T23:47:06.334681",
      "status": "completed"
     },
     "tags": []
@@ -1253,19 +1253,19 @@
   {
    "cell_type": "code",
    "execution_count": 8,
-   "id": "ef4c8f12",
+   "id": "c6c76e67",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-03-20T23:24:29.059703Z",
-     "iopub.status.busy": "2026-03-20T23:24:29.059362Z",
-     "iopub.status.idle": "2026-03-20T23:24:30.777530Z",
-     "shell.execute_reply": "2026-03-20T23:24:30.776454Z"
+     "iopub.execute_input": "2026-03-20T23:47:07.340247Z",
+     "iopub.status.busy": "2026-03-20T23:47:07.339204Z",
+     "iopub.status.idle": "2026-03-20T23:47:09.074645Z",
+     "shell.execute_reply": "2026-03-20T23:47:09.073487Z"
     },
     "papermill": {
-     "duration": 1.734675,
-     "end_time": "2026-03-20T23:24:30.781120",
+     "duration": 1.754134,
+     "end_time": "2026-03-20T23:47:09.078903",
      "exception": false,
-     "start_time": "2026-03-20T23:24:29.046445",
+     "start_time": "2026-03-20T23:47:07.324769",
      "status": "completed"
     },
     "tags": []
@@ -1375,13 +1375,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "43bab6f3",
+   "id": "5d0475f4",
    "metadata": {
     "papermill": {
-     "duration": 0.013835,
-     "end_time": "2026-03-20T23:24:30.809707",
+     "duration": 0.016321,
+     "end_time": "2026-03-20T23:47:09.112898",
      "exception": false,
-     "start_time": "2026-03-20T23:24:30.795872",
+     "start_time": "2026-03-20T23:47:09.096577",
      "status": "completed"
     },
     "tags": []
@@ -1401,13 +1401,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "74416c61",
+   "id": "6cb0bc5f",
    "metadata": {
     "papermill": {
-     "duration": 0.014308,
-     "end_time": "2026-03-20T23:24:30.838422",
+     "duration": 0.018386,
+     "end_time": "2026-03-20T23:47:09.148916",
      "exception": false,
-     "start_time": "2026-03-20T23:24:30.824114",
+     "start_time": "2026-03-20T23:47:09.130530",
      "status": "completed"
     },
     "tags": []
@@ -1425,19 +1425,19 @@
   {
    "cell_type": "code",
    "execution_count": 9,
-   "id": "e1a3f756",
+   "id": "a89d5e68",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-03-20T23:24:30.869420Z",
-     "iopub.status.busy": "2026-03-20T23:24:30.869046Z",
-     "iopub.status.idle": "2026-03-20T23:24:40.497857Z",
-     "shell.execute_reply": "2026-03-20T23:24:40.489493Z"
+     "iopub.execute_input": "2026-03-20T23:47:09.186527Z",
+     "iopub.status.busy": "2026-03-20T23:47:09.186071Z",
+     "iopub.status.idle": "2026-03-20T23:47:19.420047Z",
+     "shell.execute_reply": "2026-03-20T23:47:19.416529Z"
     },
     "papermill": {
-     "duration": 10.219905,
-     "end_time": "2026-03-20T23:24:41.072647",
+     "duration": 10.863627,
+     "end_time": "2026-03-20T23:47:20.030356",
      "exception": false,
-     "start_time": "2026-03-20T23:24:30.852742",
+     "start_time": "2026-03-20T23:47:09.166729",
      "status": "completed"
     },
     "tags": []
@@ -1470,7 +1470,7 @@
     {
      "data": {
       "application/vnd.jupyter.widget-view+json": {
-       "model_id": "ca19e9417e754089a94651c910403582",
+       "model_id": "366edc4c090445e1848a19ee446b9b06",
        "version_major": 2,
        "version_minor": 0
       },
@@ -1523,13 +1523,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "e1fae4b6",
+   "id": "93ebc81e",
    "metadata": {
     "papermill": {
-     "duration": 0.015206,
-     "end_time": "2026-03-20T23:24:41.104493",
+     "duration": 0.015311,
+     "end_time": "2026-03-20T23:47:20.062100",
      "exception": false,
-     "start_time": "2026-03-20T23:24:41.089287",
+     "start_time": "2026-03-20T23:47:20.046789",
      "status": "completed"
     },
     "tags": []
@@ -1545,13 +1545,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "ae3149dd",
+   "id": "4179cf5c",
    "metadata": {
     "papermill": {
-     "duration": 0.014755,
-     "end_time": "2026-03-20T23:24:41.134021",
+     "duration": 0.015636,
+     "end_time": "2026-03-20T23:47:20.093298",
      "exception": false,
-     "start_time": "2026-03-20T23:24:41.119266",
+     "start_time": "2026-03-20T23:47:20.077662",
      "status": "completed"
     },
     "tags": []
@@ -1568,19 +1568,19 @@
   {
    "cell_type": "code",
    "execution_count": 10,
-   "id": "563d4822",
+   "id": "a697ccad",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-03-20T23:24:41.165714Z",
-     "iopub.status.busy": "2026-03-20T23:24:41.165389Z",
-     "iopub.status.idle": "2026-03-20T23:24:41.176323Z",
-     "shell.execute_reply": "2026-03-20T23:24:41.175143Z"
+     "iopub.execute_input": "2026-03-20T23:47:20.126063Z",
+     "iopub.status.busy": "2026-03-20T23:47:20.125675Z",
+     "iopub.status.idle": "2026-03-20T23:47:20.135721Z",
+     "shell.execute_reply": "2026-03-20T23:47:20.134883Z"
     },
     "papermill": {
-     "duration": 0.029747,
-     "end_time": "2026-03-20T23:24:41.178538",
+     "duration": 0.02926,
+     "end_time": "2026-03-20T23:47:20.137750",
      "exception": false,
-     "start_time": "2026-03-20T23:24:41.148791",
+     "start_time": "2026-03-20T23:47:20.108490",
      "status": "completed"
     },
     "tags": []
@@ -1697,13 +1697,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "1e9be906",
+   "id": "fa42cfb1",
    "metadata": {
     "papermill": {
-     "duration": 0.015479,
-     "end_time": "2026-03-20T23:24:41.209619",
+     "duration": 0.015793,
+     "end_time": "2026-03-20T23:47:20.169145",
      "exception": false,
-     "start_time": "2026-03-20T23:24:41.194140",
+     "start_time": "2026-03-20T23:47:20.153352",
      "status": "completed"
     },
     "tags": []
@@ -1723,13 +1723,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "a324bfe7",
+   "id": "9acd2bf7",
    "metadata": {
     "papermill": {
-     "duration": 0.015388,
-     "end_time": "2026-03-20T23:24:41.241070",
+     "duration": 0.015513,
+     "end_time": "2026-03-20T23:47:20.201248",
      "exception": false,
-     "start_time": "2026-03-20T23:24:41.225682",
+     "start_time": "2026-03-20T23:47:20.185735",
      "status": "completed"
     },
     "tags": []
@@ -1744,19 +1744,19 @@
   {
    "cell_type": "code",
    "execution_count": 11,
-   "id": "ce28cdf5",
+   "id": "8e3d9c46",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-03-20T23:24:41.273456Z",
-     "iopub.status.busy": "2026-03-20T23:24:41.272715Z",
-     "iopub.status.idle": "2026-03-20T23:33:14.473561Z",
-     "shell.execute_reply": "2026-03-20T23:33:14.472403Z"
+     "iopub.execute_input": "2026-03-20T23:47:20.233961Z",
+     "iopub.status.busy": "2026-03-20T23:47:20.233560Z",
+     "iopub.status.idle": "2026-03-20T23:55:00.783804Z",
+     "shell.execute_reply": "2026-03-20T23:55:00.782659Z"
     },
     "papermill": {
-     "duration": 513.237667,
-     "end_time": "2026-03-20T23:33:14.493761",
+     "duration": 460.585823,
+     "end_time": "2026-03-20T23:55:00.802309",
      "exception": false,
-     "start_time": "2026-03-20T23:24:41.256094",
+     "start_time": "2026-03-20T23:47:20.216486",
      "status": "completed"
     },
     "tags": []
@@ -1773,42 +1773,30 @@
       " Input: Russia invades Ukraine on February 24, 2022\n",
       "\n",
       "-----------------------------------------------------------------\n",
-      "**Trigger:** Russia’s full-scale invasion of Ukraine initiated a major armed conflict and fundamentally altered European security architecture.\n",
+      "**Trigger:** Russia’s full-scale invasion of Ukraine on February 24, 2022, fundamentally shattered the post-Cold War European security architecture and triggered a major humanitarian crisis.\n",
+      "\n",
+      "**Chain Reaction:**\n",
+      "1.  **Immediate (Days/Weeks):** Initial shockwaves included widespread refugee flows westward, particularly into Poland and neighboring EU nations, straining resources and creating immediate logistical challenges. Military escalation resulted in significant casualties and destruction within Ukraine itself, primarily concentrated in eastern and southern regions.\n",
+      "2.  **Short-Term (Months):** Western sanctions against Russia severely impacted its economy, disrupting global supply chains for energy and food commodities, leading to inflationary pressures worldwide. NATO significantly increased military deployments along Eastern European borders, intensifying tensions and raising the risk of miscalculation.\n",
+      "3.  **Medium-Term (6-12 Months):** The war fueled a broader shift toward de-globalization as companies diversified their supply networks away from Russia and China, accelerating regional trade blocs. Increased defense spending across Europe – notably by Germany – created a potential realignment of power dynamics and shifted strategic priorities.\n",
+      "4.  **Long-Term (1-3 Years):**  The conflict could lead to a protracted low-intensity hybrid warfare scenario between Russia and Ukraine, potentially reshaping territorial control and influencing future political alignments.  A fractured Ukraine, reliant on Western aid, presents an ongoing instability factor impacting regional security.\n",
+      "5. **Global Systemic:** The invasion exposed vulnerabilities in international norms regarding sovereignty and territorial integrity, prompting questions about the efficacy of collective security arrangements like the UN Security Council. It accelerated existing trends towards multipolarity and great power competition, challenging U.S. hegemony.\n",
       "\n",
       "\n",
-      "**CHAIN REACTION:**\n",
-      "\n",
-      "1.  **Immediate (Days/Weeks):** Initial shockwaves triggered immediate sanctions against Russia by Western nations, disrupting trade flows and financial markets; widespread refugee displacement created humanitarian crises in neighboring Poland and other Eastern European states.\n",
-      "\n",
-      "2.  **Short-Term (Months):** Energy prices soared globally due to reduced Russian gas supplies, fueling inflation and economic slowdowns particularly impacting Europe; military aid packages from the US and NATO allies bolstered Ukrainian defenses but also heightened tensions within the alliance.\n",
-      "\n",
-      "3.  **Medium-Term (6-12 Months):** Food insecurity worsened significantly as Ukraine, a key grain exporter, faced disruptions to its agricultural production and shipping routes, affecting global food prices especially vulnerable regions like Africa. Increased defense spending across Europe solidified a new era of militarization and shifted strategic priorities.\n",
-      "\n",
-      "4.  **Long-Term (1-3 Years):** The war could lead to a lasting realignment of power dynamics – potentially accelerating NATO expansion eastward and increasing friction between Russia and the West for decades to come.  A protracted conflict risks further destabilizing the region and creating failed state scenarios within Ukraine itself.\n",
-      "\n",
-      "5. **Global Systemic:** The conflict exposed vulnerabilities in existing international institutions and supply chains, prompting reassessment of globalization's stability and questioning of reliance on single sources of critical resources. It accelerated a move towards de-risking strategies among corporations and governments, seeking greater resilience through diversification and regionalized supply networks.\n",
-      "\n",
-      "\n",
-      "\n",
-      "**COUNTRIES MOST AFFECTED:**\n",
-      "\n",
-      "*   **Ukraine:** Facing devastating destruction, significant territorial loss, and a prolonged humanitarian crisis, severely damaging its economy and population.\n",
-      "*   **Poland:** Became a primary recipient of Ukrainian refugees, straining social services and potentially altering Polish public opinion regarding EU integration.\n",
-      "*   **Germany:** Heavily reliant on Russian energy, Germany experienced an economic downturn and forced rapid transition toward alternative energy sources, reshaping its industrial base.\n",
-      "*   **United States:** Faced increased pressure to manage relations with both Russia and Europe while simultaneously supporting Ukraine, impacting foreign policy strategy and defense budgets.\n",
+      "**Countries Most Affected:**\n",
+      "*   Ukraine: Directly experiencing devastation, displacement, and facing existential threats to its statehood.\n",
+      "*   Poland: Absorbing the largest influx of Ukrainian refugees and navigating complex border management issues.\n",
+      "*   Germany: Forced to dramatically alter its energy policy and increase defence spending, altering its role in the EU.\n",
+      "*   United States: Facing heightened geopolitical risks and economic consequences alongside moral obligations to support Ukraine.\n",
       "\n",
       "\n",
       "\n",
-      "**KEY NUMBERS:**\n",
+      "**Key Numbers:**\n",
+      "*   $280 Billion (Congressional Research Service, 2023): Estimated cost of US financial assistance to Ukraine through September 2023.\n",
+      "*   7.9 Million (UNHCR, November 2023): Number of Ukrainians displaced internally due to the conflict.\n",
+      "*   80% (Reuters, March 2023): Projected decline in Russian oil exports following sanctions.\n",
       "\n",
-      "*   $18 billion (Reuters, 2023): Estimated total military assistance provided to Ukraine by the United States.\n",
-      "*   7.9 million (UNHCR, July 2023): Number of Ukrainians displaced internally.\n",
-      "*   90% (IEA, April 2023): Projected percentage reduction in Russian natural gas exports to Europe by 2023.\n",
-      "\n",
-      "\n",
-      "\n",
-      "\n",
-      "**Hidden Ripple:** The conflict has inadvertently spurred a surge in interest and investment in decentralized technologies like blockchain and cryptocurrencies, driven by concerns about traditional financial systems under sanction and a desire for more secure and independent payment mechanisms—particularly amongst those affected directly by the imposed restrictions. This shift represents a potential long-term challenge to established monetary authorities and a broadening of digital finance adoption beyond tech enthusiasts.\n",
+      "**Hidden Ripple:** The war has inadvertently spurred rapid advancements in AI-powered drone technology, both defensively by Ukraine and offensively by Russia, likely accelerating development timelines and shifting battlefield capabilities globally beyond conventional weapons systems. This technological arms race poses long-term implications for cybersecurity and autonomous weapon systems proliferation.\n",
       "\n",
       "  NOTE: Response may have been cut off. Re-run with max_tokens=1200 for the full output.\n"
      ]
@@ -1833,19 +1821,19 @@
   {
    "cell_type": "code",
    "execution_count": 12,
-   "id": "243e371a",
+   "id": "a5b71838",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-03-20T23:33:14.528364Z",
-     "iopub.status.busy": "2026-03-20T23:33:14.528004Z",
-     "iopub.status.idle": "2026-03-20T23:41:15.821480Z",
-     "shell.execute_reply": "2026-03-20T23:41:15.820551Z"
+     "iopub.execute_input": "2026-03-20T23:55:00.835051Z",
+     "iopub.status.busy": "2026-03-20T23:55:00.834642Z",
+     "iopub.status.idle": "2026-03-21T00:01:34.322950Z",
+     "shell.execute_reply": "2026-03-21T00:01:34.321779Z"
     },
     "papermill": {
-     "duration": 481.328724,
-     "end_time": "2026-03-20T23:41:15.839399",
+     "duration": 393.522903,
+     "end_time": "2026-03-21T00:01:34.340338",
      "exception": false,
-     "start_time": "2026-03-20T23:33:14.510675",
+     "start_time": "2026-03-20T23:55:00.817435",
      "status": "completed"
     },
     "tags": []
@@ -1862,31 +1850,33 @@
       " Input: The Syrian Civil War begins in March 2011 and escalates into a full humanitarian crisis by 2013\n",
       "\n",
       "-----------------------------------------------------------------\n",
-      "**Trigger:** The Arab Spring uprisings in Tunisia and Egypt sparked pro-democracy protests that quickly devolved into violent clashes with the Assad regime in Syria on March 2011.\n",
+      "**Trigger:** The Arab Spring uprisings in Tunisia and Egypt sparked protests against Bashar al-Assad’s regime in Syria, escalating into armed conflict in March 2011.\n",
       "\n",
       "**Chain Reaction:**\n",
-      "1.  **Immediate (Days/Weeks):** Initial localized demonstrations triggered rapid government repression, leading to sectarian violence between Alawites and Sunni Muslims, escalating rapidly through weapon proliferation from black market arms networks. This created immediate refugee flows towards Lebanon and Jordan, straining regional resources.\n",
-      "2.  **Short-Term (Months):** International condemnation grew alongside fragmented rebel groups emerging – some backed by Western powers – further dividing the country and intensifying urban warfare in Damascus and Aleppo. Russia’s initial support for Assad secured his position amidst growing international isolation.\n",
-      "3.  **Medium-Term (6-12 Months):** Rise of ISIS capitalizing on state collapse created new security threats within Syria itself; simultaneously, Kurdish forces gained territorial control in northern Syria, laying the groundwork for potential autonomy. Humanitarian needs exploded, creating widespread famine and disease outbreaks requiring massive aid efforts.\n",
-      "4.  **Long-Term (1-3 Years):** Prolonged fragmentation solidified regional power dynamics, fueling proxy wars involving Iran, Turkey, Saudi Arabia, and Russia - fundamentally altering the Middle East's strategic landscape. Reconstruction became nearly impossible due to ongoing conflict and governance failures.\n",
-      "5.  **Global Systemic:** The Syrian conflict contributed to increased global instability, exacerbating refugee crises across Europe, increasing terrorist recruitment opportunities globally, and reshaping perceptions of state sovereignty and interventionism. It also fueled anti-Western sentiment worldwide.\n",
+      "1.  **Immediate (Days/Weeks):** Initial clashes between protestors and security forces led to localized violence and displacement within Syria; the government responded with brutal repression, fueling wider opposition mobilization.\n",
+      "2.  **Short-Term (Months):** Sectarian tensions – Sunni versus Alawite - intensified as Assad utilized loyalist militias, pushing Kurdish groups towards self-defense leading to fragmented frontlines.\n",
+      "3.  **Medium-Term (6-12 Months):** Foreign powers began providing support to opposing factions—Russia backing Assad, while Western nations supported rebel groups, transforming the war into an international proxy conflict.\n",
+      "4.  **Long-Term (1-3 Years):** The rise of ISIS exploiting power vacuums created by the collapsing state resulted in territorial gains and regional instability across Iraq and Lebanon.\n",
+      "5.  **Global Systemic:** Increased refugee flows destabilized neighboring states like Turkey and Jordan, placing strain on their economies and political systems alongside heightened global terrorism concerns.\n",
       "\n",
       "\n",
       "**Countries Most Affected:**\n",
-      "*   **Syria:** Directly devastated by prolonged civil war, infrastructure destroyed, population decimated, and political system shattered.\n",
-      "*   **Lebanon:** Overwhelmed by refugee influxes, economic strain, and heightened sectarian tensions impacting its fragile stability.\n",
-      "*   **Turkey:** Faced an expanded refugee problem, border incursions by Kurdish fighters supported by Syria, and heightened domestic concerns over extremism.\n",
-      "*   **Jordan:** Experienced significant refugee pressure on its economy and social services while becoming a key transit route for refugees heading toward Europe.\n",
+      "*   Syria: Directly devastated by protracted warfare and economic collapse.\n",
+      "*   Turkey: Faced significant border migration pressures and increased terrorist threats from radical groups operating along its southern frontier (Source: Brookings Institute, 2018).\n",
+      "*   Lebanon: Experienced mass influxes of refugees exacerbating existing sectarian divisions and economic vulnerabilities (Source: UNHCR, 2017).\n",
+      "*   Iraq: Witnessed spillover violence and the resurgence of ISIS, further complicating already fragile governance structures (Source: IISS Strategic Assessment, 2014).\n",
       "\n",
       "\n",
       "\n",
       "**Key Numbers:**\n",
-      "*   250,000+ Deaths (UN estimate, 2018) – Represents the staggering human cost of the protracted conflict.\n",
-      "*   Over 5 Million Refugees ( UNHCR, 2017) – Illustrates the scale of displacement caused by the war.\n",
-      "*   $9 Billion Aid Spent (OECD, 2016)- Highlights the immense financial burden placed on international actors responding to the crisis.\n",
+      "*   Approximately 500,000 deaths recorded by 2015 (Source: Uppsala Conflict Data Program).\n",
+      "*   Over 6.6 million Syrians displaced internally by 2016 (Source: UNHCR, 2016).\n",
+      "*   $200 billion estimated cost of reconstruction for Syria (estimated projection, Source: World Bank, 2017).\n",
       "\n",
       "\n",
-      "**Hidden Ripple:** The Syrian conflict significantly accelerated the shift away from traditional nation-state diplomacy towards a multi-polar world order dominated by great power competition and private military contractors. This rise in opaque, often unaccountable, external involvement normalized a level of direct interference in internal conflicts previously considered unacceptable, shaping future interventions globally.\n",
+      "\n",
+      "\n",
+      "**Hidden Ripple:** The Syrian civil war significantly accelerated the trend toward digital authoritarianism globally; governments worldwide used surveillance technologies deployed in Syria to monitor dissent and refine techniques applicable to their own populations, normalizing intrusive data collection practices. This shift eroded privacy protections and contributed to the spread of disinformation campaigns beyond Syria's borders.\n",
       "\n",
       "  NOTE: Response may have been cut off. Re-run with max_tokens=1200 for the full output.\n"
      ]
@@ -1911,19 +1901,19 @@
   {
    "cell_type": "code",
    "execution_count": 13,
-   "id": "ff245088",
+   "id": "08fd1069",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-03-20T23:41:15.872412Z",
-     "iopub.status.busy": "2026-03-20T23:41:15.871682Z",
-     "iopub.status.idle": "2026-03-20T23:49:11.268541Z",
-     "shell.execute_reply": "2026-03-20T23:49:11.267597Z"
+     "iopub.execute_input": "2026-03-21T00:01:34.373987Z",
+     "iopub.status.busy": "2026-03-21T00:01:34.373567Z",
+     "iopub.status.idle": "2026-03-21T00:10:09.631640Z",
+     "shell.execute_reply": "2026-03-21T00:10:09.630561Z"
     },
     "papermill": {
-     "duration": 475.431576,
-     "end_time": "2026-03-20T23:49:11.286349",
+     "duration": 515.295908,
+     "end_time": "2026-03-21T00:10:09.651746",
      "exception": false,
-     "start_time": "2026-03-20T23:41:15.854773",
+     "start_time": "2026-03-21T00:01:34.355838",
      "status": "completed"
     },
     "tags": []
@@ -1940,33 +1930,39 @@
       " Input: The Gaza conflict escalates in October 2023, triggering Houthi attacks on Red Sea shipping lanes\n",
       "\n",
       "-----------------------------------------------------------------\n",
-      "**TRIGGER:** Escalation of the Israel-Hamas war in October 2023 dramatically heightened regional tensions and resulted in direct military action by Iran-backed Houthis against commercial vessels transiting the Red Sea.\n",
+      "**TRIGGER:** The intensified violence between Israel and Hamas in the Gaza Strip sparked by an initial attack in October 2023 triggered retaliatory actions from Iranian-backed Houthi rebels in Yemen against commercial vessels transiting the Red Sea.\n",
+      "\n",
       "\n",
       "**CHAIN REACTION:**\n",
-      "1. **Immediate (Days/Weeks):** Shipping companies rerouted vessels around Africa’s Cape of Good Hope, significantly increasing transit times and freight costs; insurance premiums for ships operating in the region spiked sharply due to elevated risk.\n",
-      "2. **Short-Term (Months):**  Global supply chains faced immediate disruptions impacting commodity prices, particularly oil and agricultural goods, leading to inflationary pressures worldwide. Increased naval presence from various nations further escalated maritime security concerns.\n",
-      "3. **Medium-Term (6-12 Months):** The economic strain could exacerbate existing political instability within Yemen, potentially bolstering Houthi influence and weakening Saudi Arabian efforts at normalization. Deteriorating relations between Western powers and Iran would likely intensify.\n",
-      "4. **Long-Term (1-3 Years):** Persistent disruption of global trade routes may lead to long-lasting shifts in international logistics networks and greater reliance on alternative transportation methods, reshaping global power dynamics. Heightened great power competition over control of critical sea lanes is anticipated.\n",
-      "5. **Global Systemic:** This crisis exposes vulnerabilities in established maritime security frameworks and underscores the interconnectedness of geopolitics – a single conflict can rapidly cascade into broader strategic challenges across continents. It accelerates the trend toward fragmented globalization as states prioritize national interests over open markets.\n",
+      "1.  **Immediate (Days/Weeks):** Initial disruption of shipping through the Suez Canal led to immediate delays and increased freight costs for global trade, primarily impacting European economies reliant on East Asian imports. Increased insurance premiums for ships operating in the Red Sea further exacerbated logistical challenges. \n",
+      "\n",
+      "2.  **Short-Term (Months):** Major corporations like Maersk and MSC diverted routes around Africa’s Cape of Good Hope, dramatically lengthening transit times and adding significant fuel expenses – estimated at $300-$500 million per month in extra transport costs. This heightened vulnerability exposed weaknesses in established supply chains and prompted diversification efforts. \n",
+      "\n",
+      "3.  **Medium-Term (6-12 Months):** Escalation of Houthi attacks could lead to direct military intervention by the US and its allies to secure vital sea lanes, potentially escalating tensions within the Middle East and increasing regional instability. Countries bordering Yemen face pressure to cooperate with international forces, risking domestic dissent. \n",
+      "\n",
+      "4.  **Long-Term (1-3 Years):** The prolonged disruption to global trade may accelerate de-globalization trends as companies seek greater resilience and localized production, reshaping international economic relationships. Competition for control over key maritime chokepoints will likely intensify, fostering new alliances and rivalries. \n",
+      "\n",
+      "5.  **Global Systemic:**  Rising inflation due to transportation bottlenecks feeds into broader macroeconomic uncertainty, challenging central banks' attempts to manage interest rates and potentially contributing to slower global growth. The conflict risks exacerbating existing energy price volatility stemming from disruptions to oil shipments via the region.\n",
       "\n",
       "\n",
       "\n",
       "**COUNTRIES MOST AFFECTED:**\n",
-      "*   **Saudi Arabia:** Vulnerable to Houthi attacks and reliant on secure trade routes through the Red Sea for its economy.\n",
-      "*   **Egypt:** Faces increased pressure managing border security alongside the Suez Canal's vital role being threatened.\n",
-      "*   **China:** Experiences significant delays and cost increases affecting its imports and exports via the Red Sea route.\n",
-      "*   **United States:** Bears responsibility for maintaining stability in the Middle East and safeguarding its allies while combating Iranian proxies.\n",
+      "*   **Germany:** Heavily reliant on goods transported through the Red Sea, experiencing significant industrial slowdowns.\n",
+      "*   **United Arab Emirates:** Faces increased security concerns and potential strain on diplomatic relations given their close ties to Saudi Arabia and support for Israel.\n",
+      "*   **China:** Suffers reduced access to critical raw materials shipped through the Red Sea, impacting manufacturing output.\n",
+      "*   **Egypt:** Experiences a drop in revenue from canal tolls and faces increased military expenditure related to counter-piracy operations.\n",
+      "\n",
+      "\n",
       "\n",
       "\n",
       "**KEY NUMBERS:**\n",
-      "*   $120 billion: Estimated global impact of disrupted shipping on GDP (Source: Allianz Risk Intelligence, 2023).\n",
-      "*   70% : Percentage of global container traffic passing through the Red Sea (Source: Drewry Maritime World Container Index, 2023).\n",
-      "*   +30%: Increase in Brent crude oil futures following initial Houthi strikes (Source: Bloomberg, November 2023).\n",
+      "*   $89 Billion: Estimated cost of global trade disruptions if the Red Sea remains impassable for six months (Source: Allianz Risk Intelligence, November 2023).\n",
+      "*   7% : Projected increase in global shipping container rates due to rerouting (Source: FreightWaves, December 2023).\n",
+      "*   1.2 Million: Number of barrels of crude oil daily passing through the Bab el-Mandeb Strait, a crucial waterway targeted by Houthis (Source: U.S. Energy Information Administration, January 2024)\n",
       "\n",
       "\n",
       "\n",
-      "\n",
-      "**HIDDEN RIPPLE:** The prolonged disruption to Red Sea shipping will disproportionately hurt developing economies heavily reliant on affordable manufactured goods transported via these routes, creating new forms of inequality and potential social unrest outside of traditionally impacted regions. Furthermore, it risks accelerating the diversification of global manufacturing away from Asia towards African nations capable of leveraging shorter, albeit more expensive, overland transport corridors—effectively shifting production hubs.\n"
+      "**HIDDEN RIPPLE:** The diversion of ships around the Cape of Good Hope is disproportionately affecting smaller island nations dependent on aid deliveries and tourism, creating humanitarian crises amplified by longer delivery times and higher import prices - effectively pushing them further down the socioeconomic ladder. Furthermore, satellite imagery analysis reveals increased illegal fishing activity along the African coast as resources become more readily available due to disrupted shipping patterns, leading to local conflicts and environmental degradation.\n"
      ]
     }
    ],
@@ -1988,13 +1984,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "b9089f93",
+   "id": "607a52f0",
    "metadata": {
     "papermill": {
-     "duration": 0.015627,
-     "end_time": "2026-03-20T23:49:11.319121",
+     "duration": 0.016174,
+     "end_time": "2026-03-21T00:10:09.684414",
      "exception": false,
-     "start_time": "2026-03-20T23:49:11.303494",
+     "start_time": "2026-03-21T00:10:09.668240",
      "status": "completed"
     },
     "tags": []
@@ -2013,13 +2009,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "8410ad73",
+   "id": "608fee73",
    "metadata": {
     "papermill": {
-     "duration": 0.015468,
-     "end_time": "2026-03-20T23:49:11.350173",
+     "duration": 0.01666,
+     "end_time": "2026-03-21T00:10:09.717764",
      "exception": false,
-     "start_time": "2026-03-20T23:49:11.334705",
+     "start_time": "2026-03-21T00:10:09.701104",
      "status": "completed"
     },
     "tags": []
@@ -2040,19 +2036,19 @@
   {
    "cell_type": "code",
    "execution_count": 14,
-   "id": "2a163a44",
+   "id": "499526ae",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-03-20T23:49:11.382659Z",
-     "iopub.status.busy": "2026-03-20T23:49:11.382333Z",
-     "iopub.status.idle": "2026-03-20T23:57:50.561351Z",
-     "shell.execute_reply": "2026-03-20T23:57:50.560460Z"
+     "iopub.execute_input": "2026-03-21T00:10:09.752848Z",
+     "iopub.status.busy": "2026-03-21T00:10:09.752369Z",
+     "iopub.status.idle": "2026-03-21T00:17:55.338570Z",
+     "shell.execute_reply": "2026-03-21T00:17:55.337555Z"
     },
     "papermill": {
-     "duration": 519.213643,
-     "end_time": "2026-03-20T23:57:50.579233",
+     "duration": 465.623813,
+     "end_time": "2026-03-21T00:17:55.358140",
      "exception": false,
-     "start_time": "2026-03-20T23:49:11.365590",
+     "start_time": "2026-03-21T00:10:09.734327",
      "status": "completed"
     },
     "tags": []
@@ -2069,30 +2065,30 @@
       " Input: Iran and Israel engage in direct airstrikes in mid-2025. The US joins strikes on Iranian nuclear facilities on June 22, 2025. Iran retaliates by striking a US base in Qatar. A fragile ceasefire takes effect June 24, 2025, but the Strait of Hormuz — through which 20% of global oil flows — faces closure threats throughout the conflict.\n",
       "\n",
       "-----------------------------------------------------------------\n",
-      "**TRIGGER:** Direct military engagement between Iran and Israel escalates rapidly, drawing in the United States and disrupting regional stability.\n",
+      "**TRIGGER:** Direct military clashes between Iran and Israel escalate into a wider regional war involving the United States.\n",
       "\n",
       "**CHAIN REACTION:**\n",
-      "1.  **Immediate (days/weeks):** Oil prices would spike dramatically due to fears of the Strait of Hormuz blockage, triggering immediate inflation globally; insurance rates for shipping vessels would soar, increasing transport costs significantly. Regional states like Saudi Arabia and UAE would likely bolster their own defenses and seek accelerated arms deals. \n",
-      "2.  **Short-term (months):** Increased refugee flows from Syria and Yemen, already destabilized regions, into neighboring nations would strain humanitarian resources and exacerbate existing social tensions. Diplomatic efforts to de-escalate would be hampered by mutual recriminations and heightened nationalistic fervor.\n",
-      "3.  **Medium-term (6-12 months):**  The potential for proxy conflicts within Lebanon and Iraq – currently hotspots – could intensify as various actors exploit the power vacuum; European economies heavily reliant on Middle Eastern energy imports would face recessionary pressures. Sanctions against Iran will become more stringent, further impacting its economy and potentially fueling internal unrest.\n",
-      "4.  **Long-term (1-3 years):**  A permanent realignment of alliances is probable, with Turkey strengthening ties with Russia while other Gulf states deepen relationships with both the U.S. and Europe seeking security guarantees. The credibility of international institutions like the UN may diminish if they fail to effectively manage the crisis and prevent wider escalation. \n",
-      "5.  **Global systemic:** This event risks accelerating the fragmentation of the global economic order, leading to increased trade protectionism and a decline in multilateral cooperation – shifting towards bloc politics. It exposes vulnerabilities in established supply chains and underscores the growing importance of state sovereignty over international law.\n",
+      "1.  **Immediate (Days/Weeks):** Oil prices would spike dramatically due to fears of complete Strait of Hormuz closure, triggering immediate volatility in commodity markets and impacting consumer economies globally. Regional states like Saudi Arabia and UAE will scramble for defensive measures and potentially seek accelerated arms deals.\n",
+      "2.  **Short-Term (Months):** Increased insurance premiums for maritime transport would further disrupt trade routes, exacerbating inflation and supply chain issues beyond just energy commodities. Diplomatic efforts aimed at de-escalation would likely fail, leading to prolonged instability within the Middle East.\n",
+      "3.  **Medium-Term (6-12 Months):** Proxy conflicts could intensify across North Africa as various actors attempt to exploit the power vacuum, increasing refugee flows and humanitarian crises. Reconstruction costs associated with damage from attacks would strain already stretched government budgets.\n",
+      "4.  **Long-Term (1-3 Years):** The balance of power in the region shifts significantly towards Russia and China, who solidify their influence via security guarantees and economic partnerships with affected nations. This could lead to a realignment of alliances, diminishing U.S. hegemony.\n",
+      "5.  **Global Systemic:** Geopolitical risk aversion rises sharply, depressing investment and slowing global growth – particularly affecting emerging market economies reliant on stable trade corridors. The potential for escalation to other flashpoints—such as Yemen or Lebanon - increases considerably.\n",
       "\n",
       "\n",
       "**COUNTRIES MOST AFFECTED:**\n",
-      "*   **Saudi Arabia:** Reliant on oil exports and vulnerable to instability in the Persian Gulf.\n",
-      "*   **Qatar:** Its strategic location makes it a key transit hub for oil and gas, putting it at risk of attacks and disruption.\n",
-      "*   **United States:** Faces significant financial losses from disrupted oil supplies and potential casualties on its bases abroad.\n",
-      "*   **Germany:** Heavily dependent on imported oil and natural gas, facing severe economic consequences.\n",
+      "*   **United Arab Emirates:** Heavily dependent on shipping through the Strait of Hormuz and vulnerable to Iranian retaliation.\n",
+      "*   **Qatar:** Directly targeted by Iran’s attack, creating significant political and logistical challenges.\n",
+      "*   **Saudi Arabia:** Faces heightened threat to its oil infrastructure and must navigate complex relationships with both the US and Iran.\n",
+      "*   **China:** Experiences disrupted trade flows and increased geopolitical uncertainty, hindering economic expansion.\n",
       "\n",
       "\n",
       "\n",
       "**KEY NUMBERS:**\n",
-      "*   Global Oil Prices (2023): Average Brent crude price reached $98 per barrel (EIA).\n",
-      "*   Strait of Hormuz Capacity (2023): Approximately 20 million barrels per day capacity (Reuters).\n",
-      "*   US Military Spending (2023): Total US defense spending was approximately $886 billion (SIPRI).\n",
+      "*   Global Oil Prices (2023): Average Brent Crude price reached $97 per barrel ([Source: EIA, October 2023]).\n",
+      "*   Strait of Hormuz Trade Volume: Approximately 20% of all seaborne crude oil passes through the strait annually ([Source: IEA, 2024 Report]).\n",
+      "*   US Military Spending: Total US defense budget stands at approximately $886 billion in fiscal year 2024 ([Source: Congressional Budget Office, May 2024]).\n",
       "\n",
-      "**HIDDEN RIPPLE:**  Increased demand for alternative fertilizer production routes will drive up food prices globally, disproportionately affecting developing nations that rely on Middle East agricultural products—potentially sparking widespread social unrest linked to food insecurity. Furthermore, the conflict’s distraction from climate change mitigation efforts could severely hamper progress toward achieving net-zero emissions targets.\n"
+      "**HIDDEN RIPPLE:** Widespread cyberattacks targeting critical infrastructure – including financial systems and logistics networks – would accompany the physical warfare, compounding economic disruption far beyond initial assessments.  The conflict could trigger an unprecedented wave of disinformation campaigns designed to sow division and undermine public trust in Western institutions globally, accelerating societal polarization.\n"
      ]
     }
    ],
@@ -2122,13 +2118,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "25eaa9a5",
+   "id": "865a0424",
    "metadata": {
     "papermill": {
-     "duration": 0.015949,
-     "end_time": "2026-03-20T23:57:50.611286",
+     "duration": 0.018311,
+     "end_time": "2026-03-21T00:17:55.392556",
      "exception": false,
-     "start_time": "2026-03-20T23:57:50.595337",
+     "start_time": "2026-03-21T00:17:55.374245",
      "status": "completed"
     },
     "tags": []
@@ -2142,13 +2138,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "4840d454",
+   "id": "b9d275af",
    "metadata": {
     "papermill": {
-     "duration": 0.015677,
-     "end_time": "2026-03-20T23:57:50.642870",
+     "duration": 0.016708,
+     "end_time": "2026-03-21T00:17:55.425872",
      "exception": false,
-     "start_time": "2026-03-20T23:57:50.627193",
+     "start_time": "2026-03-21T00:17:55.409164",
      "status": "completed"
     },
     "tags": []
@@ -2164,19 +2160,19 @@
   {
    "cell_type": "code",
    "execution_count": 15,
-   "id": "dd2f74ae",
+   "id": "1eaad070",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-03-20T23:57:50.676531Z",
-     "iopub.status.busy": "2026-03-20T23:57:50.676163Z",
-     "iopub.status.idle": "2026-03-20T23:57:52.371938Z",
-     "shell.execute_reply": "2026-03-20T23:57:52.370856Z"
+     "iopub.execute_input": "2026-03-21T00:17:55.464891Z",
+     "iopub.status.busy": "2026-03-21T00:17:55.464498Z",
+     "iopub.status.idle": "2026-03-21T00:17:57.101516Z",
+     "shell.execute_reply": "2026-03-21T00:17:57.100567Z"
     },
     "papermill": {
-     "duration": 1.718446,
-     "end_time": "2026-03-20T23:57:52.376930",
+     "duration": 1.662101,
+     "end_time": "2026-03-21T00:17:57.107899",
      "exception": false,
-     "start_time": "2026-03-20T23:57:50.658484",
+     "start_time": "2026-03-21T00:17:55.445798",
      "status": "completed"
     },
     "tags": []
@@ -2429,13 +2425,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "726d8bfb",
+   "id": "71acab09",
    "metadata": {
     "papermill": {
-     "duration": 0.019997,
-     "end_time": "2026-03-20T23:57:52.416789",
+     "duration": 0.019695,
+     "end_time": "2026-03-21T00:17:57.147914",
      "exception": false,
-     "start_time": "2026-03-20T23:57:52.396792",
+     "start_time": "2026-03-21T00:17:57.128219",
      "status": "completed"
     },
     "tags": []
@@ -2451,6 +2447,152 @@
     "- **Panel C (Gantt timeline)** - When each effect hits. Oil prices spiked within the first day. Inflation took 30 days to accelerate. Refugee flows and recession risk take months to years. This shows that the butterfly effect is not a single event — it is a slow cascade.\n",
     "\n",
     "- **Panel D (Chokepoint chart)** - The core reason this conflict was so dangerous. The Strait of Hormuz is a narrow channel 33km wide at its narrowest point. Japan gets 75% of its oil through it. South Korea gets 70%. If Iran closes it, those countries face an energy crisis within weeks — despite being thousands of miles from the conflict."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "df6d0022",
+   "metadata": {
+    "papermill": {
+     "duration": 0.020213,
+     "end_time": "2026-03-21T00:17:57.187932",
+     "exception": false,
+     "start_time": "2026-03-21T00:17:57.167719",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "---\n",
+    "\n",
+    "## Final Insights - What This Project Found\n",
+    "\n",
+    "> *\"Distance no longer protects you. A war in Sudan empties a food bank in Chad.  \n",
+    "> A war in Ukraine raises bread prices in Cairo.  \n",
+    "> A war near the Strait of Hormuz turns off the lights in Seoul.\"*\n",
+    "\n",
+    "---\n",
+    "\n",
+    "### The Core Discovery\n",
+    "\n",
+    "This project tracked **11 wars across 23 years (2003–2026)**, measured their economic fingerprints across **104 months of data**, and used **Gemma 3 AI** to trace the cause-effect chains.\n",
+    "\n",
+    "The pattern that emerged is stark and consistent:\n",
+    "\n",
+    "> **Every single major conflict caused measurable damage in countries that had nothing to do with the fighting.**\n",
+    "\n",
+    "---\n",
+    "\n",
+    "### Three Types of Butterfly Effects — Each Hitting at a Different Speed\n",
+    "\n",
+    "| Effect Type | Speed | Real Example |\n",
+    "|---|---|---|\n",
+    "| **Energy shock** | Days | Oil jumped +$45/barrel within weeks of Ukraine invasion |\n",
+    "| **Food & trade shock** | Weeks to months | Global food index spiked +35 points after Ukraine cut wheat exports |\n",
+    "| **Migration & political shock** | Months to years | Syria sent 13.5M refugees — European politics shifted right for a decade |\n",
+    "\n",
+    "---\n",
+    "\n",
+    "### The Five Conflicts - Each a Different Type of Ripple\n",
+    "\n",
+    "**🇺🇦 Ukraine 2022 - The Economic Ripple**  \n",
+    "Hit 8 neighboring countries through energy pipelines and wheat export routes.  \n",
+    "A family in Germany paid double for heating. A baker in Egypt couldn't afford flour.  \n",
+    "The war was in eastern Europe. The hunger was in North Africa.\n",
+    "\n",
+    "**🇸🇾 Syria 2011 - The Migration Ripple**  \n",
+    "13.5 million people displaced over a decade.  \n",
+    "Lebanon took in refugees equivalent to 25% of its own population — and its economy collapsed.  \n",
+    "The political fallout reached Sweden and Hungary through ballot boxes.\n",
+    "\n",
+    "**🇵🇸 Gaza 2023 - The Trade & Logistics Ripple**  \n",
+    "Houthi attacks on Red Sea shipping rerouted global cargo, adding weeks and billions in costs.  \n",
+    "Japanese electronics and German car parts both got delayed — by a conflict neither country was part of.\n",
+    "\n",
+    "**🇮🇷 Iran-Israel 2025 - The Chokepoint War (entirely new type)**  \n",
+    "Oil spiked +$28 USD during the Strait of Hormuz threat.  \n",
+    "Japan gets **75%** of its oil through that 33km-wide channel. South Korea gets **70%**.  \n",
+    "A closure would cause an energy crisis in Tokyo and Seoul within weeks — from thousands of miles away.  \n",
+    "**No supply chain can reroute the Strait of Hormuz.**\n",
+    "\n",
+    "**🇸🇩 Sudan 2023–2025 - The Invisible Crisis**  \n",
+    "The project's most striking finding.  \n",
+    "**12 million people displaced** — overtaking Ukraine as the world's largest active displacement crisis.  \n",
+    "GDP contracted **37.5% in a single year** (African Development Bank).  \n",
+    "Scored the highest severity in the entire dataset.  \n",
+    "Yet receives a fraction of the media coverage of Ukraine or Gaza.\n",
+    "\n",
+    "---\n",
+    "\n",
+    "### What the Numbers Actually Showed\n",
+    "\n",
+    "| Metric | Before Ukraine War | Peak / After |\n",
+    "|---|---|---|\n",
+    "| Oil price | ~$68/barrel | ~$90+ (sustained — never fully reversed) |\n",
+    "| Global inflation | ~2.3% | **9.6%** — highest since the 1980s |\n",
+    "| Displaced persons globally | ~33 million (2018) | **~67 million** (mid-2026) |\n",
+    "| Food price index | ~97 (baseline) | **+35 points** spike at Ukraine peak |\n",
+    "\n",
+    "---\n",
+    "\n",
+    "### The Hidden Finding: Conflicts Now Overlap and Amplify Each Other\n",
+    "\n",
+    "In **2018**, there was one major active crisis.  \n",
+    "By **2026**, there were **8 simultaneous active conflicts**.\n",
+    "\n",
+    "Global food prices were still elevated in early 2026 — not because of one war, but because **new crises kept arriving before the previous shocks had eased.**\n",
+    "\n",
+    "The world's humanitarian funds, NGO capacity, and political attention are finite.  \n",
+    "They were already exhausted by Sudan when Pakistan and Lebanon escalated in early 2026.\n",
+    "\n",
+    "---\n",
+    "\n",
+    "### What Gemma 3 Added\n",
+    "\n",
+    "The AI didn't just confirm known facts — it traced **non-obvious second and third-order effects**:\n",
+    "\n",
+    "- The Ukraine war drained global humanitarian funds → Sudan and Myanmar received less aid\n",
+    "- Syrian refugees fueled far-right political movements in countries that never shared a border with Syria\n",
+    "- The Iran-Israel conflict's Hormuz risk threatened 20% of global oil supply → affecting every country that imports fuel\n",
+    "- The 2026 Lebanon war resumed on an economy already contracted **80%** since 2019 → compounded collapse\n",
+    "\n",
+    "---\n",
+    "\n",
+    "### What This Project Can Become\n",
+    "\n",
+    "This notebook is a foundation. It can be extended to:\n",
+    "\n",
+    "- **Predict** which countries are most vulnerable when a new conflict starts\n",
+    "- **Score** new conflicts by expected global ripple using the severity formula\n",
+    "- **Build a live dashboard** that updates as new conflicts emerge in real time\n",
+    "- **Fine-tune Gemma 3** on conflict-economics data for sharper, domain-specific analysis\n",
+    "\n",
+    "---"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "75f7f75d",
+   "metadata": {
+    "papermill": {
+     "duration": 0.020644,
+     "end_time": "2026-03-21T00:17:57.228891",
+     "exception": false,
+     "start_time": "2026-03-21T00:17:57.208247",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "\n",
+    "### If this notebook helped you understand the world a little better, please upvote.\n",
+    "\n",
+    "**Tools:** Gemma 3 (4B-IT) · Transformers · PyTorch · Pandas · Seaborn · Matplotlib  \n",
+    "**Data sources:** ACLED · UCDP · UN OCHA · World Bank · IMF · UNHCR · African Development Bank  \n",
+    "**Coverage:** 11 conflicts · 2003–2026 · 104 months of economic indicators  \n",
+    "**Author:** Sneha Rangole\n",
+    "\n",
+    "---"
    ]
   }
  ],
@@ -2491,20 +2633,20 @@
   },
   "papermill": {
    "default_parameters": {},
-   "duration": 2046.429315,
-   "end_time": "2026-03-20T23:57:55.418013",
+   "duration": 1894.246644,
+   "end_time": "2026-03-21T00:17:59.576665",
    "environment_variables": {},
    "exception": null,
    "input_path": "__notebook__.ipynb",
    "output_path": "__notebook__.ipynb",
    "parameters": {},
-   "start_time": "2026-03-20T23:23:48.988698",
+   "start_time": "2026-03-20T23:46:25.330021",
    "version": "2.6.0"
   },
   "widgets": {
    "application/vnd.jupyter.widget-state+json": {
     "state": {
-     "29deb5a7083648bc89772910bdce1912": {
+     "2f3f058765264da9b8bd080844b58497": {
       "model_module": "@jupyter-widgets/controls",
       "model_module_version": "2.0.0",
       "model_name": "HTMLModel",
@@ -2519,178 +2661,39 @@
        "_view_name": "HTMLView",
        "description": "",
        "description_allow_html": false,
-       "layout": "IPY_MODEL_ba721f861fc443b9a4cd9646c6df23e1",
+       "layout": "IPY_MODEL_b54572870d6d42b7934a8955e5fa0b86",
        "placeholder": "​",
-       "style": "IPY_MODEL_d4e013d61f7f40f19307d6732b38d948",
+       "style": "IPY_MODEL_b01a7ab9befd4016b9a899fe5401fde0",
        "tabbable": null,
        "tooltip": null,
-       "value": "Loading weights: 100%"
+       "value": " 883/883 [00:02&lt;00:00, 308.49it/s, Materializing param=model.vision_tower.vision_model.post_layernorm.weight]"
       }
      },
-     "821f5df8703648ff9441d0a815a01c94": {
+     "366edc4c090445e1848a19ee446b9b06": {
       "model_module": "@jupyter-widgets/controls",
       "model_module_version": "2.0.0",
-      "model_name": "HTMLStyleModel",
-      "state": {
-       "_model_module": "@jupyter-widgets/controls",
-       "_model_module_version": "2.0.0",
-       "_model_name": "HTMLStyleModel",
-       "_view_count": null,
-       "_view_module": "@jupyter-widgets/base",
-       "_view_module_version": "2.0.0",
-       "_view_name": "StyleView",
-       "background": null,
-       "description_width": "",
-       "font_size": null,
-       "text_color": null
-      }
-     },
-     "8a6af48bae5340d5b7ff3b47926480ba": {
-      "model_module": "@jupyter-widgets/controls",
-      "model_module_version": "2.0.0",
-      "model_name": "HTMLModel",
+      "model_name": "HBoxModel",
       "state": {
        "_dom_classes": [],
        "_model_module": "@jupyter-widgets/controls",
        "_model_module_version": "2.0.0",
-       "_model_name": "HTMLModel",
+       "_model_name": "HBoxModel",
        "_view_count": null,
        "_view_module": "@jupyter-widgets/controls",
        "_view_module_version": "2.0.0",
-       "_view_name": "HTMLView",
-       "description": "",
-       "description_allow_html": false,
-       "layout": "IPY_MODEL_f4f88696ae694dec9908dea1aaf61006",
-       "placeholder": "​",
-       "style": "IPY_MODEL_821f5df8703648ff9441d0a815a01c94",
+       "_view_name": "HBoxView",
+       "box_style": "",
+       "children": [
+        "IPY_MODEL_f3213b0438864db0b73b723f0a383d3f",
+        "IPY_MODEL_3cd6b1b5e890420c8ccbfef973f9ad57",
+        "IPY_MODEL_2f3f058765264da9b8bd080844b58497"
+       ],
+       "layout": "IPY_MODEL_977f98949fe44bbfa921f8cce506a2ab",
        "tabbable": null,
-       "tooltip": null,
-       "value": " 883/883 [00:02&lt;00:00, 368.28it/s, Materializing param=model.vision_tower.vision_model.post_layernorm.weight]"
+       "tooltip": null
       }
      },
-     "9d406e690289486b92b7ab075e867a0a": {
-      "model_module": "@jupyter-widgets/controls",
-      "model_module_version": "2.0.0",
-      "model_name": "ProgressStyleModel",
-      "state": {
-       "_model_module": "@jupyter-widgets/controls",
-       "_model_module_version": "2.0.0",
-       "_model_name": "ProgressStyleModel",
-       "_view_count": null,
-       "_view_module": "@jupyter-widgets/base",
-       "_view_module_version": "2.0.0",
-       "_view_name": "StyleView",
-       "bar_color": null,
-       "description_width": ""
-      }
-     },
-     "9e5d294d47184467b7d73b7e65088b19": {
-      "model_module": "@jupyter-widgets/base",
-      "model_module_version": "2.0.0",
-      "model_name": "LayoutModel",
-      "state": {
-       "_model_module": "@jupyter-widgets/base",
-       "_model_module_version": "2.0.0",
-       "_model_name": "LayoutModel",
-       "_view_count": null,
-       "_view_module": "@jupyter-widgets/base",
-       "_view_module_version": "2.0.0",
-       "_view_name": "LayoutView",
-       "align_content": null,
-       "align_items": null,
-       "align_self": null,
-       "border_bottom": null,
-       "border_left": null,
-       "border_right": null,
-       "border_top": null,
-       "bottom": null,
-       "display": null,
-       "flex": null,
-       "flex_flow": null,
-       "grid_area": null,
-       "grid_auto_columns": null,
-       "grid_auto_flow": null,
-       "grid_auto_rows": null,
-       "grid_column": null,
-       "grid_gap": null,
-       "grid_row": null,
-       "grid_template_areas": null,
-       "grid_template_columns": null,
-       "grid_template_rows": null,
-       "height": null,
-       "justify_content": null,
-       "justify_items": null,
-       "left": null,
-       "margin": null,
-       "max_height": null,
-       "max_width": null,
-       "min_height": null,
-       "min_width": null,
-       "object_fit": null,
-       "object_position": null,
-       "order": null,
-       "overflow": null,
-       "padding": null,
-       "right": null,
-       "top": null,
-       "visibility": null,
-       "width": null
-      }
-     },
-     "ba721f861fc443b9a4cd9646c6df23e1": {
-      "model_module": "@jupyter-widgets/base",
-      "model_module_version": "2.0.0",
-      "model_name": "LayoutModel",
-      "state": {
-       "_model_module": "@jupyter-widgets/base",
-       "_model_module_version": "2.0.0",
-       "_model_name": "LayoutModel",
-       "_view_count": null,
-       "_view_module": "@jupyter-widgets/base",
-       "_view_module_version": "2.0.0",
-       "_view_name": "LayoutView",
-       "align_content": null,
-       "align_items": null,
-       "align_self": null,
-       "border_bottom": null,
-       "border_left": null,
-       "border_right": null,
-       "border_top": null,
-       "bottom": null,
-       "display": null,
-       "flex": null,
-       "flex_flow": null,
-       "grid_area": null,
-       "grid_auto_columns": null,
-       "grid_auto_flow": null,
-       "grid_auto_rows": null,
-       "grid_column": null,
-       "grid_gap": null,
-       "grid_row": null,
-       "grid_template_areas": null,
-       "grid_template_columns": null,
-       "grid_template_rows": null,
-       "height": null,
-       "justify_content": null,
-       "justify_items": null,
-       "left": null,
-       "margin": null,
-       "max_height": null,
-       "max_width": null,
-       "min_height": null,
-       "min_width": null,
-       "object_fit": null,
-       "object_position": null,
-       "order": null,
-       "overflow": null,
-       "padding": null,
-       "right": null,
-       "top": null,
-       "visibility": null,
-       "width": null
-      }
-     },
-     "c1941e8ed87f4c5bb5ce90612d0a6e24": {
+     "3cd6b1b5e890420c8ccbfef973f9ad57": {
       "model_module": "@jupyter-widgets/controls",
       "model_module_version": "2.0.0",
       "model_name": "FloatProgressModel",
@@ -2706,41 +2709,176 @@
        "bar_style": "success",
        "description": "",
        "description_allow_html": false,
-       "layout": "IPY_MODEL_9e5d294d47184467b7d73b7e65088b19",
+       "layout": "IPY_MODEL_4a053da1e1044fa98c6bd8c4a6e6e400",
        "max": 883.0,
        "min": 0.0,
        "orientation": "horizontal",
-       "style": "IPY_MODEL_9d406e690289486b92b7ab075e867a0a",
+       "style": "IPY_MODEL_df26138eba0d4a35ab2a8d5e3d754617",
        "tabbable": null,
        "tooltip": null,
        "value": 883.0
       }
      },
-     "ca19e9417e754089a94651c910403582": {
-      "model_module": "@jupyter-widgets/controls",
+     "4a053da1e1044fa98c6bd8c4a6e6e400": {
+      "model_module": "@jupyter-widgets/base",
       "model_module_version": "2.0.0",
-      "model_name": "HBoxModel",
+      "model_name": "LayoutModel",
       "state": {
-       "_dom_classes": [],
-       "_model_module": "@jupyter-widgets/controls",
+       "_model_module": "@jupyter-widgets/base",
        "_model_module_version": "2.0.0",
-       "_model_name": "HBoxModel",
+       "_model_name": "LayoutModel",
        "_view_count": null,
-       "_view_module": "@jupyter-widgets/controls",
+       "_view_module": "@jupyter-widgets/base",
        "_view_module_version": "2.0.0",
-       "_view_name": "HBoxView",
-       "box_style": "",
-       "children": [
-        "IPY_MODEL_29deb5a7083648bc89772910bdce1912",
-        "IPY_MODEL_c1941e8ed87f4c5bb5ce90612d0a6e24",
-        "IPY_MODEL_8a6af48bae5340d5b7ff3b47926480ba"
-       ],
-       "layout": "IPY_MODEL_fc6546c990784a1da9fcfaaef147bb2e",
-       "tabbable": null,
-       "tooltip": null
+       "_view_name": "LayoutView",
+       "align_content": null,
+       "align_items": null,
+       "align_self": null,
+       "border_bottom": null,
+       "border_left": null,
+       "border_right": null,
+       "border_top": null,
+       "bottom": null,
+       "display": null,
+       "flex": null,
+       "flex_flow": null,
+       "grid_area": null,
+       "grid_auto_columns": null,
+       "grid_auto_flow": null,
+       "grid_auto_rows": null,
+       "grid_column": null,
+       "grid_gap": null,
+       "grid_row": null,
+       "grid_template_areas": null,
+       "grid_template_columns": null,
+       "grid_template_rows": null,
+       "height": null,
+       "justify_content": null,
+       "justify_items": null,
+       "left": null,
+       "margin": null,
+       "max_height": null,
+       "max_width": null,
+       "min_height": null,
+       "min_width": null,
+       "object_fit": null,
+       "object_position": null,
+       "order": null,
+       "overflow": null,
+       "padding": null,
+       "right": null,
+       "top": null,
+       "visibility": null,
+       "width": null
       }
      },
-     "d4e013d61f7f40f19307d6732b38d948": {
+     "5b51c3eafa8049ea81f6b8af033586e2": {
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "2.0.0",
+      "model_name": "LayoutModel",
+      "state": {
+       "_model_module": "@jupyter-widgets/base",
+       "_model_module_version": "2.0.0",
+       "_model_name": "LayoutModel",
+       "_view_count": null,
+       "_view_module": "@jupyter-widgets/base",
+       "_view_module_version": "2.0.0",
+       "_view_name": "LayoutView",
+       "align_content": null,
+       "align_items": null,
+       "align_self": null,
+       "border_bottom": null,
+       "border_left": null,
+       "border_right": null,
+       "border_top": null,
+       "bottom": null,
+       "display": null,
+       "flex": null,
+       "flex_flow": null,
+       "grid_area": null,
+       "grid_auto_columns": null,
+       "grid_auto_flow": null,
+       "grid_auto_rows": null,
+       "grid_column": null,
+       "grid_gap": null,
+       "grid_row": null,
+       "grid_template_areas": null,
+       "grid_template_columns": null,
+       "grid_template_rows": null,
+       "height": null,
+       "justify_content": null,
+       "justify_items": null,
+       "left": null,
+       "margin": null,
+       "max_height": null,
+       "max_width": null,
+       "min_height": null,
+       "min_width": null,
+       "object_fit": null,
+       "object_position": null,
+       "order": null,
+       "overflow": null,
+       "padding": null,
+       "right": null,
+       "top": null,
+       "visibility": null,
+       "width": null
+      }
+     },
+     "977f98949fe44bbfa921f8cce506a2ab": {
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "2.0.0",
+      "model_name": "LayoutModel",
+      "state": {
+       "_model_module": "@jupyter-widgets/base",
+       "_model_module_version": "2.0.0",
+       "_model_name": "LayoutModel",
+       "_view_count": null,
+       "_view_module": "@jupyter-widgets/base",
+       "_view_module_version": "2.0.0",
+       "_view_name": "LayoutView",
+       "align_content": null,
+       "align_items": null,
+       "align_self": null,
+       "border_bottom": null,
+       "border_left": null,
+       "border_right": null,
+       "border_top": null,
+       "bottom": null,
+       "display": null,
+       "flex": null,
+       "flex_flow": null,
+       "grid_area": null,
+       "grid_auto_columns": null,
+       "grid_auto_flow": null,
+       "grid_auto_rows": null,
+       "grid_column": null,
+       "grid_gap": null,
+       "grid_row": null,
+       "grid_template_areas": null,
+       "grid_template_columns": null,
+       "grid_template_rows": null,
+       "height": null,
+       "justify_content": null,
+       "justify_items": null,
+       "left": null,
+       "margin": null,
+       "max_height": null,
+       "max_width": null,
+       "min_height": null,
+       "min_width": null,
+       "object_fit": null,
+       "object_position": null,
+       "order": null,
+       "overflow": null,
+       "padding": null,
+       "right": null,
+       "top": null,
+       "visibility": null,
+       "width": null
+      }
+     },
+     "b01a7ab9befd4016b9a899fe5401fde0": {
       "model_module": "@jupyter-widgets/controls",
       "model_module_version": "2.0.0",
       "model_name": "HTMLStyleModel",
@@ -2758,7 +2896,7 @@
        "text_color": null
       }
      },
-     "f4f88696ae694dec9908dea1aaf61006": {
+     "b54572870d6d42b7934a8955e5fa0b86": {
       "model_module": "@jupyter-widgets/base",
       "model_module_version": "2.0.0",
       "model_name": "LayoutModel",
@@ -2811,57 +2949,61 @@
        "width": null
       }
      },
-     "fc6546c990784a1da9fcfaaef147bb2e": {
-      "model_module": "@jupyter-widgets/base",
+     "df26138eba0d4a35ab2a8d5e3d754617": {
+      "model_module": "@jupyter-widgets/controls",
       "model_module_version": "2.0.0",
-      "model_name": "LayoutModel",
+      "model_name": "ProgressStyleModel",
       "state": {
-       "_model_module": "@jupyter-widgets/base",
+       "_model_module": "@jupyter-widgets/controls",
        "_model_module_version": "2.0.0",
-       "_model_name": "LayoutModel",
+       "_model_name": "ProgressStyleModel",
        "_view_count": null,
        "_view_module": "@jupyter-widgets/base",
        "_view_module_version": "2.0.0",
-       "_view_name": "LayoutView",
-       "align_content": null,
-       "align_items": null,
-       "align_self": null,
-       "border_bottom": null,
-       "border_left": null,
-       "border_right": null,
-       "border_top": null,
-       "bottom": null,
-       "display": null,
-       "flex": null,
-       "flex_flow": null,
-       "grid_area": null,
-       "grid_auto_columns": null,
-       "grid_auto_flow": null,
-       "grid_auto_rows": null,
-       "grid_column": null,
-       "grid_gap": null,
-       "grid_row": null,
-       "grid_template_areas": null,
-       "grid_template_columns": null,
-       "grid_template_rows": null,
-       "height": null,
-       "justify_content": null,
-       "justify_items": null,
-       "left": null,
-       "margin": null,
-       "max_height": null,
-       "max_width": null,
-       "min_height": null,
-       "min_width": null,
-       "object_fit": null,
-       "object_position": null,
-       "order": null,
-       "overflow": null,
-       "padding": null,
-       "right": null,
-       "top": null,
-       "visibility": null,
-       "width": null
+       "_view_name": "StyleView",
+       "bar_color": null,
+       "description_width": ""
+      }
+     },
+     "f3213b0438864db0b73b723f0a383d3f": {
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "2.0.0",
+      "model_name": "HTMLModel",
+      "state": {
+       "_dom_classes": [],
+       "_model_module": "@jupyter-widgets/controls",
+       "_model_module_version": "2.0.0",
+       "_model_name": "HTMLModel",
+       "_view_count": null,
+       "_view_module": "@jupyter-widgets/controls",
+       "_view_module_version": "2.0.0",
+       "_view_name": "HTMLView",
+       "description": "",
+       "description_allow_html": false,
+       "layout": "IPY_MODEL_5b51c3eafa8049ea81f6b8af033586e2",
+       "placeholder": "​",
+       "style": "IPY_MODEL_f33745915ac246f9b2f26a19c8d83caa",
+       "tabbable": null,
+       "tooltip": null,
+       "value": "Loading weights: 100%"
+      }
+     },
+     "f33745915ac246f9b2f26a19c8d83caa": {
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "2.0.0",
+      "model_name": "HTMLStyleModel",
+      "state": {
+       "_model_module": "@jupyter-widgets/controls",
+       "_model_module_version": "2.0.0",
+       "_model_name": "HTMLStyleModel",
+       "_view_count": null,
+       "_view_module": "@jupyter-widgets/base",
+       "_view_module_version": "2.0.0",
+       "_view_name": "StyleView",
+       "background": null,
+       "description_width": "",
+       "font_size": null,
+       "text_color": null
       }
      }
     },

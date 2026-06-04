@@ -1,1 +1,1009 @@
-{"metadata":{"kernelspec":{"language":"python","display_name":"Python 3","name":"python3"},"language_info":{"name":"python","version":"3.12.13","mimetype":"text/x-python","codemirror_mode":{"name":"ipython","version":3},"pygments_lexer":"ipython3","nbconvert_exporter":"python","file_extension":".py"},"kaggle":{"accelerator":"none","dataSources":[],"dockerImageVersionId":31400,"isInternetEnabled":true,"language":"python","sourceType":"notebook","isGpuEnabled":false}},"nbformat_minor":4,"nbformat":4,"cells":[{"cell_type":"markdown","source":"# Why We Need Statistics in Data Science\n\n*A hands-on walk-through, built from Dr. Abhinanda Sarkar's classroom session (Great Learning).*\n\nData science and machine learning have been called the hardest job of the 21st\ncentury. Whatever the title, one thing is constant underneath all of it:\n**statistics is the language you use to reason about data you cannot fully see.**\n\nWith statistics we make claims like *\"sales will fall most in this customer\nsegment next quarter\"* or *\"there's a 16% chance this positive HIV test is a true\npositive.\"* That isn't magic and it isn't a crystal ball - it's just statistics.\n\nThis notebook is a guided tour. Every idea is paired with **runnable code** so you\ncan change a number and watch the idea respond. The arc is:\n\n1. **Two ways of thinking** - statistics vs. machine learning\n2. **Descriptive → Predictive → Prescriptive** - the three jobs of analytics\n3. **Descriptive statistics** - mean vs. median, spread, skew, outliers\n4. **Correlation & covariance** - how two variables move together\n5. **Linear regression as description** - summarizing many variables at once\n6. **Probability** - coping with uncertainty\n7. **Conditional probability & Bayes' theorem** - spam filters and medical tests\n8. **Distributions** - binomial, Poisson, and the normal distribution\n\nRun the next cell first - it sets up everything.","metadata":{}},{"cell_type":"code","source":"import numpy as np\nimport pandas as pd\nimport matplotlib.pyplot as plt\nfrom scipy import stats\n\nnp.random.seed(42)          # so the synthetic data is reproducible\nplt.rcParams['figure.figsize'] = (8, 4)\nplt.rcParams['axes.grid'] = True\nprint(\"Environment ready.\")","metadata":{"trusted":true,"execution":{"iopub.status.busy":"2026-06-04T11:58:48.893181Z","iopub.execute_input":"2026-06-04T11:58:48.893407Z","iopub.status.idle":"2026-06-04T11:58:52.208462Z","shell.execute_reply.started":"2026-06-04T11:58:48.893382Z","shell.execute_reply":"2026-06-04T11:58:52.207481Z"}},"outputs":[{"name":"stdout","text":"Environment ready.\n","output_type":"stream"}],"execution_count":1},{"cell_type":"markdown","source":"## 1. Two ways of thinking: statistics vs. machine learning\n\nThere is a real cultural difference between the two communities:\n\n- The **statistical** way of thinking says: *first formulate a problem, then go\n  get the data to solve it.* Here **data is cheap and the question is expensive** -\n  you are paid for asking the right question.\n  \n- The **machine-learning** way of thinking says: *here is the data, tell me what it\n  is telling you.* Here **the question is cheap and the data is expensive** - you are\n  paid for collecting and exploiting the data.\n\nThe classic interview deadlock captures it:\n\n> **Business:** \"Here is my data. What can you say?\"\n> **Statistician:** \"What do you want to know?\"\n> **Business:** \"That's why I want to hire *you*.\"\n> **Statistician:** \"If you don't tell me what you want to know, how do I know what to tell you?\"\n\nNeither side is wrong. Real work lives in between. Take a concrete example: a watch\ncompany's sales are falling. You can't answer *\"why?\"* by staring at numbers - you\nhave to **frame questions first**: Which segments are declining? How fast? Where is\nthe bulk of sales? Only then does the data become useful.","metadata":{}},{"cell_type":"markdown","source":"## 2. Descriptive, Predictive, Prescriptive\n\nAnalytics work usually flows through three stages. The cricket analogy makes them\nclick instantly:\n\n| Stage | Question | Cricket example |\n|---|---|---|\n| **Descriptive** | What happened? It locates and isolates the problem. | How many centuries has the batsman scored? (look it up) |\n| **Predictive** | What *will* happen, or what happens if I change something? | How many centuries will he score in the World Cup? |\n| **Prescriptive** | What should I *do* to change the outcome? | How do we get him to score *more* centuries? |\n\nA doctor does all three: *describe* your symptoms, *predict* you are becoming\npre-diabetic, then *prescribe* an action - under constraints (first, do no harm).\nA business does the same: sell more watches, but stay profitable, keep employees,\nrepay loans. Prescription is a constrained optimization problem.\n\n**This notebook focuses mostly on the descriptive foundation**, because everything\npredictive and prescriptive is built on top of it.","metadata":{}},{"cell_type":"markdown","source":"## 3. A dataset to think with: CardioGoodFitness\n\nThe market-research team of a fitness company wants the **profile of the typical\ncustomer** for each treadmill product. They collect data on people who bought a\ntreadmill in the last three months.\n\nWe generate a synthetic version of the well-known *CardioGoodFitness* dataset so\nevery cell here runs with no external file. The columns mirror the real study:\n\n- `Product` - model bought (TM195, TM498, TM798)\n- `Gender`, `Age`, `Education` (years),\n- `MaritalStatus`\n- `Income` - annual household income\n- `Usage` - times per week the customer plans to use it\n- `Fitness` - self-rated 1 (poor) to 5 (excellent)\n- `Miles` - expected miles walked/run per week\n\nNotice that some of these are **measured facts** (age, income) and some are\n**opinion masquerading as data** (planned usage, self-rated fitness). It's still\ndata - it came from somewhere.","metadata":{}}]}
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "2d8b3cd4",
+   "metadata": {
+    "papermill": {
+     "duration": 0.003955,
+     "end_time": "2026-06-04T20:10:14.948622+00:00",
+     "exception": false,
+     "start_time": "2026-06-04T20:10:14.944667+00:00",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "# Why We Need Statistics in Data Science\n",
+    "\n",
+    "*A hands-on walk-through, built from Dr. Abhinanda Sarkar's classroom session (Great Learning).*\n",
+    "\n",
+    "Data science and machine learning have been called the hardest job of the 21st\n",
+    "century. Whatever the title, one thing is constant underneath all of it:\n",
+    "**statistics is the language you use to reason about data you cannot fully see.**\n",
+    "\n",
+    "With statistics we make claims like *\"sales will fall most in this customer\n",
+    "segment next quarter\"* or *\"there's a 16% chance this positive HIV test is a true\n",
+    "positive.\"* That isn't magic and it isn't a crystal ball - it's just statistics.\n",
+    "\n",
+    "This notebook is a guided tour. Every idea is paired with **runnable code** so you\n",
+    "can change a number and watch the idea respond. The arc is:\n",
+    "\n",
+    "1. **Two ways of thinking** - statistics vs. machine learning\n",
+    "2. **Descriptive → Predictive → Prescriptive** - the three jobs of analytics\n",
+    "3. **Descriptive statistics** - mean vs. median, spread, skew, outliers\n",
+    "4. **Correlation & covariance** - how two variables move together\n",
+    "5. **Linear regression as description** - summarizing many variables at once\n",
+    "6. **Probability** - coping with uncertainty\n",
+    "7. **Conditional probability & Bayes' theorem** - spam filters and medical tests\n",
+    "8. **Distributions** - binomial, Poisson, and the normal distribution\n",
+    "\n",
+    "Run the next cell first - it sets up everything."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "0b9eb143",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2026-06-04T20:10:14.958958Z",
+     "iopub.status.busy": "2026-06-04T20:10:14.958093Z",
+     "iopub.status.idle": "2026-06-04T20:10:19.389409Z",
+     "shell.execute_reply": "2026-06-04T20:10:19.387188Z"
+    },
+    "papermill": {
+     "duration": 4.44054,
+     "end_time": "2026-06-04T20:10:19.392600+00:00",
+     "exception": false,
+     "start_time": "2026-06-04T20:10:14.952060+00:00",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Environment ready.\n"
+     ]
+    }
+   ],
+   "source": [
+    "import numpy as np\n",
+    "import pandas as pd\n",
+    "import matplotlib.pyplot as plt\n",
+    "from scipy import stats\n",
+    "\n",
+    "np.random.seed(42)          # so the synthetic data is reproducible\n",
+    "plt.rcParams['figure.figsize'] = (8, 4)\n",
+    "plt.rcParams['axes.grid'] = True\n",
+    "print(\"Environment ready.\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "2b296f7b",
+   "metadata": {
+    "papermill": {
+     "duration": 0.00372,
+     "end_time": "2026-06-04T20:10:19.400584+00:00",
+     "exception": false,
+     "start_time": "2026-06-04T20:10:19.396864+00:00",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "## 1. Two ways of thinking: statistics vs. machine learning\n",
+    "\n",
+    "There is a real cultural difference between the two communities:\n",
+    "\n",
+    "- The **statistical** way of thinking says: *first formulate a problem, then go\n",
+    "  get the data to solve it.* Here **data is cheap and the question is expensive** -\n",
+    "  you are paid for asking the right question.\n",
+    "  \n",
+    "- The **machine-learning** way of thinking says: *here is the data, tell me what it\n",
+    "  is telling you.* Here **the question is cheap and the data is expensive** - you are\n",
+    "  paid for collecting and exploiting the data.\n",
+    "\n",
+    "The classic interview deadlock captures it:\n",
+    "\n",
+    "> **Business:** \"Here is my data. What can you say?\"\n",
+    "> **Statistician:** \"What do you want to know?\"\n",
+    "> **Business:** \"That's why I want to hire *you*.\"\n",
+    "> **Statistician:** \"If you don't tell me what you want to know, how do I know what to tell you?\"\n",
+    "\n",
+    "Neither side is wrong. Real work lives in between. Take a concrete example: a watch\n",
+    "company's sales are falling. You can't answer *\"why?\"* by staring at numbers - you\n",
+    "have to **frame questions first**: Which segments are declining? How fast? Where is\n",
+    "the bulk of sales? Only then does the data become useful."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "514225fa",
+   "metadata": {
+    "papermill": {
+     "duration": 0.004014,
+     "end_time": "2026-06-04T20:10:19.408187+00:00",
+     "exception": false,
+     "start_time": "2026-06-04T20:10:19.404173+00:00",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "## 2. Descriptive, Predictive, Prescriptive\n",
+    "\n",
+    "Analytics work usually flows through three stages. The cricket analogy makes them\n",
+    "click instantly:\n",
+    "\n",
+    "| Stage | Question | Cricket example |\n",
+    "|---|---|---|\n",
+    "| **Descriptive** | What happened? It locates and isolates the problem. | How many centuries has the batsman scored? (look it up) |\n",
+    "| **Predictive** | What *will* happen, or what happens if I change something? | How many centuries will he score in the World Cup? |\n",
+    "| **Prescriptive** | What should I *do* to change the outcome? | How do we get him to score *more* centuries? |\n",
+    "\n",
+    "A doctor does all three: *describe* your symptoms, *predict* you are becoming\n",
+    "pre-diabetic, then *prescribe* an action - under constraints (first, do no harm).\n",
+    "A business does the same: sell more watches, but stay profitable, keep employees,\n",
+    "repay loans. Prescription is a constrained optimization problem.\n",
+    "\n",
+    "**This notebook focuses mostly on the descriptive foundation**, because everything\n",
+    "predictive and prescriptive is built on top of it."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "4b91fa75",
+   "metadata": {
+    "papermill": {
+     "duration": 0.006259,
+     "end_time": "2026-06-04T20:10:19.418705+00:00",
+     "exception": false,
+     "start_time": "2026-06-04T20:10:19.412446+00:00",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "## 3. A dataset to think with: CardioGoodFitness\n",
+    "\n",
+    "The market-research team of a fitness company wants the **profile of the typical\n",
+    "customer** for each treadmill product. They collect data on people who bought a\n",
+    "treadmill in the last three months.\n",
+    "\n",
+    "We generate a synthetic version of the well-known *CardioGoodFitness* dataset so\n",
+    "every cell here runs with no external file. The columns mirror the real study:\n",
+    "\n",
+    "- `Product` - model bought (TM195, TM498, TM798)\n",
+    "- `Gender`, `Age`, `Education` (years),\n",
+    "- `MaritalStatus`\n",
+    "- `Income` - annual household income\n",
+    "- `Usage` - times per week the customer plans to use it\n",
+    "- `Fitness` - self-rated 1 (poor) to 5 (excellent)\n",
+    "- `Miles` - expected miles walked/run per week\n",
+    "\n",
+    "Notice that some of these are **measured facts** (age, income) and some are\n",
+    "**opinion masquerading as data** (planned usage, self-rated fitness). It's still\n",
+    "data - it came from somewhere."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "3c339a1a",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2026-06-04T20:10:19.428976Z",
+     "iopub.status.busy": "2026-06-04T20:10:19.428281Z",
+     "iopub.status.idle": "2026-06-04T20:10:19.496719Z",
+     "shell.execute_reply": "2026-06-04T20:10:19.495672Z"
+    },
+    "papermill": {
+     "duration": 0.076432,
+     "end_time": "2026-06-04T20:10:19.498828+00:00",
+     "exception": false,
+     "start_time": "2026-06-04T20:10:19.422396+00:00",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "<div>\n",
+       "<style scoped>\n",
+       "    .dataframe tbody tr th:only-of-type {\n",
+       "        vertical-align: middle;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe tbody tr th {\n",
+       "        vertical-align: top;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe thead th {\n",
+       "        text-align: right;\n",
+       "    }\n",
+       "</style>\n",
+       "<table border=\"1\" class=\"dataframe\">\n",
+       "  <thead>\n",
+       "    <tr style=\"text-align: right;\">\n",
+       "      <th></th>\n",
+       "      <th>Product</th>\n",
+       "      <th>Age</th>\n",
+       "      <th>Gender</th>\n",
+       "      <th>Education</th>\n",
+       "      <th>MaritalStatus</th>\n",
+       "      <th>Usage</th>\n",
+       "      <th>Fitness</th>\n",
+       "      <th>Income</th>\n",
+       "      <th>Miles</th>\n",
+       "    </tr>\n",
+       "  </thead>\n",
+       "  <tbody>\n",
+       "    <tr>\n",
+       "      <th>0</th>\n",
+       "      <td>TM195</td>\n",
+       "      <td>42</td>\n",
+       "      <td>Male</td>\n",
+       "      <td>14</td>\n",
+       "      <td>Partnered</td>\n",
+       "      <td>3</td>\n",
+       "      <td>3</td>\n",
+       "      <td>52000</td>\n",
+       "      <td>113</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>1</th>\n",
+       "      <td>TM798</td>\n",
+       "      <td>21</td>\n",
+       "      <td>Male</td>\n",
+       "      <td>16</td>\n",
+       "      <td>Partnered</td>\n",
+       "      <td>4</td>\n",
+       "      <td>5</td>\n",
+       "      <td>91000</td>\n",
+       "      <td>168</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>2</th>\n",
+       "      <td>TM498</td>\n",
+       "      <td>26</td>\n",
+       "      <td>Female</td>\n",
+       "      <td>16</td>\n",
+       "      <td>Partnered</td>\n",
+       "      <td>4</td>\n",
+       "      <td>5</td>\n",
+       "      <td>51900</td>\n",
+       "      <td>169</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>3</th>\n",
+       "      <td>TM498</td>\n",
+       "      <td>31</td>\n",
+       "      <td>Female</td>\n",
+       "      <td>16</td>\n",
+       "      <td>Single</td>\n",
+       "      <td>2</td>\n",
+       "      <td>3</td>\n",
+       "      <td>53900</td>\n",
+       "      <td>84</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>4</th>\n",
+       "      <td>TM195</td>\n",
+       "      <td>29</td>\n",
+       "      <td>Male</td>\n",
+       "      <td>16</td>\n",
+       "      <td>Partnered</td>\n",
+       "      <td>4</td>\n",
+       "      <td>2</td>\n",
+       "      <td>40700</td>\n",
+       "      <td>71</td>\n",
+       "    </tr>\n",
+       "  </tbody>\n",
+       "</table>\n",
+       "</div>"
+      ],
+      "text/plain": [
+       "  Product  Age  Gender  Education MaritalStatus  Usage  Fitness  Income  Miles\n",
+       "0   TM195   42    Male         14     Partnered      3        3   52000    113\n",
+       "1   TM798   21    Male         16     Partnered      4        5   91000    168\n",
+       "2   TM498   26  Female         16     Partnered      4        5   51900    169\n",
+       "3   TM498   31  Female         16        Single      2        3   53900     84\n",
+       "4   TM195   29    Male         16     Partnered      4        2   40700     71"
+      ]
+     },
+     "execution_count": 2,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "def make_cardio(n=180):\n",
+    "    products = np.random.choice(['TM195', 'TM498', 'TM798'], size=n, p=[0.44, 0.33, 0.23])\n",
+    "    gender = np.random.choice(['Male', 'Female'], size=n, p=[0.58, 0.42])\n",
+    "    # Age: right-skewed (most customers young, a tail of older buyers)\n",
+    "    age = (18 + np.random.gamma(shape=2.2, scale=4.8, size=n)).round().clip(18, 50).astype(int)\n",
+    "    education = np.random.choice([12, 13, 14, 15, 16, 18, 20], size=n,\n",
+    "                                 p=[0.05, 0.10, 0.22, 0.10, 0.40, 0.10, 0.03])\n",
+    "    marital = np.random.choice(['Partnered', 'Single'], size=n, p=[0.59, 0.41])\n",
+    "    # Fitness depends loosely on the product tier\n",
+    "    tier = pd.Series(products).map({'TM195': 0, 'TM498': 1, 'TM798': 2}).values\n",
+    "    fitness = np.clip(np.round(2.7 + 0.7 * tier + np.random.normal(0, 0.6, n)), 1, 5).astype(int)\n",
+    "    usage = np.clip(np.round(2.5 + 0.8 * tier + np.random.normal(0, 0.9, n)), 2, 7).astype(int)\n",
+    "    # Income: log-normal-ish, lifted by education and product tier -> mean > median\n",
+    "    income = (np.random.lognormal(mean=10.7, sigma=0.28, size=n)\n",
+    "              + 1500 * (education - 14) + 9000 * tier).round(-2).clip(29000, 105000).astype(int)\n",
+    "    # Miles driven by usage and fitness, with noise\n",
+    "    miles = np.clip(np.round(-56 + 20 * usage + 27 * fitness + np.random.normal(0, 18, n)),\n",
+    "                    20, 360).astype(int)\n",
+    "    return pd.DataFrame({\n",
+    "        'Product': products, 'Age': age, 'Gender': gender, 'Education': education,\n",
+    "        'MaritalStatus': marital, 'Usage': usage, 'Fitness': fitness,\n",
+    "        'Income': income, 'Miles': miles,\n",
+    "    })\n",
+    "\n",
+    "data = make_cardio()\n",
+    "data.head()"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "00f9a348",
+   "metadata": {
+    "papermill": {
+     "duration": 0.003535,
+     "end_time": "2026-06-04T20:10:19.505942+00:00",
+     "exception": false,
+     "start_time": "2026-06-04T20:10:19.502407+00:00",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "`head()` and `tail()` give a feel for the data - which variables exist and what\n",
+    "*kind* each one is. `info()` reports the storage type: numeric columns vs. `object`\n",
+    "(text/categorical) columns. This distinction matters: you cannot take the *mean* of\n",
+    "`Gender`."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "953907c2",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2026-06-04T20:10:19.517806Z",
+     "iopub.status.busy": "2026-06-04T20:10:19.517415Z",
+     "iopub.status.idle": "2026-06-04T20:10:19.542305Z",
+     "shell.execute_reply": "2026-06-04T20:10:19.540988Z"
+    },
+    "papermill": {
+     "duration": 0.034974,
+     "end_time": "2026-06-04T20:10:19.545184+00:00",
+     "exception": false,
+     "start_time": "2026-06-04T20:10:19.510210+00:00",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "<class 'pandas.core.frame.DataFrame'>\n",
+      "RangeIndex: 180 entries, 0 to 179\n",
+      "Data columns (total 9 columns):\n",
+      " #   Column         Non-Null Count  Dtype \n",
+      "---  ------         --------------  ----- \n",
+      " 0   Product        180 non-null    object\n",
+      " 1   Age            180 non-null    int64 \n",
+      " 2   Gender         180 non-null    object\n",
+      " 3   Education      180 non-null    int64 \n",
+      " 4   MaritalStatus  180 non-null    object\n",
+      " 5   Usage          180 non-null    int64 \n",
+      " 6   Fitness        180 non-null    int64 \n",
+      " 7   Income         180 non-null    int64 \n",
+      " 8   Miles          180 non-null    int64 \n",
+      "dtypes: int64(6), object(3)\n",
+      "memory usage: 12.8+ KB\n"
+     ]
+    }
+   ],
+   "source": [
+    "data.info()"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "ffb1fb82",
+   "metadata": {
+    "papermill": {
+     "duration": 0.003294,
+     "end_time": "2026-06-04T20:10:19.552118+00:00",
+     "exception": false,
+     "start_time": "2026-06-04T20:10:19.548824+00:00",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "## 4. Describing one variable: location and spread\n",
+    "\n",
+    "`describe()` gives the **five-number summary** (min, 25%, 50%, 75%, max) plus the\n",
+    "mean and standard deviation for every numeric column. For categorical columns it\n",
+    "can only count and report the most frequent value - it literally cannot compute a\n",
+    "mean."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "0d99ae75",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2026-06-04T20:10:19.560370Z",
+     "iopub.status.busy": "2026-06-04T20:10:19.560059Z",
+     "iopub.status.idle": "2026-06-04T20:10:19.590872Z",
+     "shell.execute_reply": "2026-06-04T20:10:19.589625Z"
+    },
+    "papermill": {
+     "duration": 0.038237,
+     "end_time": "2026-06-04T20:10:19.593746+00:00",
+     "exception": false,
+     "start_time": "2026-06-04T20:10:19.555509+00:00",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "<div>\n",
+       "<style scoped>\n",
+       "    .dataframe tbody tr th:only-of-type {\n",
+       "        vertical-align: middle;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe tbody tr th {\n",
+       "        vertical-align: top;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe thead th {\n",
+       "        text-align: right;\n",
+       "    }\n",
+       "</style>\n",
+       "<table border=\"1\" class=\"dataframe\">\n",
+       "  <thead>\n",
+       "    <tr style=\"text-align: right;\">\n",
+       "      <th></th>\n",
+       "      <th>Age</th>\n",
+       "      <th>Education</th>\n",
+       "      <th>Usage</th>\n",
+       "      <th>Fitness</th>\n",
+       "      <th>Income</th>\n",
+       "      <th>Miles</th>\n",
+       "    </tr>\n",
+       "  </thead>\n",
+       "  <tbody>\n",
+       "    <tr>\n",
+       "      <th>count</th>\n",
+       "      <td>180.000000</td>\n",
+       "      <td>180.000000</td>\n",
+       "      <td>180.000000</td>\n",
+       "      <td>180.000000</td>\n",
+       "      <td>180.000000</td>\n",
+       "      <td>180.000000</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>mean</th>\n",
+       "      <td>28.527778</td>\n",
+       "      <td>15.200000</td>\n",
+       "      <td>3.211111</td>\n",
+       "      <td>3.311111</td>\n",
+       "      <td>54660.555556</td>\n",
+       "      <td>98.827778</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>std</th>\n",
+       "      <td>7.023846</td>\n",
+       "      <td>1.722023</td>\n",
+       "      <td>0.985872</td>\n",
+       "      <td>0.800062</td>\n",
+       "      <td>14238.320695</td>\n",
+       "      <td>39.390585</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>min</th>\n",
+       "      <td>19.000000</td>\n",
+       "      <td>12.000000</td>\n",
+       "      <td>2.000000</td>\n",
+       "      <td>1.000000</td>\n",
+       "      <td>29000.000000</td>\n",
+       "      <td>20.000000</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>25%</th>\n",
+       "      <td>23.750000</td>\n",
+       "      <td>14.000000</td>\n",
+       "      <td>2.000000</td>\n",
+       "      <td>3.000000</td>\n",
+       "      <td>43825.000000</td>\n",
+       "      <td>70.000000</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>50%</th>\n",
+       "      <td>27.000000</td>\n",
+       "      <td>15.000000</td>\n",
+       "      <td>3.000000</td>\n",
+       "      <td>3.000000</td>\n",
+       "      <td>53350.000000</td>\n",
+       "      <td>96.000000</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>75%</th>\n",
+       "      <td>32.000000</td>\n",
+       "      <td>16.000000</td>\n",
+       "      <td>4.000000</td>\n",
+       "      <td>4.000000</td>\n",
+       "      <td>62575.000000</td>\n",
+       "      <td>128.250000</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>max</th>\n",
+       "      <td>50.000000</td>\n",
+       "      <td>20.000000</td>\n",
+       "      <td>6.000000</td>\n",
+       "      <td>5.000000</td>\n",
+       "      <td>105000.000000</td>\n",
+       "      <td>206.000000</td>\n",
+       "    </tr>\n",
+       "  </tbody>\n",
+       "</table>\n",
+       "</div>"
+      ],
+      "text/plain": [
+       "              Age   Education       Usage     Fitness         Income  \\\n",
+       "count  180.000000  180.000000  180.000000  180.000000     180.000000   \n",
+       "mean    28.527778   15.200000    3.211111    3.311111   54660.555556   \n",
+       "std      7.023846    1.722023    0.985872    0.800062   14238.320695   \n",
+       "min     19.000000   12.000000    2.000000    1.000000   29000.000000   \n",
+       "25%     23.750000   14.000000    2.000000    3.000000   43825.000000   \n",
+       "50%     27.000000   15.000000    3.000000    3.000000   53350.000000   \n",
+       "75%     32.000000   16.000000    4.000000    4.000000   62575.000000   \n",
+       "max     50.000000   20.000000    6.000000    5.000000  105000.000000   \n",
+       "\n",
+       "            Miles  \n",
+       "count  180.000000  \n",
+       "mean    98.827778  \n",
+       "std     39.390585  \n",
+       "min     20.000000  \n",
+       "25%     70.000000  \n",
+       "50%     96.000000  \n",
+       "75%    128.250000  \n",
+       "max    206.000000  "
+      ]
+     },
+     "execution_count": 4,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "data.describe()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "bfd309e3",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2026-06-04T20:10:19.604745Z",
+     "iopub.status.busy": "2026-06-04T20:10:19.604378Z",
+     "iopub.status.idle": "2026-06-04T20:10:19.621199Z",
+     "shell.execute_reply": "2026-06-04T20:10:19.619897Z"
+    },
+    "papermill": {
+     "duration": 0.025868,
+     "end_time": "2026-06-04T20:10:19.624120+00:00",
+     "exception": false,
+     "start_time": "2026-06-04T20:10:19.598252+00:00",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "<div>\n",
+       "<style scoped>\n",
+       "    .dataframe tbody tr th:only-of-type {\n",
+       "        vertical-align: middle;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe tbody tr th {\n",
+       "        vertical-align: top;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe thead th {\n",
+       "        text-align: right;\n",
+       "    }\n",
+       "</style>\n",
+       "<table border=\"1\" class=\"dataframe\">\n",
+       "  <thead>\n",
+       "    <tr style=\"text-align: right;\">\n",
+       "      <th></th>\n",
+       "      <th>Product</th>\n",
+       "      <th>Gender</th>\n",
+       "      <th>MaritalStatus</th>\n",
+       "    </tr>\n",
+       "  </thead>\n",
+       "  <tbody>\n",
+       "    <tr>\n",
+       "      <th>count</th>\n",
+       "      <td>180</td>\n",
+       "      <td>180</td>\n",
+       "      <td>180</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>unique</th>\n",
+       "      <td>3</td>\n",
+       "      <td>2</td>\n",
+       "      <td>2</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>top</th>\n",
+       "      <td>TM195</td>\n",
+       "      <td>Male</td>\n",
+       "      <td>Partnered</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>freq</th>\n",
+       "      <td>88</td>\n",
+       "      <td>100</td>\n",
+       "      <td>99</td>\n",
+       "    </tr>\n",
+       "  </tbody>\n",
+       "</table>\n",
+       "</div>"
+      ],
+      "text/plain": [
+       "       Product Gender MaritalStatus\n",
+       "count      180    180           180\n",
+       "unique       3      2             2\n",
+       "top      TM195   Male     Partnered\n",
+       "freq        88    100            99"
+      ]
+     },
+     "execution_count": 5,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "# Categorical columns get a different kind of summary\n",
+    "data.describe(include='object')"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "73f73fc6",
+   "metadata": {
+    "papermill": {
+     "duration": 0.004258,
+     "end_time": "2026-06-04T20:10:19.633538+00:00",
+     "exception": false,
+     "start_time": "2026-06-04T20:10:19.629280+00:00",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "### Mean vs. median - the most important pair of numbers\n",
+    "\n",
+    "Ask: *\"What is one representative age for this dataset?\"* There are two natural answers.\n",
+    "\n",
+    "- **Mean** = the *average age of a person*: add all ages, divide by how many.\n",
+    "- **Median** = the *age of the average person*: sort everyone, pick the middle one.\n",
+    "\n",
+    "They answer subtly different questions, and they react differently to extreme\n",
+    "values. The median ignores outliers; the mean chases them."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "1ed72a4d",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2026-06-04T20:10:19.643351Z",
+     "iopub.status.busy": "2026-06-04T20:10:19.642999Z",
+     "iopub.status.idle": "2026-06-04T20:10:19.651451Z",
+     "shell.execute_reply": "2026-06-04T20:10:19.650284Z"
+    },
+    "papermill": {
+     "duration": 0.016468,
+     "end_time": "2026-06-04T20:10:19.654157+00:00",
+     "exception": false,
+     "start_time": "2026-06-04T20:10:19.637689+00:00",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Mean age:   28.53\n",
+      "Median age: 27.00\n",
+      "Min / Max:  19 / 50\n",
+      "\n",
+      "mean - median = 1.53  (positive -> right skew)\n"
+     ]
+    }
+   ],
+   "source": [
+    "mean_age = data['Age'].mean()\n",
+    "median_age = data['Age'].median()\n",
+    "print(f\"Mean age:   {mean_age:.2f}\")\n",
+    "print(f\"Median age: {median_age:.2f}\")\n",
+    "print(f\"Min / Max:  {data['Age'].min()} / {data['Age'].max()}\")\n",
+    "\n",
+    "# mean > median  =>  data is pushed to the right (right-skewed)\n",
+    "print(f\"\\nmean - median = {mean_age - median_age:.2f}  (positive -> right skew)\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "592e65a0",
+   "metadata": {
+    "papermill": {
+     "duration": 0.004844,
+     "end_time": "2026-06-04T20:10:19.664109+00:00",
+     "exception": false,
+     "start_time": "2026-06-04T20:10:19.659265+00:00",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "**The Ambani effect.** Imagine the richest person in the country walks into the\n",
+    "room. The *mean* income explodes; the *median* barely moves, because the middle\n",
+    "person is still the middle person. That is why the per-capita income of a country is\n",
+    "almost always higher than the income of the *typical* citizen. Let's prove it."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "3889db53",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2026-06-04T20:10:19.676602Z",
+     "iopub.status.busy": "2026-06-04T20:10:19.676085Z",
+     "iopub.status.idle": "2026-06-04T20:10:19.686804Z",
+     "shell.execute_reply": "2026-06-04T20:10:19.685311Z"
+    },
+    "papermill": {
+     "duration": 0.019342,
+     "end_time": "2026-06-04T20:10:19.689031+00:00",
+     "exception": false,
+     "start_time": "2026-06-04T20:10:19.669689+00:00",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Before - mean: 54,661   median: 53,350\n",
+      "After  - mean: 81,983   median: 53,400\n",
+      "\n",
+      "The mean jumps; the median is almost unchanged. The median is robust to outliers.\n"
+     ]
+    }
+   ],
+   "source": [
+    "incomes = data['Income'].copy()\n",
+    "print(f\"Before - mean: {incomes.mean():,.0f}   median: {incomes.median():,.0f}\")\n",
+    "\n",
+    "incomes_with_billionaire = pd.concat([incomes, pd.Series([5_000_000])], ignore_index=True)\n",
+    "print(f\"After  - mean: {incomes_with_billionaire.mean():,.0f}   \"\n",
+    "      f\"median: {incomes_with_billionaire.median():,.0f}\")\n",
+    "print(\"\\nThe mean jumps; the median is almost unchanged. The median is robust to outliers.\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "348401cf",
+   "metadata": {
+    "papermill": {
+     "duration": 0.006358,
+     "end_time": "2026-06-04T20:10:19.700561+00:00",
+     "exception": false,
+     "start_time": "2026-06-04T20:10:19.694203+00:00",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "### What is Standard Deviation?\n",
+    "\n",
+    "Standard deviation is just a way to measure how **spread out** a group of numbers is.\n",
+    "\n",
+    "Imagine you are looking at the prices of pizzas at two different restaurants:\n",
+    "\n",
+    "- **Low Standard Deviation:** At Restaurant A, all the pizzas cost around 15 dollars. The prices are very consistent. They are tightly packed around the average.\n",
+    "- **High Standard Deviation:** At Restaurant B, they have a basic slice for 2 dollars, but also a luxury caviar pizza for $100. The prices are wildly spread out from the average.\n",
+    "\n",
+    "When a number has a high standard deviation, it means you can expect a lot of surprises and wild swings. When it's low, things are predictable and consistent.\n",
+    "\n",
+    "### Standard deviation - *how far, on average, is an observation from the average?*\n",
+    "\n",
+    "Steps: \n",
+    "- (1) compute the mean,\n",
+    "- (2) for every point measure its distance from the mean,\n",
+    "- (3) square those distances (so positive and negative deviations don't cancel \"neutralize\" - each other),\n",
+    "- (4) average them,\n",
+    "- (5) take the square root to get back to the original units.\n",
+    "\n",
+    "The square root of the averaged squared deviations is the **standard deviation**;\n",
+    "without the square root it's the **variance**. We square (rather than take absolute\n",
+    "values) largely for historical/mathematical convenience - Gauss could do calculus\n",
+    "with squares; Laplace's absolute-value version (today's *mean absolute deviation*,\n",
+    "used in much of modern ML) was harder to minimize, so Gauss 'won'.\n",
+    "\n",
+    "Here is exactly how standard deviation is used in a data scientist's daily workflow:\n",
+    "\n",
+    "### 1. Outlier Detection (Finding Anomalies)\n",
+    "\n",
+    "Before training a machine learning model, a data scientist must clean the data. Standard deviation is the standard metric for finding outliers—data points that are so far from the norm that they might be errors or represent fraud.\n",
+    "\n",
+    "Data scientists often use the **Empirical Rule** (or 68-95-99.7 rule) for normally distributed data:\n",
+    "\n",
+    "* ~68% of data falls within 1 standard deviation of the mean.\n",
+    "* ~95% falls within 2 standard deviations.\n",
+    "* ~99.7% falls within 3 standard deviations.\n",
+    "\n",
+    "If a data point (like a credit card transaction) is more than 3 standard deviations away from the mean, it gets flagged for review as a potential anomaly or fraud.\n",
+    "\n",
+    "### 2. Feature Scaling (Standardization)\n",
+    "\n",
+    "Machine learning algorithms (like Neural Networks, Support Vector Machines, or K-Nearest Neighbors) perform poorly if the data is on vastly different scales. For example, if you are predicting health outcomes, \"Age\" might range from 0–100, while \"Blood Cell Count\" might range in the thousands. The algorithm will unfairly prioritize the larger numbers.\n",
+    "\n",
+    "To fix this, data scientists use standard deviation to \"Standardize\" or \"Z-score normalize\" the data. They convert every single feature so that the mean is 0 and the standard deviation is 1.\n",
+    "\n",
+    "The formula for calculating this Z-score is:\n",
+    "\n",
+    "\n",
+    "$$z = \\frac{x - \\mu}{\\sigma}$$\n",
+    "\n",
+    "\n",
+    "*(Where $x$ is the value, $\\mu$ is the mean, and $\\sigma$ is the standard deviation).*\n",
+    "\n",
+    "This ensures the algorithm treats all variables equally.\n",
+    "\n",
+    "### 3. Evaluating Model Reliability\n",
+    "\n",
+    "When a data scientist builds a predictive model, it is rarely 100% accurate. Standard deviation is used to measure the spread of the model's errors (residuals).\n",
+    "\n",
+    "* If the errors have a **low standard deviation**, the model is consistently accurate; it might be off by a little bit, but it is reliably close.\n",
+    "* If the errors have a **high standard deviation**, the model's performance is erratic—it might be perfectly right one time and wildly wrong the next.\n",
+    "\n",
+    "### 4. A/B Testing and Statistical Significance\n",
+    "\n",
+    "When companies test two different strategies (like two different recommendations algorithms or two different website layouts), data scientists must determine if one is *actually* better, or if the results were just random luck.\n",
+    "\n",
+    "Standard deviation is required to calculate statistical significance. It helps determine the \"margin of error.\" If the difference in performance between Algorithm A and Algorithm B is larger than the standard deviation of the test results, the data scientist can confidently say the improvement is real.\n",
+    "\n",
+    "### 5. Exploratory Data Analysis (EDA)\n",
+    "\n",
+    "When first loading a massive dataset, data scientists use standard deviation to get a quick \"feel\" for the data. By running a quick statistical summary, a high standard deviation immediately alerts the data scientist that a specific variable has high variance and will likely carry a lot of information (or noise) into the model."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "955bf1e5",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2026-06-04T20:10:19.713247Z",
+     "iopub.status.busy": "2026-06-04T20:10:19.712872Z",
+     "iopub.status.idle": "2026-06-04T20:10:19.722563Z",
+     "shell.execute_reply": "2026-06-04T20:10:19.721168Z"
+    },
+    "papermill": {
+     "duration": 0.020099,
+     "end_time": "2026-06-04T20:10:19.725367+00:00",
+     "exception": false,
+     "start_time": "2026-06-04T20:10:19.705268+00:00",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Variance (1/n):              49.06\n",
+      "Std dev (1/n):               7.00\n",
+      "Std dev (1/(n-1), pandas):   7.02\n",
+      "Mean absolute deviation:     5.45\n",
+      "\n",
+      "Std dev is inflated by far-away points because distances are squared.\n"
+     ]
+    }
+   ],
+   "source": [
+    "x = data['Age'].values\n",
+    "mean = x.mean()\n",
+    "\n",
+    "variance = np.mean((x - mean) ** 2)          # population variance (divide by n)\n",
+    "std_pop = np.sqrt(variance)\n",
+    "std_sample = x.std(ddof=1)                    # sample std (divide by n-1)\n",
+    "mad = np.mean(np.abs(x - mean))               # mean absolute deviation (Laplace's version)\n",
+    "\n",
+    "print(f\"Variance (1/n):              {variance:.2f}\")\n",
+    "print(f\"Std dev (1/n):               {std_pop:.2f}\")\n",
+    "print(f\"Std dev (1/(n-1), pandas):   {std_sample:.2f}\")\n",
+    "print(f\"Mean absolute deviation:     {mad:.2f}\")\n",
+    "print(\"\\nStd dev is inflated by far-away points because distances are squared.\")"
+   ]
+  }
+ ],
+ "metadata": {
+  "kaggle": {
+   "accelerator": "none",
+   "dataSources": [],
+   "dockerImageVersionId": 28755,
+   "isGpuEnabled": false,
+   "isInternetEnabled": false,
+   "language": "python",
+   "sourceType": "notebook"
+  },
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.12.13"
+  },
+  "papermill": {
+   "default_parameters": {},
+   "duration": 10.68221,
+   "end_time": "2026-06-04T20:10:20.555679+00:00",
+   "environment_variables": {},
+   "exception": null,
+   "input_path": "__notebook__.ipynb",
+   "output_path": "__notebook__.ipynb",
+   "parameters": {},
+   "start_time": "2026-06-04T20:10:09.873469+00:00",
+   "version": "2.7.0"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}

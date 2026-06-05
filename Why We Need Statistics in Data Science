@@ -2,13 +2,13 @@
  "cells": [
   {
    "cell_type": "markdown",
-   "id": "58f918eb",
+   "id": "60dbf1bc",
    "metadata": {
     "papermill": {
-     "duration": 0.004811,
-     "end_time": "2026-06-05T02:05:22.147135+00:00",
+     "duration": 0.006187,
+     "end_time": "2026-06-05T19:34:18.133683+00:00",
      "exception": false,
-     "start_time": "2026-06-05T02:05:22.142324+00:00",
+     "start_time": "2026-06-05T19:34:18.127496+00:00",
      "status": "completed"
     },
     "tags": []
@@ -44,19 +44,19 @@
   {
    "cell_type": "code",
    "execution_count": 1,
-   "id": "42c56339",
+   "id": "1a80d603",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-06-05T02:05:22.157637Z",
-     "iopub.status.busy": "2026-06-05T02:05:22.157271Z",
-     "iopub.status.idle": "2026-06-05T02:05:24.626220Z",
-     "shell.execute_reply": "2026-06-05T02:05:24.625199Z"
+     "iopub.execute_input": "2026-06-05T19:34:18.147292Z",
+     "iopub.status.busy": "2026-06-05T19:34:18.146442Z",
+     "iopub.status.idle": "2026-06-05T19:34:21.141332Z",
+     "shell.execute_reply": "2026-06-05T19:34:21.140358Z"
     },
     "papermill": {
-     "duration": 2.47718,
-     "end_time": "2026-06-05T02:05:24.628176+00:00",
+     "duration": 3.002849,
+     "end_time": "2026-06-05T19:34:21.143191+00:00",
      "exception": false,
-     "start_time": "2026-06-05T02:05:22.150996+00:00",
+     "start_time": "2026-06-05T19:34:18.140342+00:00",
      "status": "completed"
     },
     "tags": []
@@ -84,13 +84,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "24b408ad",
+   "id": "40b871d2",
    "metadata": {
     "papermill": {
-     "duration": 0.003888,
-     "end_time": "2026-06-05T02:05:24.636364+00:00",
+     "duration": 0.004608,
+     "end_time": "2026-06-05T19:34:21.152463+00:00",
      "exception": false,
-     "start_time": "2026-06-05T02:05:24.632476+00:00",
+     "start_time": "2026-06-05T19:34:21.147855+00:00",
      "status": "completed"
     },
     "tags": []
@@ -123,13 +123,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "41a2298b",
+   "id": "b282b37c",
    "metadata": {
     "papermill": {
-     "duration": 0.003734,
-     "end_time": "2026-06-05T02:05:24.643974+00:00",
+     "duration": 0.004518,
+     "end_time": "2026-06-05T19:34:21.161891+00:00",
      "exception": false,
-     "start_time": "2026-06-05T02:05:24.640240+00:00",
+     "start_time": "2026-06-05T19:34:21.157373+00:00",
      "status": "completed"
     },
     "tags": []
@@ -157,13 +157,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "ecc73245",
+   "id": "7efeeca9",
    "metadata": {
     "papermill": {
-     "duration": 0.003689,
-     "end_time": "2026-06-05T02:05:24.651415+00:00",
+     "duration": 0.00451,
+     "end_time": "2026-06-05T19:34:21.171327+00:00",
      "exception": false,
-     "start_time": "2026-06-05T02:05:24.647726+00:00",
+     "start_time": "2026-06-05T19:34:21.166817+00:00",
      "status": "completed"
     },
     "tags": []
@@ -194,19 +194,19 @@
   {
    "cell_type": "code",
    "execution_count": 2,
-   "id": "c84d8536",
+   "id": "e0954417",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-06-05T02:05:24.660656Z",
-     "iopub.status.busy": "2026-06-05T02:05:24.660159Z",
-     "iopub.status.idle": "2026-06-05T02:05:24.710437Z",
-     "shell.execute_reply": "2026-06-05T02:05:24.709530Z"
+     "iopub.execute_input": "2026-06-05T19:34:21.182426Z",
+     "iopub.status.busy": "2026-06-05T19:34:21.181923Z",
+     "iopub.status.idle": "2026-06-05T19:34:21.235591Z",
+     "shell.execute_reply": "2026-06-05T19:34:21.234615Z"
     },
     "papermill": {
-     "duration": 0.057069,
-     "end_time": "2026-06-05T02:05:24.712169+00:00",
+     "duration": 0.061599,
+     "end_time": "2026-06-05T19:34:21.237531+00:00",
      "exception": false,
-     "start_time": "2026-06-05T02:05:24.655100+00:00",
+     "start_time": "2026-06-05T19:34:21.175932+00:00",
      "status": "completed"
     },
     "tags": []
@@ -354,13 +354,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "1cb40dee",
+   "id": "89c40e23",
    "metadata": {
     "papermill": {
-     "duration": 0.003832,
-     "end_time": "2026-06-05T02:05:24.720173+00:00",
+     "duration": 0.004798,
+     "end_time": "2026-06-05T19:34:21.247278+00:00",
      "exception": false,
-     "start_time": "2026-06-05T02:05:24.716341+00:00",
+     "start_time": "2026-06-05T19:34:21.242480+00:00",
      "status": "completed"
     },
     "tags": []
@@ -375,19 +375,19 @@
   {
    "cell_type": "code",
    "execution_count": 3,
-   "id": "991424c4",
+   "id": "f1257623",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-06-05T02:05:24.729907Z",
-     "iopub.status.busy": "2026-06-05T02:05:24.729228Z",
-     "iopub.status.idle": "2026-06-05T02:05:24.747194Z",
-     "shell.execute_reply": "2026-06-05T02:05:24.746307Z"
+     "iopub.execute_input": "2026-06-05T19:34:21.258540Z",
+     "iopub.status.busy": "2026-06-05T19:34:21.258201Z",
+     "iopub.status.idle": "2026-06-05T19:34:21.278513Z",
+     "shell.execute_reply": "2026-06-05T19:34:21.277572Z"
     },
     "papermill": {
-     "duration": 0.02494,
-     "end_time": "2026-06-05T02:05:24.749018+00:00",
+     "duration": 0.028464,
+     "end_time": "2026-06-05T19:34:21.280539+00:00",
      "exception": false,
-     "start_time": "2026-06-05T02:05:24.724078+00:00",
+     "start_time": "2026-06-05T19:34:21.252075+00:00",
      "status": "completed"
     },
     "tags": []
@@ -422,13 +422,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "1c7ddc70",
+   "id": "05dfddf2",
    "metadata": {
     "papermill": {
-     "duration": 0.003945,
-     "end_time": "2026-06-05T02:05:24.757023+00:00",
+     "duration": 0.005029,
+     "end_time": "2026-06-05T19:34:21.290573+00:00",
      "exception": false,
-     "start_time": "2026-06-05T02:05:24.753078+00:00",
+     "start_time": "2026-06-05T19:34:21.285544+00:00",
      "status": "completed"
     },
     "tags": []
@@ -445,19 +445,19 @@
   {
    "cell_type": "code",
    "execution_count": 4,
-   "id": "e5ff4179",
+   "id": "40c98394",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-06-05T02:05:24.766661Z",
-     "iopub.status.busy": "2026-06-05T02:05:24.766310Z",
-     "iopub.status.idle": "2026-06-05T02:05:24.788695Z",
-     "shell.execute_reply": "2026-06-05T02:05:24.787705Z"
+     "iopub.execute_input": "2026-06-05T19:34:21.302081Z",
+     "iopub.status.busy": "2026-06-05T19:34:21.301734Z",
+     "iopub.status.idle": "2026-06-05T19:34:21.326585Z",
+     "shell.execute_reply": "2026-06-05T19:34:21.325632Z"
     },
     "papermill": {
-     "duration": 0.029404,
-     "end_time": "2026-06-05T02:05:24.790476+00:00",
+     "duration": 0.033031,
+     "end_time": "2026-06-05T19:34:21.328532+00:00",
      "exception": false,
-     "start_time": "2026-06-05T02:05:24.761072+00:00",
+     "start_time": "2026-06-05T19:34:21.295501+00:00",
      "status": "completed"
     },
     "tags": []
@@ -603,19 +603,19 @@
   {
    "cell_type": "code",
    "execution_count": 5,
-   "id": "9d952e93",
+   "id": "094769f6",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-06-05T02:05:24.801509Z",
-     "iopub.status.busy": "2026-06-05T02:05:24.800895Z",
-     "iopub.status.idle": "2026-06-05T02:05:24.813208Z",
-     "shell.execute_reply": "2026-06-05T02:05:24.812325Z"
+     "iopub.execute_input": "2026-06-05T19:34:21.340830Z",
+     "iopub.status.busy": "2026-06-05T19:34:21.340442Z",
+     "iopub.status.idle": "2026-06-05T19:34:21.353594Z",
+     "shell.execute_reply": "2026-06-05T19:34:21.352613Z"
     },
     "papermill": {
-     "duration": 0.019812,
-     "end_time": "2026-06-05T02:05:24.814866+00:00",
+     "duration": 0.021461,
+     "end_time": "2026-06-05T19:34:21.355365+00:00",
      "exception": false,
-     "start_time": "2026-06-05T02:05:24.795054+00:00",
+     "start_time": "2026-06-05T19:34:21.333904+00:00",
      "status": "completed"
     },
     "tags": []
@@ -696,13 +696,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "66cf465a",
+   "id": "7be3d0dc",
    "metadata": {
     "papermill": {
-     "duration": 0.004314,
-     "end_time": "2026-06-05T02:05:24.823649+00:00",
+     "duration": 0.005086,
+     "end_time": "2026-06-05T19:34:21.365821+00:00",
      "exception": false,
-     "start_time": "2026-06-05T02:05:24.819335+00:00",
+     "start_time": "2026-06-05T19:34:21.360735+00:00",
      "status": "completed"
     },
     "tags": []
@@ -722,19 +722,19 @@
   {
    "cell_type": "code",
    "execution_count": 6,
-   "id": "f98aaf2d",
+   "id": "7290e97e",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-06-05T02:05:24.833996Z",
-     "iopub.status.busy": "2026-06-05T02:05:24.833586Z",
-     "iopub.status.idle": "2026-06-05T02:05:24.839952Z",
-     "shell.execute_reply": "2026-06-05T02:05:24.839067Z"
+     "iopub.execute_input": "2026-06-05T19:34:21.377907Z",
+     "iopub.status.busy": "2026-06-05T19:34:21.377572Z",
+     "iopub.status.idle": "2026-06-05T19:34:21.384080Z",
+     "shell.execute_reply": "2026-06-05T19:34:21.383196Z"
     },
     "papermill": {
-     "duration": 0.013742,
-     "end_time": "2026-06-05T02:05:24.841797+00:00",
+     "duration": 0.014811,
+     "end_time": "2026-06-05T19:34:21.385889+00:00",
      "exception": false,
-     "start_time": "2026-06-05T02:05:24.828055+00:00",
+     "start_time": "2026-06-05T19:34:21.371078+00:00",
      "status": "completed"
     },
     "tags": []
@@ -765,13 +765,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "f569e6ac",
+   "id": "9c6047be",
    "metadata": {
     "papermill": {
-     "duration": 0.004418,
-     "end_time": "2026-06-05T02:05:24.850880+00:00",
+     "duration": 0.005258,
+     "end_time": "2026-06-05T19:34:21.396616+00:00",
      "exception": false,
-     "start_time": "2026-06-05T02:05:24.846462+00:00",
+     "start_time": "2026-06-05T19:34:21.391358+00:00",
      "status": "completed"
     },
     "tags": []
@@ -786,19 +786,19 @@
   {
    "cell_type": "code",
    "execution_count": 7,
-   "id": "8b5f0ef4",
+   "id": "a9de04d0",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-06-05T02:05:24.862326Z",
-     "iopub.status.busy": "2026-06-05T02:05:24.861541Z",
-     "iopub.status.idle": "2026-06-05T02:05:24.868218Z",
-     "shell.execute_reply": "2026-06-05T02:05:24.867328Z"
+     "iopub.execute_input": "2026-06-05T19:34:21.408816Z",
+     "iopub.status.busy": "2026-06-05T19:34:21.408476Z",
+     "iopub.status.idle": "2026-06-05T19:34:21.415169Z",
+     "shell.execute_reply": "2026-06-05T19:34:21.414323Z"
     },
     "papermill": {
-     "duration": 0.014526,
-     "end_time": "2026-06-05T02:05:24.869911+00:00",
+     "duration": 0.015099,
+     "end_time": "2026-06-05T19:34:21.417043+00:00",
      "exception": false,
-     "start_time": "2026-06-05T02:05:24.855385+00:00",
+     "start_time": "2026-06-05T19:34:21.401944+00:00",
      "status": "completed"
     },
     "tags": []
@@ -827,24 +827,24 @@
   },
   {
    "cell_type": "markdown",
-   "id": "f93b4fd1",
+   "id": "cdf11a56",
    "metadata": {
     "papermill": {
-     "duration": 0.004578,
-     "end_time": "2026-06-05T02:05:24.879295+00:00",
+     "duration": 0.005352,
+     "end_time": "2026-06-05T19:34:21.428036+00:00",
      "exception": false,
-     "start_time": "2026-06-05T02:05:24.874717+00:00",
+     "start_time": "2026-06-05T19:34:21.422684+00:00",
      "status": "completed"
     },
     "tags": []
    },
    "source": [
-    "# Standard Deviation\n",
+    "## 5. Standard Deviation\n",
     "\n",
-    "## The idea in one line\n",
+    "### The idea in one line\n",
     "Standard deviation measures **how spread out** numbers are around their average - the *typical distance from the middle*. Low = consistent and predictable. High = wildly spread out.\n",
     "\n",
-    "## Why the average isn't enough\n",
+    "### Why the average isn't enough\n",
     "Two things can share the **same average** but feel totally different.\n",
     "\n",
     "**Pizza prices at two restaurants (both average `~$15`):**\n",
@@ -853,7 +853,7 @@
     "\n",
     "The average alone can't tell them apart. The standard deviation can.\n",
     "\n",
-    "## How to calculate it (5 steps)\n",
+    "### How to calculate it (5 steps)\n",
     "Example - five ages: **20, 22, 24, 26, 28**\n",
     "\n",
     "1. **Mean:** (20+22+24+26+28) ÷ 5 = **24**\n",
@@ -864,7 +864,7 @@
     "\n",
     "So people sit about **2.8 years** from the average age, give or take. (Square root with the root = standard deviation; without it = variance.)\n",
     "\n",
-    "## Real-life example: two coffee shops\n",
+    "### Real-life example: two coffee shops\n",
     "Both shops have an average wait time of 5 minutes. So by the average alone, they look the same. But:\n",
     "\n",
     "Shop A is consistent - you almost always wait about 5 minutes.\n",
@@ -876,19 +876,19 @@
   {
    "cell_type": "code",
    "execution_count": 8,
-   "id": "5c0adcee",
+   "id": "a66688e6",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-06-05T02:05:24.890631Z",
-     "iopub.status.busy": "2026-06-05T02:05:24.889709Z",
-     "iopub.status.idle": "2026-06-05T02:05:24.896582Z",
-     "shell.execute_reply": "2026-06-05T02:05:24.895577Z"
+     "iopub.execute_input": "2026-06-05T19:34:21.440476Z",
+     "iopub.status.busy": "2026-06-05T19:34:21.440093Z",
+     "iopub.status.idle": "2026-06-05T19:34:21.446642Z",
+     "shell.execute_reply": "2026-06-05T19:34:21.445860Z"
     },
     "papermill": {
-     "duration": 0.01447,
-     "end_time": "2026-06-05T02:05:24.898399+00:00",
+     "duration": 0.015183,
+     "end_time": "2026-06-05T19:34:21.448742+00:00",
      "exception": false,
-     "start_time": "2026-06-05T02:05:24.883929+00:00",
+     "start_time": "2026-06-05T19:34:21.433559+00:00",
      "status": "completed"
     },
     "tags": []
@@ -919,13 +919,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "ab10a653",
+   "id": "ff53197b",
    "metadata": {
     "papermill": {
-     "duration": 0.004748,
-     "end_time": "2026-06-05T02:05:24.907975+00:00",
+     "duration": 0.005276,
+     "end_time": "2026-06-05T19:34:21.459511+00:00",
      "exception": false,
-     "start_time": "2026-06-05T02:05:24.903227+00:00",
+     "start_time": "2026-06-05T19:34:21.454235+00:00",
      "status": "completed"
     },
     "tags": []
@@ -934,14 +934,14 @@
     "Same average, very different consistency - and standard deviation is what reveals it.\n",
     "\n",
     "\n",
-    "## When to use it\n",
+    "### When to use it\n",
     "- Measuring **consistency or risk** - wait times, scores, prices, returns.\n",
     "- Comparing groups with **similar averages** to see which is more stable.\n",
     "- Symmetric/bell-shaped data, where the **68–95–99.7 rule** holds (68% within 1 SD of the mean, 95% within 2, 99.7% within 3).\n",
     "\n",
     "**Avoid it when** data is **skewed or has big outliers** (e.g. incomes) — squaring lets one extreme value dominate. Use **median + IQR** instead.\n",
     "\n",
-    "## Why data scientists use it\n",
+    "### Why data scientists use it\n",
     "\n",
     "**1. Spotting outliers & fraud**\n",
     "- Meaning: a value far from the average (more than ~3 SD away) is suspicious.\n",
@@ -973,19 +973,19 @@
   {
    "cell_type": "code",
    "execution_count": 9,
-   "id": "50540c8c",
+   "id": "e46b18de",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-06-05T02:05:24.918698Z",
-     "iopub.status.busy": "2026-06-05T02:05:24.918365Z",
-     "iopub.status.idle": "2026-06-05T02:05:24.924810Z",
-     "shell.execute_reply": "2026-06-05T02:05:24.923964Z"
+     "iopub.execute_input": "2026-06-05T19:34:21.472164Z",
+     "iopub.status.busy": "2026-06-05T19:34:21.471793Z",
+     "iopub.status.idle": "2026-06-05T19:34:21.479470Z",
+     "shell.execute_reply": "2026-06-05T19:34:21.478235Z"
     },
     "papermill": {
-     "duration": 0.014069,
-     "end_time": "2026-06-05T02:05:24.926738+00:00",
+     "duration": 0.016241,
+     "end_time": "2026-06-05T19:34:21.481284+00:00",
      "exception": false,
-     "start_time": "2026-06-05T02:05:24.912669+00:00",
+     "start_time": "2026-06-05T19:34:21.465043+00:00",
      "status": "completed"
     },
     "tags": []
@@ -1022,18 +1022,19 @@
   },
   {
    "cell_type": "markdown",
-   "id": "2ab84079",
+   "id": "c00c1ce4",
    "metadata": {
     "papermill": {
-     "duration": 0.004625,
-     "end_time": "2026-06-05T02:05:24.936096+00:00",
+     "duration": 0.005333,
+     "end_time": "2026-06-05T19:34:21.492108+00:00",
      "exception": false,
-     "start_time": "2026-06-05T02:05:24.931471+00:00",
+     "start_time": "2026-06-05T19:34:21.486775+00:00",
      "status": "completed"
     },
     "tags": []
    },
    "source": [
+    "\n",
     "**What is the mean?**\n",
     "The mean is the **average age** = **28.5 years**. Add up all 180 customers' ages and divide by 180. It's the single \"center\" number that represents the typical customer.\n",
     "\n",
@@ -1057,19 +1058,19 @@
   },
   {
    "cell_type": "markdown",
-   "id": "48230f33",
+   "id": "25080006",
    "metadata": {
     "papermill": {
-     "duration": 0.004687,
-     "end_time": "2026-06-05T02:05:24.945391+00:00",
+     "duration": 0.005313,
+     "end_time": "2026-06-05T19:34:21.502945+00:00",
      "exception": false,
-     "start_time": "2026-06-05T02:05:24.940704+00:00",
+     "start_time": "2026-06-05T19:34:21.497632+00:00",
      "status": "completed"
     },
     "tags": []
    },
    "source": [
-    "### Seeing the shape: histogram and box plot\n",
+    "## 6. Seeing the shape: histogram and box plot\n",
     "\n",
     "A histogram bins the data and counts how many fall in each bin - it turns a column\n",
     "of numbers into a *picture* of the distribution. The box plot is a compact version\n",
@@ -1079,19 +1080,19 @@
   {
    "cell_type": "code",
    "execution_count": 10,
-   "id": "76e3fb90",
+   "id": "4b902687",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-06-05T02:05:24.957454Z",
-     "iopub.status.busy": "2026-06-05T02:05:24.956445Z",
-     "iopub.status.idle": "2026-06-05T02:05:25.414999Z",
-     "shell.execute_reply": "2026-06-05T02:05:25.414138Z"
+     "iopub.execute_input": "2026-06-05T19:34:21.516340Z",
+     "iopub.status.busy": "2026-06-05T19:34:21.515620Z",
+     "iopub.status.idle": "2026-06-05T19:34:22.011212Z",
+     "shell.execute_reply": "2026-06-05T19:34:22.010205Z"
     },
     "papermill": {
-     "duration": 0.466696,
-     "end_time": "2026-06-05T02:05:25.416885+00:00",
+     "duration": 0.504495,
+     "end_time": "2026-06-05T19:34:22.013094+00:00",
      "exception": false,
-     "start_time": "2026-06-05T02:05:24.950189+00:00",
+     "start_time": "2026-06-05T19:34:21.508599+00:00",
      "status": "completed"
     },
     "tags": []
@@ -1128,19 +1129,19 @@
   },
   {
    "cell_type": "markdown",
-   "id": "710ae5ec",
+   "id": "a0d3cba1",
    "metadata": {
     "papermill": {
-     "duration": 0.005313,
-     "end_time": "2026-06-05T02:05:25.427661+00:00",
+     "duration": 0.00591,
+     "end_time": "2026-06-05T19:34:22.025271+00:00",
      "exception": false,
-     "start_time": "2026-06-05T02:05:25.422348+00:00",
+     "start_time": "2026-06-05T19:34:22.019361+00:00",
      "status": "completed"
     },
     "tags": []
    },
    "source": [
-    "## Left chart - the histogram (the shape of all ages)\n",
+    "### Left chart - the histogram (the shape of all ages)\n",
     "\n",
     "Think of it as sorting every customer into age \"buckets\" and stacking them up:\n",
     "\n",
@@ -1156,7 +1157,7 @@
     "\n",
     "The red line sits a little **to the right** of the green line. That gap is the proof of the skew - those few older customers drag the average up, even though the typical person is 27. (This is exactly why median is often the more honest \"typical\" value.)\n",
     "\n",
-    "## Right chart - the box plots (comparing men vs. women)\n",
+    "### Right chart - the box plots (comparing men vs. women)\n",
     "\n",
     "Same age data, but now **split into two groups** so we can compare. Each box summarizes one group:\n",
     "\n",
@@ -1167,7 +1168,7 @@
     "\n",
     "What it tells us: **men and women have almost the same age profile** - both medians sit around 26–27, both boxes cover roughly 23–32. The main difference is the **male group has more older outliers** (those circles climbing toward 50).\n",
     "\n",
-    "## The big picture - why bother?\n",
+    "### The big picture - why bother?\n",
     "\n",
     "We're doing a quick \"**who are our customers?**\" health check before any serious analysis. In two glances we now know:\n",
     "\n",
@@ -1179,21 +1180,75 @@
    ]
   },
   {
+   "cell_type": "markdown",
+   "id": "84b2f7a8",
+   "metadata": {
+    "papermill": {
+     "duration": 0.005993,
+     "end_time": "2026-06-05T19:34:22.037233+00:00",
+     "exception": false,
+     "start_time": "2026-06-05T19:34:22.031240+00:00",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "## 7. Percentile , Quartiles, IQR (Interquartile Range)\n",
+    "\n",
+    "**Percentile** = what % of people fall below a point. *\"75th percentile age = 32\"* means 75% of customers are younger than 32.\n",
+    "\n",
+    "**Quartiles** = the 25%, 50%, 75% cut points (Q1, median, Q3) that split data into 4 equal quarters.\n",
+    "\n",
+    "**IQR (Interquartile Range)** = Q3 − Q1 = the age span of the **middle 50%** of people. For us, 32 − 24 = **8 years**.\n",
+    "\n",
+    "### Why we use them\n",
+    "\n",
+    "**1. They ignore outliers (this is the big one).**\n",
+    "The mean and standard deviation get yanked around by extreme values. Drop one 100-year-old into the data and the *average* age jumps - but Q1, median, and Q3 barely budge, because they only care about *position in the lineup*, not the actual extreme number. So percentiles describe the real \"typical\" picture honestly.\n",
+    "\n",
+    "**2. They answer \"where do I stand?\"**\n",
+    "A raw number (\"age 32\") means little on its own. \"32 = the 75th percentile\" instantly tells you that person is older than three-quarters of customers. That ranking is what exam scores, salary bands, and growth charts all use.\n",
+    "\n",
+    "**3. IQR is a clean measure of spread that survives messy data.**\n",
+    "Standard deviation answers \"how spread out?\" but squares distances, so outliers inflate it. IQR answers the same question using only the middle 50%, so a few weird values can't distort it.\n",
+    "\n",
+    "**4. They power automatic outlier detection.**\n",
+    "The fence rule — anything beyond Q1 − 1.5×IQR or Q3 + 1.5×IQR — is one of the most common, robust ways to flag unusual values (like our 45–50 year-old customers) before they wreck an analysis.\n",
+    "\n",
+    "### When to use them (vs. mean + standard deviation)\n",
+    "\n",
+    "| Situation | Best tool | Why |\n",
+    "|---|---|---|\n",
+    "| Data is **skewed** or has **outliers** (incomes, house prices, ages with a long tail) | **Percentile / IQR** | Resistant to extremes — gives the honest center and spread |\n",
+    "| Data is roughly **symmetric / bell-shaped**, no big outliers | **Mean + std dev** | Cleaner, and unlocks the 68–95–99.7 rule |\n",
+    "| You need a **ranking** (\"top 10%\", \"above average height for age\") | **Percentile** | Directly tells you position |\n",
+    "| You want to **flag anomalies** automatically | **IQR fences** | Standard, robust outlier rule |\n",
+    "| You're drawing a **box plot** | **Quartiles + IQR** | The box *is* Q1–Q3, the whiskers are the fences |\n",
+    "\n",
+    "### Rule of thumb\n",
+    "\n",
+    "> If the data is **clean and symmetric → mean + standard deviation.**\n",
+    "> If the data is **skewed or has outliers → median + IQR / percentiles.**\n",
+    "\n",
+    "In our age data, the few 45–50 year-olds pull the mean up, so the **median (27) and IQR (24–32)** describe the typical customer more truthfully than mean (28.5) ± std (7) does. That's exactly why both sets of numbers exist — you pick the one that won't lie about your particular data."
+   ]
+  },
+  {
    "cell_type": "code",
    "execution_count": 11,
-   "id": "372a7b15",
+   "id": "1851fe4f",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-06-05T02:05:25.439979Z",
-     "iopub.status.busy": "2026-06-05T02:05:25.439210Z",
-     "iopub.status.idle": "2026-06-05T02:05:25.446156Z",
-     "shell.execute_reply": "2026-06-05T02:05:25.445241Z"
+     "iopub.execute_input": "2026-06-05T19:34:22.051697Z",
+     "iopub.status.busy": "2026-06-05T19:34:22.050829Z",
+     "iopub.status.idle": "2026-06-05T19:34:22.057777Z",
+     "shell.execute_reply": "2026-06-05T19:34:22.056962Z"
     },
     "papermill": {
-     "duration": 0.015219,
-     "end_time": "2026-06-05T02:05:25.447971+00:00",
+     "duration": 0.01624,
+     "end_time": "2026-06-05T19:34:22.059604+00:00",
      "exception": false,
-     "start_time": "2026-06-05T02:05:25.432752+00:00",
+     "start_time": "2026-06-05T19:34:22.043364+00:00",
      "status": "completed"
     },
     "tags": []
@@ -1223,56 +1278,181 @@
   },
   {
    "cell_type": "markdown",
-   "id": "d305abae",
+   "id": "b3e51e89",
    "metadata": {
     "papermill": {
-     "duration": 0.005149,
-     "end_time": "2026-06-05T02:05:25.458314+00:00",
+     "duration": 0.006148,
+     "end_time": "2026-06-05T19:34:22.071820+00:00",
      "exception": false,
-     "start_time": "2026-06-05T02:05:25.453165+00:00",
+     "start_time": "2026-06-05T19:34:22.065672+00:00",
      "status": "completed"
     },
     "tags": []
    },
    "source": [
-    "## Percentile , Quartiles, IQR (Interquartile Range)\n",
+    "### Skewness - when the mean and median disagree\n",
     "\n",
-    "**Percentile** = what % of people fall below a point. *\"75th percentile age = 32\"* means 75% of customers are younger than 32.\n",
+    "When a distribution is **symmetric**, mean = median. When the mean sits to the\n",
+    "*right* of the median, data has been pushed right → **right-skewed**. A simple\n",
+    "skewness measure is `mean − median`. Let's check every numeric column."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "id": "79aae8c0",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2026-06-05T19:34:22.085617Z",
+     "iopub.status.busy": "2026-06-05T19:34:22.085305Z",
+     "iopub.status.idle": "2026-06-05T19:34:22.104807Z",
+     "shell.execute_reply": "2026-06-05T19:34:22.103881Z"
+    },
+    "papermill": {
+     "duration": 0.028721,
+     "end_time": "2026-06-05T19:34:22.106696+00:00",
+     "exception": false,
+     "start_time": "2026-06-05T19:34:22.077975+00:00",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "<div>\n",
+       "<style scoped>\n",
+       "    .dataframe tbody tr th:only-of-type {\n",
+       "        vertical-align: middle;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe tbody tr th {\n",
+       "        vertical-align: top;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe thead th {\n",
+       "        text-align: right;\n",
+       "    }\n",
+       "</style>\n",
+       "<table border=\"1\" class=\"dataframe\">\n",
+       "  <thead>\n",
+       "    <tr style=\"text-align: right;\">\n",
+       "      <th></th>\n",
+       "      <th>mean</th>\n",
+       "      <th>median</th>\n",
+       "      <th>std</th>\n",
+       "      <th>skew (mean-median)</th>\n",
+       "      <th>pandas skew</th>\n",
+       "    </tr>\n",
+       "  </thead>\n",
+       "  <tbody>\n",
+       "    <tr>\n",
+       "      <th>Age</th>\n",
+       "      <td>28.53</td>\n",
+       "      <td>27.0</td>\n",
+       "      <td>7.02</td>\n",
+       "      <td>1.53</td>\n",
+       "      <td>1.18</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>Education</th>\n",
+       "      <td>15.20</td>\n",
+       "      <td>15.0</td>\n",
+       "      <td>1.72</td>\n",
+       "      <td>0.20</td>\n",
+       "      <td>0.22</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>Usage</th>\n",
+       "      <td>3.21</td>\n",
+       "      <td>3.0</td>\n",
+       "      <td>0.99</td>\n",
+       "      <td>0.21</td>\n",
+       "      <td>0.55</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>Fitness</th>\n",
+       "      <td>3.31</td>\n",
+       "      <td>3.0</td>\n",
+       "      <td>0.80</td>\n",
+       "      <td>0.31</td>\n",
+       "      <td>0.17</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>Income</th>\n",
+       "      <td>54660.56</td>\n",
+       "      <td>53350.0</td>\n",
+       "      <td>14238.32</td>\n",
+       "      <td>1310.56</td>\n",
+       "      <td>0.61</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>Miles</th>\n",
+       "      <td>98.83</td>\n",
+       "      <td>96.0</td>\n",
+       "      <td>39.39</td>\n",
+       "      <td>2.83</td>\n",
+       "      <td>0.21</td>\n",
+       "    </tr>\n",
+       "  </tbody>\n",
+       "</table>\n",
+       "</div>"
+      ],
+      "text/plain": [
+       "               mean   median       std  skew (mean-median)  pandas skew\n",
+       "Age           28.53     27.0      7.02                1.53         1.18\n",
+       "Education     15.20     15.0      1.72                0.20         0.22\n",
+       "Usage          3.21      3.0      0.99                0.21         0.55\n",
+       "Fitness        3.31      3.0      0.80                0.31         0.17\n",
+       "Income     54660.56  53350.0  14238.32             1310.56         0.61\n",
+       "Miles         98.83     96.0     39.39                2.83         0.21"
+      ]
+     },
+     "execution_count": 12,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "num_cols = ['Age', 'Education', 'Usage', 'Fitness', 'Income', 'Miles']\n",
+    "summary = pd.DataFrame({\n",
+    "    'mean': data[num_cols].mean(),\n",
+    "    'median': data[num_cols].median(),\n",
+    "    'std': data[num_cols].std(),\n",
+    "    'skew (mean-median)': data[num_cols].mean() - data[num_cols].median(),\n",
+    "    'pandas skew': data[num_cols].skew(),\n",
+    "})\n",
+    "summary.round(2)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "17ecf938",
+   "metadata": {
+    "papermill": {
+     "duration": 0.006348,
+     "end_time": "2026-06-05T19:34:22.119350+00:00",
+     "exception": false,
+     "start_time": "2026-06-05T19:34:22.113002+00:00",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "## 8. Covariance and Correlation\n",
     "\n",
-    "**Quartiles** = the 25%, 50%, 75% cut points (Q1, median, Q3) that split data into 4 equal quarters.\n",
+    "So far, one variable at a time (**univariate**). Now we ask how two variables move\n",
+    "together (**bivariate**). The building block is, for each point, the product\n",
     "\n",
-    "**IQR (Interquartile Range)** = Q3 − Q1 = the age span of the **middle 50%** of people. For us, 32 − 24 = **8 years**.\n",
+    "$$(x_i - \\bar{x})(y_i - \\bar{y}).$$\n",
     "\n",
-    "## Why we use them\n",
+    "- Both above their averages, or both below -> the product is **positive**.\n",
+    "- One above, one below -> the product is **negative**.\n",
     "\n",
-    "**1. They ignore outliers (this is the big one).**\n",
-    "The mean and standard deviation get yanked around by extreme values. Drop one 100-year-old into the data and the *average* age jumps - but Q1, median, and Q3 barely budge, because they only care about *position in the lineup*, not the actual extreme number. So percentiles describe the real \"typical\" picture honestly.\n",
-    "\n",
-    "**2. They answer \"where do I stand?\"**\n",
-    "A raw number (\"age 32\") means little on its own. \"32 = the 75th percentile\" instantly tells you that person is older than three-quarters of customers. That ranking is what exam scores, salary bands, and growth charts all use.\n",
-    "\n",
-    "**3. IQR is a clean measure of spread that survives messy data.**\n",
-    "Standard deviation answers \"how spread out?\" but squares distances, so outliers inflate it. IQR answers the same question using only the middle 50%, so a few weird values can't distort it.\n",
-    "\n",
-    "**4. They power automatic outlier detection.**\n",
-    "The fence rule — anything beyond Q1 − 1.5×IQR or Q3 + 1.5×IQR — is one of the most common, robust ways to flag unusual values (like our 45–50 year-old customers) before they wreck an analysis.\n",
-    "\n",
-    "## When to use them (vs. mean + standard deviation)\n",
-    "\n",
-    "| Situation | Best tool | Why |\n",
-    "|---|---|---|\n",
-    "| Data is **skewed** or has **outliers** (incomes, house prices, ages with a long tail) | **Percentile / IQR** | Resistant to extremes — gives the honest center and spread |\n",
-    "| Data is roughly **symmetric / bell-shaped**, no big outliers | **Mean + std dev** | Cleaner, and unlocks the 68–95–99.7 rule |\n",
-    "| You need a **ranking** (\"top 10%\", \"above average height for age\") | **Percentile** | Directly tells you position |\n",
-    "| You want to **flag anomalies** automatically | **IQR fences** | Standard, robust outlier rule |\n",
-    "| You're drawing a **box plot** | **Quartiles + IQR** | The box *is* Q1–Q3, the whiskers are the fences |\n",
-    "\n",
-    "## Rule of thumb\n",
-    "\n",
-    "> If the data is **clean and symmetric → mean + standard deviation.**\n",
-    "> If the data is **skewed or has outliers → median + IQR / percentiles.**\n",
-    "\n",
-    "In our age data, the few 45–50 year-olds pull the mean up, so the **median (27) and IQR (24–32)** describe the typical customer more truthfully than mean (28.5) ± std (7) does. That's exactly why both sets of numbers exist — you pick the one that won't lie about your particular data."
+    "Average those products and you get the **covariance**. Its *sign* tells you the\n",
+    "direction of the relationship. Its *magnitude*, unfortunately, depends on the units\n",
+    "(measure height in mm vs. m and the number changes)."
    ]
   }
  ],
@@ -1305,14 +1485,14 @@
   },
   "papermill": {
    "default_parameters": {},
-   "duration": 6.869941,
-   "end_time": "2026-06-05T02:05:26.083459+00:00",
+   "duration": 8.062558,
+   "end_time": "2026-06-05T19:34:22.746176+00:00",
    "environment_variables": {},
    "exception": null,
    "input_path": "__notebook__.ipynb",
    "output_path": "__notebook__.ipynb",
    "parameters": {},
-   "start_time": "2026-06-05T02:05:19.213518+00:00",
+   "start_time": "2026-06-05T19:34:14.683618+00:00",
    "version": "2.7.0"
   }
  },
